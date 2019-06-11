@@ -1,0 +1,32 @@
+--------------- Build Started: 05/04/2019 13:05:41 Project: Node-Rhinoceros, Configuration: ARM GCC 5.4-2016-q2-update Debug ---------------
+The code generation step is up to date.
+arm-none-eabi-gcc.exe -mcpu=cortex-m3 -mthumb -I. -IGenerated_Source\PSoC5 -Wa,-alh=.\CortexM3\ARM_GCC_541\Debug/main.lst -g -D DEBUG -Wall -ffunction-sections -ffat-lto-objects -Og -c main.c -o .\CortexM3\ARM_GCC_541\Debug\main.o
+arm-none-eabi-gcc.exe -mcpu=cortex-m3 -mthumb -I. -IGenerated_Source\PSoC5 -Wa,-alh=.\CortexM3\ARM_GCC_541\Debug/can_manager.lst -g -D DEBUG -Wall -ffunction-sections -ffat-lto-objects -Og -c can_manager.c -o .\CortexM3\ARM_GCC_541\Debug\can_manager.o
+can_manager.c: In function 'can_test_receive':
+can_manager.c:220:13: warning: variable 'test_msg' set but not used [-Wunused-but-set-variable]
+  DataPacket test_msg;
+             ^
+arm-none-eabi-gcc.exe -mcpu=cortex-m3 -mthumb -I. -IGenerated_Source\PSoC5 -Wa,-alh=.\CortexM3\ARM_GCC_541\Debug/lcd_manager.lst -g -D DEBUG -Wall -ffunction-sections -ffat-lto-objects -Og -c lcd_manager.c -o .\CortexM3\ARM_GCC_541\Debug\lcd_manager.o
+lcd_manager.c: In function 'lcd_test_print':
+lcd_manager.c:42:11: warning: unused variable 'voltage' [-Wunused-variable]
+  uint32_t voltage = 0x00017475; //095.349
+           ^
+lcd_manager.c:31:8: warning: unused variable 'test_buf' [-Wunused-variable]
+  char8 test_buf[32];
+        ^
+lcd_manager.c:30:14: warning: unused variable 'test_string' [-Wunused-variable]
+  char8 const test_string[] = "Hi there, test!";
+              ^
+arm-none-eabi-gcc.exe -mcpu=cortex-m3 -mthumb -I. -IGenerated_Source\PSoC5 -Wa,-alh=.\CortexM3\ARM_GCC_541\Debug/CAN_TX_RX_func.lst -g -D DEBUG -Wall -ffunction-sections -ffat-lto-objects -Og -c Generated_Source\PSoC5\CAN_TX_RX_func.c -o .\CortexM3\ARM_GCC_541\Debug\CAN_TX_RX_func.o
+arm-none-eabi-ar.exe -rs .\CortexM3\ARM_GCC_541\Debug\Node-Rhinoceros.a .\CortexM3\ARM_GCC_541\Debug\Rx_1.o .\CortexM3\ARM_GCC_541\Debug\Tx_1.o .\CortexM3\ARM_GCC_541\Debug\CyDmac.o .\CortexM3\ARM_GCC_541\Debug\CyFlash.o .\CortexM3\ARM_GCC_541\Debug\CyLib.o .\CortexM3\ARM_GCC_541\Debug\cyPm.o .\CortexM3\ARM_GCC_541\Debug\CySpc.o .\CortexM3\ARM_GCC_541\Debug\cyutils.o .\CortexM3\ARM_GCC_541\Debug\LCD.o .\CortexM3\ARM_GCC_541\Debug\LCD_PM.o .\CortexM3\ARM_GCC_541\Debug\LCD_LCDPort.o .\CortexM3\ARM_GCC_541\Debug\CAN.o .\CortexM3\ARM_GCC_541\Debug\CAN_INT.o .\CortexM3\ARM_GCC_541\Debug\CAN_PM.o .\CortexM3\ARM_GCC_541\Debug\CAN_TX_RX_func.o .\CortexM3\ARM_GCC_541\Debug\cy_em_eeprom.o .\CortexM3\ARM_GCC_541\Debug\CyBootAsmGnu.o
+arm-none-eabi-ar.exe: creating .\CortexM3\ARM_GCC_541\Debug\Node-Rhinoceros.a
+arm-none-eabi-gcc.exe -Wl,--start-group -o C:\Users\fiona\OneDrive\Documents\Node-Rhinoceros\Node-Rhinoceros\Node-Rhinoceros.cydsn\CortexM3\ARM_GCC_541\Debug\Node-Rhinoceros.elf .\CortexM3\ARM_GCC_541\Debug\main.o .\CortexM3\ARM_GCC_541\Debug\can_manager.o .\CortexM3\ARM_GCC_541\Debug\lcd_manager.o .\CortexM3\ARM_GCC_541\Debug\cyfitter_cfg.o .\CortexM3\ARM_GCC_541\Debug\cymetadata.o .\CortexM3\ARM_GCC_541\Debug\Cm3Start.o .\CortexM3\ARM_GCC_541\Debug\Node-Rhinoceros.a "C:\Program Files (x86)\Cypress\PSoC Creator\4.2\PSoC Creator\psoc\content\cycomponentlibrary\CyComponentLibrary.cylib\CortexM3\ARM_GCC_541\Debug\CyComponentLibrary.a" -mcpu=cortex-m3 -mthumb -L Generated_Source\PSoC5 -Wl,-Map,.\CortexM3\ARM_GCC_541\Debug/Node-Rhinoceros.map -T Generated_Source\PSoC5\cm3gcc.ld -specs=nano.specs -Wl,--gc-sections -g -ffunction-sections -Og -ffat-lto-objects -Wl,--end-group
+.\CortexM3\ARM_GCC_541\Debug\can_manager.o:(.data+0x0): multiple definition of `SOC_LUT'
+.\CortexM3\ARM_GCC_541\Debug\main.o:(.data+0x0): first defined here
+.\CortexM3\ARM_GCC_541\Debug\lcd_manager.o:(.data+0x0): multiple definition of `SOC_LUT'
+.\CortexM3\ARM_GCC_541\Debug\main.o:(.data+0x0): first defined here
+.\CortexM3\ARM_GCC_541\Debug\Node-Rhinoceros.a(CAN_TX_RX_func.o):(.data+0x0): multiple definition of `SOC_LUT'
+.\CortexM3\ARM_GCC_541\Debug\main.o:(.data+0x0): first defined here
+collect2.exe: error: ld returned 1 exit status
+The command 'arm-none-eabi-gcc.exe' failed with exit code '1'.
+--------------- Build Failed: 05/04/2019 13:05:49 ---------------
