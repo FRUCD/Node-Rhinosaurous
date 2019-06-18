@@ -7,14 +7,17 @@
 #define BMS_VOLTAGE_ID		0x388
 #define BMS_TEMP_ID			0x488
 #define SOC_ID              0x369
+#define CURRENT_SENSOR      0x521
 
 DataPacket BMS_STATUS;		//0x188
 DataPacket BMS_CURRENT;		//0x288
 DataPacket BMS_VOLTAGE;		//0x388
 DataPacket BMS_TEMP;		//0x488
 DataPacket SOC;             //0x369
+DataPacket CURR;            //0x521
 
 extern uint32_t voltage;
+extern uint32_t amps;
 extern uint8_t charge;
 
 void can_init() {
@@ -69,6 +72,9 @@ int can_process(DataPacket* can_msg){
         if(can_compare(&SOC, can_msg))
             can_process_SOC();
         break;
+    case CURRENT_SENSOR:
+        if(can_compare(&CURR, can_msg))
+            can_process_current();
             
     default:
 		status = 0;
@@ -170,6 +176,7 @@ void can_process_BMS_CURR() {
 //gets pack voltage
 void can_process_BMS_VOLT() {
 	char8 volt_string[6];
+    char8 soc_string[6];
 	
 	uint32_t byte4 = BMS_VOLTAGE.data[4] << 24;
 	uint32_t byte3 = BMS_VOLTAGE.data[5] << 16;
@@ -177,13 +184,14 @@ void can_process_BMS_VOLT() {
 	uint32_t byte1 = BMS_VOLTAGE.data[7];
 	voltage = byte4 | byte3 | byte2 | byte1;
 	
-	//voltage = 0x0001C3E3;
 	sprintf(volt_string, "%03d.%01dV", (int)(voltage/1000), (int)(voltage/100%10));
 	LCD_Position(0, 3);
 	LCD_PrintString(volt_string);
     
     
     uint8_t v_charge = SOC_LUT[(voltage - 93400) / 100] / 100;
+    sprintf(soc_string, "%02d", v_charge);
+    
 }
 
 //highest temp
@@ -197,6 +205,21 @@ void can_process_BMS_TEMP() {
 void can_process_SOC() {
     charge = SOC.data[0];
     
+}
+
+void can_process_current(){
+    char8 currnt_str[6];
+    // dont know format until find data sheet
+    // data comes in bytes 2 through 5 sent as mA
+    uint32_t byte4 = CURR.data[2] << 24;
+	uint32_t byte3 = CURR.data[3] << 16;
+	uint32_t byte2 = CURR.data[4] << 8;
+	uint32_t byte1 = CURR.data[5];
+	amps = (byte4 | byte3 | byte2 | byte1) / 1000;
+    
+    sprintf(currnt_str, "%03d A", amps);
+    LCD_Position(0, 3);
+	LCD_PrintString(currnt_str);
 }
 
 

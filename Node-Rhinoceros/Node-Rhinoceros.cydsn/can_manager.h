@@ -15,7 +15,9 @@ void can_process_BMS_CURR();
 void can_process_BMS_VOLT();
 void can_process_BMS_TEMP();
 void can_process_SOC();
+void can_process_current();
 void can_test_send();
 void can_test_receive();
+
 
 #endif
