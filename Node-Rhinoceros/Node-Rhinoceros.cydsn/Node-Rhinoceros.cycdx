@@ -3,8 +3,8 @@
   <block name="LCD" BASE="0x0" SIZE="0x0" desc="" visible="true" hidden="false">
     <block name="LCDPort" BASE="0x0" SIZE="0x0" desc="" visible="true" hidden="false" />
   </block>
-  <block name="cy_boot" BASE="0x0" SIZE="0x0" desc="" visible="true" hidden="false" />
   <block name="Em_EEPROM_Dynamic" BASE="0x0" SIZE="0x0" desc="" visible="true" hidden="false" />
+  <block name="cy_boot" BASE="0x0" SIZE="0x0" desc="" visible="true" hidden="false" />
   <block name="Rx_1" BASE="0x0" SIZE="0x0" desc="" visible="true" hidden="false" />
   <block name="Tx_1" BASE="0x0" SIZE="0x0" desc="" visible="true" hidden="false" />
   <block name="CAN" BASE="0x0" SIZE="0x0" desc="" visible="true" hidden="false">

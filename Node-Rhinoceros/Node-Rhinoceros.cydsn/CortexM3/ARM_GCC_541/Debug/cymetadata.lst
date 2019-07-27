@@ -1,4 +1,4 @@
-ARM GAS  C:\Users\fiona\AppData\Local\Temp\ccrMUjyx.s 			page 1
+ARM GAS  C:\Users\fiona\AppData\Local\Temp\cc3Bdwko.s 			page 1
 
 
    1              		.syntax unified
@@ -58,7 +58,7 @@ ARM GAS  C:\Users\fiona\AppData\Local\Temp\ccrMUjyx.s 			page 1
   55 001a 01       		.byte	1
   56 001b 40       		.byte	64
   57 001c 03       		.byte	3
-ARM GAS  C:\Users\fiona\AppData\Local\Temp\ccrMUjyx.s 			page 2
+ARM GAS  C:\Users\fiona\AppData\Local\Temp\cc3Bdwko.s 			page 2
 
 
   58 001d 42       		.byte	66
@@ -118,7 +118,7 @@ ARM GAS  C:\Users\fiona\AppData\Local\Temp\ccrMUjyx.s 			page 1
  112 0053 02       		.byte	2
  113 0054 B4       		.byte	-76
  114 0055 02       		.byte	2
-ARM GAS  C:\Users\fiona\AppData\Local\Temp\ccrMUjyx.s 			page 3
+ARM GAS  C:\Users\fiona\AppData\Local\Temp\cc3Bdwko.s 			page 3
 
 
  115 0056 E8       		.byte	-24
@@ -178,7 +178,7 @@ ARM GAS  C:\Users\fiona\AppData\Local\Temp\ccrMUjyx.s 			page 1
  169 008c 01       		.byte	1
  170 008d 00       		.byte	0
  171 008e 00       		.byte	0
-ARM GAS  C:\Users\fiona\AppData\Local\Temp\ccrMUjyx.s 			page 4
+ARM GAS  C:\Users\fiona\AppData\Local\Temp\cc3Bdwko.s 			page 4
 
 
  172 008f 00       		.byte	0
@@ -238,19 +238,19 @@ ARM GAS  C:\Users\fiona\AppData\Local\Temp\ccrMUjyx.s 			page 1
  222 0004 0400     		.2byte	0x4
  223 0006 00000000 		.4byte	.Ldebug_abbrev0
  224 000a 04       		.byte	0x4
-ARM GAS  C:\Users\fiona\AppData\Local\Temp\ccrMUjyx.s 			page 5
+ARM GAS  C:\Users\fiona\AppData\Local\Temp\cc3Bdwko.s 			page 5
 
 
  225 000b 01       		.uleb128 0x1
  226 000c 24000000 		.4byte	.LASF17
  227 0010 0C       		.byte	0xc
- 228 0011 D6010000 		.4byte	.LASF18
- 229 0015 69010000 		.4byte	.LASF19
+ 228 0011 B9010000 		.4byte	.LASF18
+ 229 0015 C4000000 		.4byte	.LASF19
  230 0019 00000000 		.4byte	.Ldebug_line0
  231 001d 02       		.uleb128 0x2
  232 001e 01       		.byte	0x1
  233 001f 06       		.byte	0x6
- 234 0020 CA010000 		.4byte	.LASF0
+ 234 0020 AD010000 		.4byte	.LASF0
  235 0024 03       		.uleb128 0x3
  236 0025 00000000 		.4byte	.LASF9
  237 0029 01       		.byte	0x1
@@ -263,15 +263,15 @@ ARM GAS  C:\Users\fiona\AppData\Local\Temp\ccrMUjyx.s 			page 1
  244 0036 02       		.uleb128 0x2
  245 0037 02       		.byte	0x2
  246 0038 05       		.byte	0x5
- 247 0039 5F010000 		.4byte	.LASF2
+ 247 0039 9A010000 		.4byte	.LASF2
  248 003d 02       		.uleb128 0x2
  249 003e 02       		.byte	0x2
  250 003f 07       		.byte	0x7
- 251 0040 C4000000 		.4byte	.LASF3
+ 251 0040 FF000000 		.4byte	.LASF3
  252 0044 02       		.uleb128 0x2
  253 0045 04       		.byte	0x4
  254 0046 05       		.byte	0x5
- 255 0047 C1010000 		.4byte	.LASF4
+ 255 0047 A4010000 		.4byte	.LASF4
  256 004b 02       		.uleb128 0x2
  257 004c 04       		.byte	0x4
  258 004d 07       		.byte	0x7
@@ -279,11 +279,11 @@ ARM GAS  C:\Users\fiona\AppData\Local\Temp\ccrMUjyx.s 			page 1
  260 0052 02       		.uleb128 0x2
  261 0053 08       		.byte	0x8
  262 0054 05       		.byte	0x5
- 263 0055 51010000 		.4byte	.LASF6
+ 263 0055 8C010000 		.4byte	.LASF6
  264 0059 02       		.uleb128 0x2
  265 005a 08       		.byte	0x8
  266 005b 07       		.byte	0x7
- 267 005c 06010000 		.4byte	.LASF7
+ 267 005c 41010000 		.4byte	.LASF7
  268 0060 04       		.uleb128 0x4
  269 0061 04       		.byte	0x4
  270 0062 05       		.byte	0x5
@@ -291,14 +291,14 @@ ARM GAS  C:\Users\fiona\AppData\Local\Temp\ccrMUjyx.s 			page 1
  272 0067 02       		.uleb128 0x2
  273 0068 04       		.byte	0x4
  274 0069 07       		.byte	0x7
- 275 006a F9000000 		.4byte	.LASF8
+ 275 006a 34010000 		.4byte	.LASF8
  276 006e 03       		.uleb128 0x3
- 277 006f 1D010000 		.4byte	.LASF10
+ 277 006f 58010000 		.4byte	.LASF10
  278 0073 02       		.byte	0x2
  279 0074 18       		.byte	0x18
  280 0075 24000000 		.4byte	0x24
  281 0079 05       		.uleb128 0x5
-ARM GAS  C:\Users\fiona\AppData\Local\Temp\ccrMUjyx.s 			page 6
+ARM GAS  C:\Users\fiona\AppData\Local\Temp\cc3Bdwko.s 			page 6
 
 
  282 007a 90000000 		.4byte	0x90
@@ -310,11 +310,11 @@ ARM GAS  C:\Users\fiona\AppData\Local\Temp\ccrMUjyx.s 			page 1
  288 0089 02       		.uleb128 0x2
  289 008a 04       		.byte	0x4
  290 008b 07       		.byte	0x7
- 291 008c 48010000 		.4byte	.LASF11
+ 291 008c 83010000 		.4byte	.LASF11
  292 0090 07       		.uleb128 0x7
  293 0091 6E000000 		.4byte	0x6e
  294 0095 08       		.uleb128 0x8
- 295 0096 E7000000 		.4byte	.LASF12
+ 295 0096 22010000 		.4byte	.LASF12
  296 009a 03       		.byte	0x3
  297 009b 1F       		.byte	0x1f
  298 009c A6000000 		.4byte	0xa6
@@ -331,7 +331,7 @@ ARM GAS  C:\Users\fiona\AppData\Local\Temp\ccrMUjyx.s 			page 1
  309 00b9 03       		.byte	0x3
  310 00ba 00       		.byte	0
  311 00bb 08       		.uleb128 0x8
- 312 00bc D7000000 		.4byte	.LASF13
+ 312 00bc 12010000 		.4byte	.LASF13
  313 00c0 03       		.byte	0x3
  314 00c1 3E       		.byte	0x3e
  315 00c2 CC000000 		.4byte	0xcc
@@ -341,7 +341,7 @@ ARM GAS  C:\Users\fiona\AppData\Local\Temp\ccrMUjyx.s 			page 1
  319 00cc 07       		.uleb128 0x7
  320 00cd AB000000 		.4byte	0xab
  321 00d1 08       		.uleb128 0x8
- 322 00d2 3A010000 		.4byte	.LASF14
+ 322 00d2 75010000 		.4byte	.LASF14
  323 00d6 03       		.byte	0x3
  324 00d7 4C       		.byte	0x4c
  325 00d8 E2000000 		.4byte	0xe2
@@ -358,10 +358,10 @@ ARM GAS  C:\Users\fiona\AppData\Local\Temp\ccrMUjyx.s 			page 1
  336 00f5 FF       		.byte	0xff
  337 00f6 00       		.byte	0
  338 00f7 08       		.uleb128 0x8
-ARM GAS  C:\Users\fiona\AppData\Local\Temp\ccrMUjyx.s 			page 7
+ARM GAS  C:\Users\fiona\AppData\Local\Temp\cc3Bdwko.s 			page 7
 
 
- 339 00f8 25010000 		.4byte	.LASF15
+ 339 00f8 60010000 		.4byte	.LASF15
  340 00fc 03       		.byte	0x3
  341 00fd 5A       		.byte	0x5a
  342 00fe 08010000 		.4byte	0x108
@@ -418,7 +418,7 @@ ARM GAS  C:\Users\fiona\AppData\Local\Temp\ccrMUjyx.s 			page 1
  393 0019 00       		.byte	0
  394 001a 03       		.uleb128 0x3
  395 001b 16       		.uleb128 0x16
-ARM GAS  C:\Users\fiona\AppData\Local\Temp\ccrMUjyx.s 			page 8
+ARM GAS  C:\Users\fiona\AppData\Local\Temp\cc3Bdwko.s 			page 8
 
 
  396 001c 00       		.byte	0
@@ -478,7 +478,7 @@ ARM GAS  C:\Users\fiona\AppData\Local\Temp\ccrMUjyx.s 			page 1
  450 0052 3B       		.uleb128 0x3b
  451 0053 0B       		.uleb128 0xb
  452 0054 49       		.uleb128 0x49
-ARM GAS  C:\Users\fiona\AppData\Local\Temp\ccrMUjyx.s 			page 9
+ARM GAS  C:\Users\fiona\AppData\Local\Temp\cc3Bdwko.s 			page 9
 
 
  453 0055 13       		.uleb128 0x13
@@ -538,91 +538,89 @@ ARM GAS  C:\Users\fiona\AppData\Local\Temp\ccrMUjyx.s 			page 1
  484              	.LASF5:
  485 00b2 6C6F6E67 		.ascii	"long unsigned int\000"
  485      20756E73 
-ARM GAS  C:\Users\fiona\AppData\Local\Temp\ccrMUjyx.s 			page 10
+ARM GAS  C:\Users\fiona\AppData\Local\Temp\cc3Bdwko.s 			page 10
 
 
  485      69676E65 
  485      6420696E 
  485      7400
- 486              	.LASF3:
- 487 00c4 73686F72 		.ascii	"short unsigned int\000"
- 487      7420756E 
- 487      7369676E 
- 487      65642069 
- 487      6E7400
- 488              	.LASF13:
- 489 00d7 63795F6D 		.ascii	"cy_meta_custnvl\000"
- 489      6574615F 
- 489      63757374 
- 489      6E766C00 
- 490              	.LASF12:
- 491 00e7 63795F6D 		.ascii	"cy_meta_configecc\000"
- 491      6574615F 
- 491      636F6E66 
- 491      69676563 
- 491      6300
- 492              	.LASF8:
- 493 00f9 756E7369 		.ascii	"unsigned int\000"
- 493      676E6564 
- 493      20696E74 
- 493      00
- 494              	.LASF7:
- 495 0106 6C6F6E67 		.ascii	"long long unsigned int\000"
- 495      206C6F6E 
- 495      6720756E 
- 495      7369676E 
- 495      65642069 
- 496              	.LASF10:
- 497 011d 75696E74 		.ascii	"uint8_t\000"
- 497      385F7400 
- 498              	.LASF15:
- 499 0125 63795F6D 		.ascii	"cy_meta_flashprotect\000"
- 499      6574615F 
- 499      666C6173 
- 499      6870726F 
- 499      74656374 
- 500              	.LASF14:
- 501 013a 63795F6D 		.ascii	"cy_meta_wonvl\000"
- 501      6574615F 
- 501      776F6E76 
- 501      6C00
- 502              	.LASF11:
- 503 0148 73697A65 		.ascii	"sizetype\000"
- 503      74797065 
- 503      00
- 504              	.LASF6:
- 505 0151 6C6F6E67 		.ascii	"long long int\000"
- 505      206C6F6E 
- 505      6720696E 
- 505      7400
- 506              	.LASF2:
- 507 015f 73686F72 		.ascii	"short int\000"
- 507      7420696E 
-ARM GAS  C:\Users\fiona\AppData\Local\Temp\ccrMUjyx.s 			page 11
+ 486              	.LASF19:
+ 487 00c4 433A5C4E 		.ascii	"C:\\Node-Rhinosaurous\\Node-Rhinoceros\\Node-Rhinoc"
+ 487      6F64652D 
+ 487      5268696E 
+ 487      6F736175 
+ 487      726F7573 
+ 488 00f4 65726F73 		.ascii	"eros.cydsn\000"
+ 488      2E637964 
+ 488      736E00
+ 489              	.LASF3:
+ 490 00ff 73686F72 		.ascii	"short unsigned int\000"
+ 490      7420756E 
+ 490      7369676E 
+ 490      65642069 
+ 490      6E7400
+ 491              	.LASF13:
+ 492 0112 63795F6D 		.ascii	"cy_meta_custnvl\000"
+ 492      6574615F 
+ 492      63757374 
+ 492      6E766C00 
+ 493              	.LASF12:
+ 494 0122 63795F6D 		.ascii	"cy_meta_configecc\000"
+ 494      6574615F 
+ 494      636F6E66 
+ 494      69676563 
+ 494      6300
+ 495              	.LASF8:
+ 496 0134 756E7369 		.ascii	"unsigned int\000"
+ 496      676E6564 
+ 496      20696E74 
+ 496      00
+ 497              	.LASF7:
+ 498 0141 6C6F6E67 		.ascii	"long long unsigned int\000"
+ 498      206C6F6E 
+ 498      6720756E 
+ 498      7369676E 
+ 498      65642069 
+ 499              	.LASF10:
+ 500 0158 75696E74 		.ascii	"uint8_t\000"
+ 500      385F7400 
+ 501              	.LASF15:
+ 502 0160 63795F6D 		.ascii	"cy_meta_flashprotect\000"
+ 502      6574615F 
+ 502      666C6173 
+ 502      6870726F 
+ 502      74656374 
+ 503              	.LASF14:
+ 504 0175 63795F6D 		.ascii	"cy_meta_wonvl\000"
+ 504      6574615F 
+ 504      776F6E76 
+ 504      6C00
+ 505              	.LASF11:
+ 506 0183 73697A65 		.ascii	"sizetype\000"
+ 506      74797065 
+ARM GAS  C:\Users\fiona\AppData\Local\Temp\cc3Bdwko.s 			page 11
 
 
- 507      7400
- 508              	.LASF19:
- 509 0169 433A5C55 		.ascii	"C:\\Users\\fiona\\OneDrive\\Documents\\Node-Rhinoce"
- 509      73657273 
- 509      5C66696F 
- 509      6E615C4F 
- 509      6E654472 
- 510 0197 726F735C 		.ascii	"ros\\Node-Rhinoceros\\Node-Rhinoceros.cydsn\000"
- 510      4E6F6465 
- 510      2D526869 
- 510      6E6F6365 
- 510      726F735C 
+ 506      00
+ 507              	.LASF6:
+ 508 018c 6C6F6E67 		.ascii	"long long int\000"
+ 508      206C6F6E 
+ 508      6720696E 
+ 508      7400
+ 509              	.LASF2:
+ 510 019a 73686F72 		.ascii	"short int\000"
+ 510      7420696E 
+ 510      7400
  511              	.LASF4:
- 512 01c1 6C6F6E67 		.ascii	"long int\000"
+ 512 01a4 6C6F6E67 		.ascii	"long int\000"
  512      20696E74 
  512      00
  513              	.LASF0:
- 514 01ca 7369676E 		.ascii	"signed char\000"
+ 514 01ad 7369676E 		.ascii	"signed char\000"
  514      65642063 
  514      68617200 
  515              	.LASF18:
- 516 01d6 47656E65 		.ascii	"Generated_Source\\PSoC5\\cymetadata.c\000"
+ 516 01b9 47656E65 		.ascii	"Generated_Source\\PSoC5\\cymetadata.c\000"
  516      72617465 
  516      645F536F 
  516      75726365 

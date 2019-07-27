@@ -1,4 +1,4 @@
-ARM GAS  C:\Users\fiona\AppData\Local\Temp\ccaZv034.s 			page 1
+ARM GAS  C:\Users\fiona\AppData\Local\Temp\ccx2tiP4.s 			page 1
 
 
    1              		.syntax unified
@@ -58,7 +58,7 @@ ARM GAS  C:\Users\fiona\AppData\Local\Temp\ccaZv034.s 			page 1
   28:Generated_Source\PSoC5/CAN_TX_RX_func.c **** #include "data.h"
   29:Generated_Source\PSoC5/CAN_TX_RX_func.c **** #include "can_manager.h"
   30:Generated_Source\PSoC5/CAN_TX_RX_func.c **** /* `#END` */
-ARM GAS  C:\Users\fiona\AppData\Local\Temp\ccaZv034.s 			page 2
+ARM GAS  C:\Users\fiona\AppData\Local\Temp\ccx2tiP4.s 			page 2
 
 
   31:Generated_Source\PSoC5/CAN_TX_RX_func.c **** 
@@ -118,7 +118,7 @@ ARM GAS  C:\Users\fiona\AppData\Local\Temp\ccaZv034.s 			page 1
   63:Generated_Source\PSoC5/CAN_TX_RX_func.c ****         for (i = 0u; i < CAN_NUMBER_OF_TX_MAILBOXES; i++)
   64:Generated_Source\PSoC5/CAN_TX_RX_func.c ****         {
   65:Generated_Source\PSoC5/CAN_TX_RX_func.c ****             /* Find Basic TX mailboxes */
-ARM GAS  C:\Users\fiona\AppData\Local\Temp\ccaZv034.s 			page 3
+ARM GAS  C:\Users\fiona\AppData\Local\Temp\ccx2tiP4.s 			page 3
 
 
   66:Generated_Source\PSoC5/CAN_TX_RX_func.c ****             if ((CAN_TX_MAILBOX_TYPE & shift) == 0u)
@@ -178,7 +178,7 @@ ARM GAS  C:\Users\fiona\AppData\Local\Temp\ccaZv034.s 			page 1
   77              		.loc 1 91 0
   78 002e 274A     		ldr	r2, .L22+4
   79 0030 02EB0412 		add	r2, r2, r4, lsl #4
-ARM GAS  C:\Users\fiona\AppData\Local\Temp\ccaZv034.s 			page 4
+ARM GAS  C:\Users\fiona\AppData\Local\Temp\ccx2tiP4.s 			page 4
 
 
   80 0034 0168     		ldr	r1, [r0]
@@ -238,7 +238,7 @@ ARM GAS  C:\Users\fiona\AppData\Local\Temp\ccaZv034.s 			page 1
  114 0062 02D9     		bls	.L11
  115              		.loc 1 111 0 is_stmt 0 discriminator 1
  116 0064 C3F10B02 		rsb	r2, r3, #11
-ARM GAS  C:\Users\fiona\AppData\Local\Temp\ccaZv034.s 			page 5
+ARM GAS  C:\Users\fiona\AppData\Local\Temp\ccx2tiP4.s 			page 5
 
 
  117 0068 01E0     		b	.L12
@@ -298,7 +298,7 @@ ARM GAS  C:\Users\fiona\AppData\Local\Temp\ccaZv034.s 			page 1
  125:Generated_Source\PSoC5/CAN_TX_RX_func.c ****                         #else /* CY_PSOC4 */
  126:Generated_Source\PSoC5/CAN_TX_RX_func.c ****                             if (message->sst != CAN_STANDARD_MESSAGE)
  127:Generated_Source\PSoC5/CAN_TX_RX_func.c ****                             {
-ARM GAS  C:\Users\fiona\AppData\Local\Temp\ccaZv034.s 			page 6
+ARM GAS  C:\Users\fiona\AppData\Local\Temp\ccx2tiP4.s 			page 6
 
 
  128:Generated_Source\PSoC5/CAN_TX_RX_func.c ****                                 /* Single Shot Transmission */
@@ -358,7 +358,7 @@ ARM GAS  C:\Users\fiona\AppData\Local\Temp\ccaZv034.s 			page 1
  149:Generated_Source\PSoC5/CAN_TX_RX_func.c ****         }
  150:Generated_Source\PSoC5/CAN_TX_RX_func.c ****         if (result == CYRET_SUCCESS)
  186              		.loc 1 150 0 is_stmt 1
-ARM GAS  C:\Users\fiona\AppData\Local\Temp\ccaZv034.s 			page 7
+ARM GAS  C:\Users\fiona\AppData\Local\Temp\ccx2tiP4.s 			page 7
 
 
  187 00b8 1AB1     		cbz	r2, .L17
@@ -418,7 +418,7 @@ ARM GAS  C:\Users\fiona\AppData\Local\Temp\ccaZv034.s 			page 1
  170:Generated_Source\PSoC5/CAN_TX_RX_func.c **** *  transmitted. Values between 0 and 7 are valid.
  171:Generated_Source\PSoC5/CAN_TX_RX_func.c **** *
  172:Generated_Source\PSoC5/CAN_TX_RX_func.c **** * Parameters:
-ARM GAS  C:\Users\fiona\AppData\Local\Temp\ccaZv034.s 			page 8
+ARM GAS  C:\Users\fiona\AppData\Local\Temp\ccx2tiP4.s 			page 8
 
 
  173:Generated_Source\PSoC5/CAN_TX_RX_func.c **** *  bufferId: The mailbox number.
@@ -478,7 +478,7 @@ ARM GAS  C:\Users\fiona\AppData\Local\Temp\ccaZv034.s 			page 1
  193:Generated_Source\PSoC5/CAN_TX_RX_func.c ****     * Summary:
  194:Generated_Source\PSoC5/CAN_TX_RX_func.c ****     *  This function is the entry point to Transmit Message 0. The function checks
  195:Generated_Source\PSoC5/CAN_TX_RX_func.c ****     *  if mailbox 0 doesn't already have un-transmitted messages waiting for
-ARM GAS  C:\Users\fiona\AppData\Local\Temp\ccaZv034.s 			page 9
+ARM GAS  C:\Users\fiona\AppData\Local\Temp\ccx2tiP4.s 			page 9
 
 
  196:Generated_Source\PSoC5/CAN_TX_RX_func.c ****     *  arbitration. If not initiate transmission of the message.
@@ -538,7 +538,7 @@ ARM GAS  C:\Users\fiona\AppData\Local\Temp\ccaZv034.s 			page 1
  250:Generated_Source\PSoC5/CAN_TX_RX_func.c ****     *
  251:Generated_Source\PSoC5/CAN_TX_RX_func.c ****     * Parameters:
  252:Generated_Source\PSoC5/CAN_TX_RX_func.c ****     *  None.
-ARM GAS  C:\Users\fiona\AppData\Local\Temp\ccaZv034.s 			page 10
+ARM GAS  C:\Users\fiona\AppData\Local\Temp\ccx2tiP4.s 			page 10
 
 
  253:Generated_Source\PSoC5/CAN_TX_RX_func.c ****     *
@@ -598,7 +598,7 @@ ARM GAS  C:\Users\fiona\AppData\Local\Temp\ccaZv034.s 			page 1
  307:Generated_Source\PSoC5/CAN_TX_RX_func.c ****     *  Indication if Message has been sent.
  308:Generated_Source\PSoC5/CAN_TX_RX_func.c ****     *   Define                             Description
  309:Generated_Source\PSoC5/CAN_TX_RX_func.c ****     *    CYRET_SUCCESS                      The function passed successfully
-ARM GAS  C:\Users\fiona\AppData\Local\Temp\ccaZv034.s 			page 11
+ARM GAS  C:\Users\fiona\AppData\Local\Temp\ccx2tiP4.s 			page 11
 
 
  310:Generated_Source\PSoC5/CAN_TX_RX_func.c ****     *    CAN_FAIL              The function failed
@@ -658,7 +658,7 @@ ARM GAS  C:\Users\fiona\AppData\Local\Temp\ccaZv034.s 			page 1
  364:Generated_Source\PSoC5/CAN_TX_RX_func.c ****     *******************************************************************************/
  365:Generated_Source\PSoC5/CAN_TX_RX_func.c ****     uint8 CAN_SendMsg3(void) 
  366:Generated_Source\PSoC5/CAN_TX_RX_func.c ****     {
-ARM GAS  C:\Users\fiona\AppData\Local\Temp\ccaZv034.s 			page 12
+ARM GAS  C:\Users\fiona\AppData\Local\Temp\ccx2tiP4.s 			page 12
 
 
  367:Generated_Source\PSoC5/CAN_TX_RX_func.c ****         uint8 result = CYRET_SUCCESS;
@@ -718,7 +718,7 @@ ARM GAS  C:\Users\fiona\AppData\Local\Temp\ccaZv034.s 			page 1
  421:Generated_Source\PSoC5/CAN_TX_RX_func.c ****         #if (CY_PSOC3 || CY_PSOC5)
  422:Generated_Source\PSoC5/CAN_TX_RX_func.c ****             if ((CAN_TX[4u].txcmd.byte[0u] & CAN_TX_REQUEST_PENDING) != 0u)
  423:Generated_Source\PSoC5/CAN_TX_RX_func.c ****         #else  /* CY_PSOC4 */
-ARM GAS  C:\Users\fiona\AppData\Local\Temp\ccaZv034.s 			page 13
+ARM GAS  C:\Users\fiona\AppData\Local\Temp\ccx2tiP4.s 			page 13
 
 
  424:Generated_Source\PSoC5/CAN_TX_RX_func.c ****             if ((CAN_TX_CMD_REG(4u) & CAN_TX_REQUEST_PENDING) != 0u)
@@ -778,7 +778,7 @@ ARM GAS  C:\Users\fiona\AppData\Local\Temp\ccaZv034.s 			page 1
  478:Generated_Source\PSoC5/CAN_TX_RX_func.c ****             {
  479:Generated_Source\PSoC5/CAN_TX_RX_func.c ****                 result = CAN_FAIL;
  480:Generated_Source\PSoC5/CAN_TX_RX_func.c ****             }
-ARM GAS  C:\Users\fiona\AppData\Local\Temp\ccaZv034.s 			page 14
+ARM GAS  C:\Users\fiona\AppData\Local\Temp\ccx2tiP4.s 			page 14
 
 
  481:Generated_Source\PSoC5/CAN_TX_RX_func.c ****             else
@@ -838,7 +838,7 @@ ARM GAS  C:\Users\fiona\AppData\Local\Temp\ccaZv034.s 			page 1
  535:Generated_Source\PSoC5/CAN_TX_RX_func.c ****                 /* `#START MESSAGE_6_TRASMITTED` */
  536:Generated_Source\PSoC5/CAN_TX_RX_func.c **** 
  537:Generated_Source\PSoC5/CAN_TX_RX_func.c ****                 /* `#END` */
-ARM GAS  C:\Users\fiona\AppData\Local\Temp\ccaZv034.s 			page 15
+ARM GAS  C:\Users\fiona\AppData\Local\Temp\ccx2tiP4.s 			page 15
 
 
  538:Generated_Source\PSoC5/CAN_TX_RX_func.c **** 
@@ -898,7 +898,7 @@ ARM GAS  C:\Users\fiona\AppData\Local\Temp\ccaZv034.s 			page 1
  592:Generated_Source\PSoC5/CAN_TX_RX_func.c ****                     CAN_SendMsg_7_Callback();
  593:Generated_Source\PSoC5/CAN_TX_RX_func.c ****                 #endif /* CAN_SEND_MSG_7_CALLBACK */
  594:Generated_Source\PSoC5/CAN_TX_RX_func.c **** 
-ARM GAS  C:\Users\fiona\AppData\Local\Temp\ccaZv034.s 			page 16
+ARM GAS  C:\Users\fiona\AppData\Local\Temp\ccx2tiP4.s 			page 16
 
 
  595:Generated_Source\PSoC5/CAN_TX_RX_func.c ****                 CY_SET_REG32(CAN_TX_CMD_PTR(7u),
@@ -958,7 +958,7 @@ ARM GAS  C:\Users\fiona\AppData\Local\Temp\ccaZv034.s 			page 1
  628:Generated_Source\PSoC5/CAN_TX_RX_func.c ****         if ((CAN_RX_CMD_REG(rxMailbox) & CAN_RX_ACK_MSG) != 0u)
  629:Generated_Source\PSoC5/CAN_TX_RX_func.c ****     #endif /* CY_PSOC3 || CY_PSOC5 */
  630:Generated_Source\PSoC5/CAN_TX_RX_func.c ****         {
-ARM GAS  C:\Users\fiona\AppData\Local\Temp\ccaZv034.s 			page 17
+ARM GAS  C:\Users\fiona\AppData\Local\Temp\ccx2tiP4.s 			page 17
 
 
  631:Generated_Source\PSoC5/CAN_TX_RX_func.c ****             /* `#START MESSAGE_BASIC_RECEIVED` */
@@ -1018,7 +1018,7 @@ ARM GAS  C:\Users\fiona\AppData\Local\Temp\ccaZv034.s 			page 1
  318              		.loc 1 640 0 is_stmt 1
  319 004c 6846     		mov	r0, sp
  320 004e FFF7FEFF 		bl	can_process
-ARM GAS  C:\Users\fiona\AppData\Local\Temp\ccaZv034.s 			page 18
+ARM GAS  C:\Users\fiona\AppData\Local\Temp\ccx2tiP4.s 			page 18
 
 
  321              	.LVL36:
@@ -1054,1783 +1054,1485 @@ ARM GAS  C:\Users\fiona\AppData\Local\Temp\ccaZv034.s 			page 1
  338              		.cfi_endproc
  339              	.LFE65:
  340              		.size	CAN_ReceiveMsg, .-CAN_ReceiveMsg
- 341              		.global	SOC_LUT
- 342              		.data
- 343              		.align	2
- 344              		.type	SOC_LUT, %object
- 345              		.size	SOC_LUT, 960
- 346              	SOC_LUT:
- 347 0000 00000000 		.word	0
- 348 0004 05000000 		.word	5
- 349 0008 0D000000 		.word	13
- 350 000c 16000000 		.word	22
- 351 0010 1F000000 		.word	31
- 352 0014 27000000 		.word	39
- 353 0018 30000000 		.word	48
- 354 001c 39000000 		.word	57
- 355 0020 43000000 		.word	67
- 356 0024 4C000000 		.word	76
- 357 0028 56000000 		.word	86
- 358 002c 5A000000 		.word	90
- 359 0030 6A000000 		.word	106
- 360 0034 75000000 		.word	117
- 361 0038 7F000000 		.word	127
- 362 003c 8A000000 		.word	138
- 363 0040 96000000 		.word	150
- 364 0044 A2000000 		.word	162
-ARM GAS  C:\Users\fiona\AppData\Local\Temp\ccaZv034.s 			page 19
+ 341              		.text
+ 342              	.Letext0:
+ 343              		.file 2 "c:\\program files (x86)\\cypress\\psoc creator\\4.2\\psoc creator\\import\\gnu\\arm\\5.4.
+ 344              		.file 3 "c:\\program files (x86)\\cypress\\psoc creator\\4.2\\psoc creator\\import\\gnu\\arm\\5.4.
+ 345              		.file 4 "Generated_Source\\PSoC5\\cytypes.h"
+ 346              		.file 5 "Generated_Source\\PSoC5\\CAN.h"
+ 347              		.file 6 "./data.h"
+ 348              		.file 7 "Generated_Source\\PSoC5/core_cm3.h"
+ 349              		.file 8 "./can_manager.h"
+ 350              		.section	.debug_info,"",%progbits
+ 351              	.Ldebug_info0:
+ 352 0000 4A040000 		.4byte	0x44a
+ 353 0004 0400     		.2byte	0x4
+ 354 0006 00000000 		.4byte	.Ldebug_abbrev0
+ 355 000a 04       		.byte	0x4
+ 356 000b 01       		.uleb128 0x1
+ 357 000c B2020000 		.4byte	.LASF58
+ 358 0010 0C       		.byte	0xc
+ 359 0011 61020000 		.4byte	.LASF59
+ 360 0015 AE000000 		.4byte	.LASF60
+ 361 0019 00000000 		.4byte	.Ldebug_ranges0+0
+ 362 001d 00000000 		.4byte	0
+ 363 0021 00000000 		.4byte	.Ldebug_line0
+ 364 0025 02       		.uleb128 0x2
+ARM GAS  C:\Users\fiona\AppData\Local\Temp\ccx2tiP4.s 			page 19
 
 
- 365 0048 AE000000 		.word	174
- 366 004c BA000000 		.word	186
- 367 0050 C7000000 		.word	199
- 368 0054 D4000000 		.word	212
- 369 0058 E2000000 		.word	226
- 370 005c F1000000 		.word	241
- 371 0060 00010000 		.word	256
- 372 0064 0F010000 		.word	271
- 373 0068 20010000 		.word	288
- 374 006c CD000000 		.word	205
- 375 0070 44010000 		.word	324
- 376 0074 59010000 		.word	345
- 377 0078 6C010000 		.word	364
- 378 007c 82010000 		.word	386
- 379 0080 9A010000 		.word	410
- 380 0084 B4010000 		.word	436
- 381 0088 D1010000 		.word	465
- 382 008c F1010000 		.word	497
- 383 0090 16020000 		.word	534
- 384 0094 41020000 		.word	577
- 385 0098 75020000 		.word	629
- 386 009c B7020000 		.word	695
- 387 00a0 0C030000 		.word	780
- 388 00a4 71030000 		.word	881
- 389 00a8 CC030000 		.word	972
- 390 00ac 14040000 		.word	1044
- 391 00b0 4F040000 		.word	1103
- 392 00b4 85040000 		.word	1157
- 393 00b8 B6040000 		.word	1206
- 394 00bc E5040000 		.word	1253
- 395 00c0 13050000 		.word	1299
- 396 00c4 40050000 		.word	1344
- 397 00c8 6D050000 		.word	1389
- 398 00cc 9A050000 		.word	1434
- 399 00d0 C7050000 		.word	1479
- 400 00d4 F7050000 		.word	1527
- 401 00d8 28060000 		.word	1576
- 402 00dc 5C060000 		.word	1628
- 403 00e0 92060000 		.word	1682
- 404 00e4 CA060000 		.word	1738
- 405 00e8 06070000 		.word	1798
- 406 00ec 43070000 		.word	1859
- 407 00f0 84070000 		.word	1924
- 408 00f4 C8070000 		.word	1992
- 409 00f8 0E080000 		.word	2062
- 410 00fc 56080000 		.word	2134
- 411 0100 A0080000 		.word	2208
- 412 0104 E9080000 		.word	2281
- 413 0108 78090000 		.word	2424
- 414 010c BC090000 		.word	2492
- 415 0110 FD090000 		.word	2557
- 416 0114 3C0A0000 		.word	2620
- 417 0118 790A0000 		.word	2681
- 418 011c B70A0000 		.word	2743
- 419 0120 F40A0000 		.word	2804
- 420 0124 340B0000 		.word	2868
- 421 0128 570B0000 		.word	2903
-ARM GAS  C:\Users\fiona\AppData\Local\Temp\ccaZv034.s 			page 20
+ 365 0026 01       		.byte	0x1
+ 366 0027 06       		.byte	0x6
+ 367 0028 40010000 		.4byte	.LASF0
+ 368 002c 03       		.uleb128 0x3
+ 369 002d 10010000 		.4byte	.LASF3
+ 370 0031 02       		.byte	0x2
+ 371 0032 1D       		.byte	0x1d
+ 372 0033 37000000 		.4byte	0x37
+ 373 0037 02       		.uleb128 0x2
+ 374 0038 01       		.byte	0x1
+ 375 0039 08       		.byte	0x8
+ 376 003a 32010000 		.4byte	.LASF1
+ 377 003e 02       		.uleb128 0x2
+ 378 003f 02       		.byte	0x2
+ 379 0040 05       		.byte	0x5
+ 380 0041 16000000 		.4byte	.LASF2
+ 381 0045 03       		.uleb128 0x3
+ 382 0046 5E000000 		.4byte	.LASF4
+ 383 004a 02       		.byte	0x2
+ 384 004b 2B       		.byte	0x2b
+ 385 004c 50000000 		.4byte	0x50
+ 386 0050 02       		.uleb128 0x2
+ 387 0051 02       		.byte	0x2
+ 388 0052 07       		.byte	0x7
+ 389 0053 9B010000 		.4byte	.LASF5
+ 390 0057 03       		.uleb128 0x3
+ 391 0058 57020000 		.4byte	.LASF6
+ 392 005c 02       		.byte	0x2
+ 393 005d 3F       		.byte	0x3f
+ 394 005e 62000000 		.4byte	0x62
+ 395 0062 02       		.uleb128 0x2
+ 396 0063 04       		.byte	0x4
+ 397 0064 05       		.byte	0x5
+ 398 0065 EF000000 		.4byte	.LASF7
+ 399 0069 03       		.uleb128 0x3
+ 400 006a 46000000 		.4byte	.LASF8
+ 401 006e 02       		.byte	0x2
+ 402 006f 41       		.byte	0x41
+ 403 0070 74000000 		.4byte	0x74
+ 404 0074 02       		.uleb128 0x2
+ 405 0075 04       		.byte	0x4
+ 406 0076 07       		.byte	0x7
+ 407 0077 FE000000 		.4byte	.LASF9
+ 408 007b 02       		.uleb128 0x2
+ 409 007c 08       		.byte	0x8
+ 410 007d 05       		.byte	0x5
+ 411 007e 95000000 		.4byte	.LASF10
+ 412 0082 02       		.uleb128 0x2
+ 413 0083 08       		.byte	0x8
+ 414 0084 07       		.byte	0x7
+ 415 0085 4C010000 		.4byte	.LASF11
+ 416 0089 04       		.uleb128 0x4
+ 417 008a 04       		.byte	0x4
+ 418 008b 05       		.byte	0x5
+ 419 008c 696E7400 		.ascii	"int\000"
+ 420 0090 02       		.uleb128 0x2
+ 421 0091 04       		.byte	0x4
+ARM GAS  C:\Users\fiona\AppData\Local\Temp\ccx2tiP4.s 			page 20
 
 
- 422 012c BB0B0000 		.word	3003
- 423 0130 060C0000 		.word	3078
- 424 0134 590C0000 		.word	3161
- 425 0138 B50C0000 		.word	3253
- 426 013c 1A0D0000 		.word	3354
- 427 0140 8B0D0000 		.word	3467
- 428 0144 050E0000 		.word	3589
- 429 0148 880E0000 		.word	3720
- 430 014c 0B0F0000 		.word	3851
- 431 0150 880F0000 		.word	3976
- 432 0154 FC0F0000 		.word	4092
- 433 0158 68100000 		.word	4200
- 434 015c CF100000 		.word	4303
- 435 0160 34110000 		.word	4404
- 436 0164 98110000 		.word	4504
- 437 0168 FB110000 		.word	4603
- 438 016c 5C120000 		.word	4700
- 439 0170 B8120000 		.word	4792
- 440 0174 0E130000 		.word	4878
- 441 0178 5E130000 		.word	4958
- 442 017c A8130000 		.word	5032
- 443 0180 ED130000 		.word	5101
- 444 0184 2E140000 		.word	5166
- 445 0188 6C140000 		.word	5228
- 446 018c A9140000 		.word	5289
- 447 0190 E3140000 		.word	5347
- 448 0194 1D150000 		.word	5405
- 449 0198 56150000 		.word	5462
- 450 019c 8E150000 		.word	5518
- 451 01a0 C5150000 		.word	5573
- 452 01a4 FC150000 		.word	5628
- 453 01a8 30160000 		.word	5680
- 454 01ac 63160000 		.word	5731
- 455 01b0 94160000 		.word	5780
- 456 01b4 C2160000 		.word	5826
- 457 01b8 ED160000 		.word	5869
- 458 01bc 17170000 		.word	5911
- 459 01c0 3F170000 		.word	5951
- 460 01c4 64170000 		.word	5988
- 461 01c8 88170000 		.word	6024
- 462 01cc AB170000 		.word	6059
- 463 01d0 CC170000 		.word	6092
- 464 01d4 EC170000 		.word	6124
- 465 01d8 0C180000 		.word	6156
- 466 01dc 2B180000 		.word	6187
- 467 01e0 49180000 		.word	6217
- 468 01e4 67180000 		.word	6247
- 469 01e8 86180000 		.word	6278
- 470 01ec A4180000 		.word	6308
- 471 01f0 C1180000 		.word	6337
- 472 01f4 E0180000 		.word	6368
- 473 01f8 FE180000 		.word	6398
- 474 01fc 1C190000 		.word	6428
- 475 0200 3B190000 		.word	6459
- 476 0204 5B190000 		.word	6491
- 477 0208 7B190000 		.word	6523
- 478 020c 9C190000 		.word	6556
-ARM GAS  C:\Users\fiona\AppData\Local\Temp\ccaZv034.s 			page 21
+ 422 0092 07       		.byte	0x7
+ 423 0093 6C010000 		.4byte	.LASF12
+ 424 0097 03       		.uleb128 0x3
+ 425 0098 76000000 		.4byte	.LASF13
+ 426 009c 03       		.byte	0x3
+ 427 009d 18       		.byte	0x18
+ 428 009e 2C000000 		.4byte	0x2c
+ 429 00a2 03       		.uleb128 0x3
+ 430 00a3 79010000 		.4byte	.LASF14
+ 431 00a7 03       		.byte	0x3
+ 432 00a8 24       		.byte	0x24
+ 433 00a9 45000000 		.4byte	0x45
+ 434 00ad 03       		.uleb128 0x3
+ 435 00ae D2010000 		.4byte	.LASF15
+ 436 00b2 03       		.byte	0x3
+ 437 00b3 2C       		.byte	0x2c
+ 438 00b4 57000000 		.4byte	0x57
+ 439 00b8 03       		.uleb128 0x3
+ 440 00b9 63010000 		.4byte	.LASF16
+ 441 00bd 03       		.byte	0x3
+ 442 00be 30       		.byte	0x30
+ 443 00bf 69000000 		.4byte	0x69
+ 444 00c3 05       		.uleb128 0x5
+ 445 00c4 7E000000 		.4byte	.LASF17
+ 446 00c8 04       		.byte	0x4
+ 447 00c9 9201     		.2byte	0x192
+ 448 00cb 37000000 		.4byte	0x37
+ 449 00cf 05       		.uleb128 0x5
+ 450 00d0 16020000 		.4byte	.LASF18
+ 451 00d4 04       		.byte	0x4
+ 452 00d5 9401     		.2byte	0x194
+ 453 00d7 74000000 		.4byte	0x74
+ 454 00db 02       		.uleb128 0x2
+ 455 00dc 04       		.byte	0x4
+ 456 00dd 04       		.byte	0x4
+ 457 00de 8F000000 		.4byte	.LASF19
+ 458 00e2 02       		.uleb128 0x2
+ 459 00e3 08       		.byte	0x8
+ 460 00e4 04       		.byte	0x4
+ 461 00e5 89020000 		.4byte	.LASF20
+ 462 00e9 02       		.uleb128 0x2
+ 463 00ea 01       		.byte	0x1
+ 464 00eb 08       		.byte	0x8
+ 465 00ec B5010000 		.4byte	.LASF21
+ 466 00f0 05       		.uleb128 0x5
+ 467 00f1 1D020000 		.4byte	.LASF22
+ 468 00f5 04       		.byte	0x4
+ 469 00f6 3C02     		.2byte	0x23c
+ 470 00f8 FC000000 		.4byte	0xfc
+ 471 00fc 06       		.uleb128 0x6
+ 472 00fd C3000000 		.4byte	0xc3
+ 473 0101 05       		.uleb128 0x5
+ 474 0102 95010000 		.4byte	.LASF23
+ 475 0106 04       		.byte	0x4
+ 476 0107 3E02     		.2byte	0x23e
+ 477 0109 0D010000 		.4byte	0x10d
+ 478 010d 06       		.uleb128 0x6
+ARM GAS  C:\Users\fiona\AppData\Local\Temp\ccx2tiP4.s 			page 21
 
 
- 479 0210 BE190000 		.word	6590
- 480 0214 E1190000 		.word	6625
- 481 0218 041A0000 		.word	6660
- 482 021c 281A0000 		.word	6696
- 483 0220 4D1A0000 		.word	6733
- 484 0224 721A0000 		.word	6770
- 485 0228 981A0000 		.word	6808
- 486 022c BE1A0000 		.word	6846
- 487 0230 E41A0000 		.word	6884
- 488 0234 0B1B0000 		.word	6923
- 489 0238 311B0000 		.word	6961
- 490 023c 581B0000 		.word	7000
- 491 0240 7F1B0000 		.word	7039
- 492 0244 A51B0000 		.word	7077
- 493 0248 CB1B0000 		.word	7115
- 494 024c F11B0000 		.word	7153
- 495 0250 171C0000 		.word	7191
- 496 0254 3C1C0000 		.word	7228
- 497 0258 621C0000 		.word	7266
- 498 025c 871C0000 		.word	7303
- 499 0260 AC1C0000 		.word	7340
- 500 0264 D01C0000 		.word	7376
- 501 0268 F51C0000 		.word	7413
- 502 026c 191D0000 		.word	7449
- 503 0270 3C1D0000 		.word	7484
- 504 0274 601D0000 		.word	7520
- 505 0278 831D0000 		.word	7555
- 506 027c A61D0000 		.word	7590
- 507 0280 C91D0000 		.word	7625
- 508 0284 EB1D0000 		.word	7659
- 509 0288 0E1E0000 		.word	7694
- 510 028c 301E0000 		.word	7728
- 511 0290 521E0000 		.word	7762
- 512 0294 741E0000 		.word	7796
- 513 0298 961E0000 		.word	7830
- 514 029c B81E0000 		.word	7864
- 515 02a0 DA1E0000 		.word	7898
- 516 02a4 FC1E0000 		.word	7932
- 517 02a8 1E1F0000 		.word	7966
- 518 02ac 401F0000 		.word	8000
- 519 02b0 621F0000 		.word	8034
- 520 02b4 841F0000 		.word	8068
- 521 02b8 A61F0000 		.word	8102
- 522 02bc C81F0000 		.word	8136
- 523 02c0 EA1F0000 		.word	8170
- 524 02c4 0C200000 		.word	8204
- 525 02c8 2E200000 		.word	8238
- 526 02cc 50200000 		.word	8272
- 527 02d0 72200000 		.word	8306
- 528 02d4 94200000 		.word	8340
- 529 02d8 B5200000 		.word	8373
- 530 02dc D6200000 		.word	8406
- 531 02e0 F8200000 		.word	8440
- 532 02e4 18210000 		.word	8472
- 533 02e8 39210000 		.word	8505
- 534 02ec 5A210000 		.word	8538
- 535 02f0 7A210000 		.word	8570
-ARM GAS  C:\Users\fiona\AppData\Local\Temp\ccaZv034.s 			page 22
+ 479 010e CF000000 		.4byte	0xcf
+ 480 0112 02       		.uleb128 0x2
+ 481 0113 08       		.byte	0x8
+ 482 0114 04       		.byte	0x4
+ 483 0115 1F010000 		.4byte	.LASF24
+ 484 0119 02       		.uleb128 0x2
+ 485 011a 04       		.byte	0x4
+ 486 011b 07       		.byte	0x7
+ 487 011c 2F000000 		.4byte	.LASF25
+ 488 0120 07       		.uleb128 0x7
+ 489 0121 08       		.byte	0x8
+ 490 0122 05       		.byte	0x5
+ 491 0123 6F       		.byte	0x6f
+ 492 0124 35010000 		.4byte	0x135
+ 493 0128 08       		.uleb128 0x8
+ 494 0129 1A010000 		.4byte	.LASF27
+ 495 012d 05       		.byte	0x5
+ 496 012e 71       		.byte	0x71
+ 497 012f 35010000 		.4byte	0x135
+ 498 0133 00       		.byte	0
+ 499 0134 00       		.byte	0
+ 500 0135 09       		.uleb128 0x9
+ 501 0136 C3000000 		.4byte	0xc3
+ 502 013a 45010000 		.4byte	0x145
+ 503 013e 0A       		.uleb128 0xa
+ 504 013f 19010000 		.4byte	0x119
+ 505 0143 07       		.byte	0x7
+ 506 0144 00       		.byte	0
+ 507 0145 03       		.uleb128 0x3
+ 508 0146 82010000 		.4byte	.LASF26
+ 509 014a 05       		.byte	0x5
+ 510 014b 72       		.byte	0x72
+ 511 014c 20010000 		.4byte	0x120
+ 512 0150 07       		.uleb128 0x7
+ 513 0151 08       		.byte	0x8
+ 514 0152 05       		.byte	0x5
+ 515 0153 75       		.byte	0x75
+ 516 0154 65010000 		.4byte	0x165
+ 517 0158 08       		.uleb128 0x8
+ 518 0159 1A010000 		.4byte	.LASF27
+ 519 015d 05       		.byte	0x5
+ 520 015e 77       		.byte	0x77
+ 521 015f 75010000 		.4byte	0x175
+ 522 0163 00       		.byte	0
+ 523 0164 00       		.byte	0
+ 524 0165 09       		.uleb128 0x9
+ 525 0166 F0000000 		.4byte	0xf0
+ 526 016a 75010000 		.4byte	0x175
+ 527 016e 0A       		.uleb128 0xa
+ 528 016f 19010000 		.4byte	0x119
+ 529 0173 07       		.byte	0x7
+ 530 0174 00       		.byte	0
+ 531 0175 06       		.uleb128 0x6
+ 532 0176 65010000 		.4byte	0x165
+ 533 017a 03       		.uleb128 0x3
+ 534 017b 07000000 		.4byte	.LASF28
+ 535 017f 05       		.byte	0x5
+ARM GAS  C:\Users\fiona\AppData\Local\Temp\ccx2tiP4.s 			page 22
 
 
- 536 02f4 9A210000 		.word	8602
- 537 02f8 B8210000 		.word	8632
- 538 02fc DA210000 		.word	8666
- 539 0300 F9210000 		.word	8697
- 540 0304 19220000 		.word	8729
- 541 0308 38220000 		.word	8760
- 542 030c 57220000 		.word	8791
- 543 0310 76220000 		.word	8822
- 544 0314 95220000 		.word	8853
- 545 0318 B4220000 		.word	8884
- 546 031c D3220000 		.word	8915
- 547 0320 F1220000 		.word	8945
- 548 0324 10230000 		.word	8976
- 549 0328 2E230000 		.word	9006
- 550 032c 4C230000 		.word	9036
- 551 0330 6B230000 		.word	9067
- 552 0334 89230000 		.word	9097
- 553 0338 A7230000 		.word	9127
- 554 033c C5230000 		.word	9157
- 555 0340 E2230000 		.word	9186
- 556 0344 00240000 		.word	9216
- 557 0348 1D240000 		.word	9245
- 558 034c 3B240000 		.word	9275
- 559 0350 58240000 		.word	9304
- 560 0354 75240000 		.word	9333
- 561 0358 92240000 		.word	9362
- 562 035c AE240000 		.word	9390
- 563 0360 CB240000 		.word	9419
- 564 0364 E7240000 		.word	9447
- 565 0368 03250000 		.word	9475
- 566 036c 1F250000 		.word	9503
- 567 0370 3B250000 		.word	9531
- 568 0374 57250000 		.word	9559
- 569 0378 72250000 		.word	9586
- 570 037c 8D250000 		.word	9613
- 571 0380 A8250000 		.word	9640
- 572 0384 AF250000 		.word	9647
- 573 0388 DD250000 		.word	9693
- 574 038c F8250000 		.word	9720
- 575 0390 12260000 		.word	9746
- 576 0394 2C260000 		.word	9772
- 577 0398 45260000 		.word	9797
- 578 039c 5F260000 		.word	9823
- 579 03a0 78260000 		.word	9848
- 580 03a4 91260000 		.word	9873
- 581 03a8 AA260000 		.word	9898
- 582 03ac C3260000 		.word	9923
- 583 03b0 DB260000 		.word	9947
- 584 03b4 F3260000 		.word	9971
- 585 03b8 0B270000 		.word	9995
- 586 03bc A0860100 		.word	100000
- 587              		.text
- 588              	.Letext0:
- 589              		.file 2 "c:\\program files (x86)\\cypress\\psoc creator\\4.2\\psoc creator\\import\\gnu\\arm\\5.4.
- 590              		.file 3 "c:\\program files (x86)\\cypress\\psoc creator\\4.2\\psoc creator\\import\\gnu\\arm\\5.4.
- 591              		.file 4 "Generated_Source\\PSoC5\\cytypes.h"
- 592              		.file 5 "Generated_Source\\PSoC5\\CAN.h"
-ARM GAS  C:\Users\fiona\AppData\Local\Temp\ccaZv034.s 			page 23
+ 536 0180 78       		.byte	0x78
+ 537 0181 50010000 		.4byte	0x150
+ 538 0185 07       		.uleb128 0x7
+ 539 0186 04       		.byte	0x4
+ 540 0187 05       		.byte	0x5
+ 541 0188 7B       		.byte	0x7b
+ 542 0189 9A010000 		.4byte	0x19a
+ 543 018d 08       		.uleb128 0x8
+ 544 018e 1A010000 		.4byte	.LASF27
+ 545 0192 05       		.byte	0x5
+ 546 0193 7D       		.byte	0x7d
+ 547 0194 AA010000 		.4byte	0x1aa
+ 548 0198 00       		.byte	0
+ 549 0199 00       		.byte	0
+ 550 019a 09       		.uleb128 0x9
+ 551 019b F0000000 		.4byte	0xf0
+ 552 019f AA010000 		.4byte	0x1aa
+ 553 01a3 0A       		.uleb128 0xa
+ 554 01a4 19010000 		.4byte	0x119
+ 555 01a8 03       		.byte	0x3
+ 556 01a9 00       		.byte	0
+ 557 01aa 06       		.uleb128 0x6
+ 558 01ab 9A010000 		.4byte	0x19a
+ 559 01af 03       		.uleb128 0x3
+ 560 01b0 A3000000 		.4byte	.LASF29
+ 561 01b4 05       		.byte	0x5
+ 562 01b5 7E       		.byte	0x7e
+ 563 01b6 85010000 		.4byte	0x185
+ 564 01ba 07       		.uleb128 0x7
+ 565 01bb 0C       		.byte	0xc
+ 566 01bc 05       		.byte	0x5
+ 567 01bd 81       		.byte	0x81
+ 568 01be 0A020000 		.4byte	0x20a
+ 569 01c2 0B       		.uleb128 0xb
+ 570 01c3 696400   		.ascii	"id\000"
+ 571 01c6 05       		.byte	0x5
+ 572 01c7 83       		.byte	0x83
+ 573 01c8 CF000000 		.4byte	0xcf
+ 574 01cc 00       		.byte	0
+ 575 01cd 0B       		.uleb128 0xb
+ 576 01ce 72747200 		.ascii	"rtr\000"
+ 577 01d2 05       		.byte	0x5
+ 578 01d3 84       		.byte	0x84
+ 579 01d4 C3000000 		.4byte	0xc3
+ 580 01d8 04       		.byte	0x4
+ 581 01d9 0B       		.uleb128 0xb
+ 582 01da 69646500 		.ascii	"ide\000"
+ 583 01de 05       		.byte	0x5
+ 584 01df 85       		.byte	0x85
+ 585 01e0 C3000000 		.4byte	0xc3
+ 586 01e4 05       		.byte	0x5
+ 587 01e5 0B       		.uleb128 0xb
+ 588 01e6 646C6300 		.ascii	"dlc\000"
+ 589 01ea 05       		.byte	0x5
+ 590 01eb 86       		.byte	0x86
+ 591 01ec C3000000 		.4byte	0xc3
+ 592 01f0 06       		.byte	0x6
+ARM GAS  C:\Users\fiona\AppData\Local\Temp\ccx2tiP4.s 			page 23
 
 
- 593              		.file 6 "./data.h"
- 594              		.file 7 "Generated_Source\\PSoC5/core_cm3.h"
- 595              		.file 8 "./can_manager.h"
- 596              		.section	.debug_info,"",%progbits
- 597              	.Ldebug_info0:
- 598 0000 6B040000 		.4byte	0x46b
- 599 0004 0400     		.2byte	0x4
- 600 0006 00000000 		.4byte	.Ldebug_abbrev0
- 601 000a 04       		.byte	0x4
- 602 000b 01       		.uleb128 0x1
- 603 000c D7020000 		.4byte	.LASF60
- 604 0010 0C       		.byte	0xc
- 605 0011 86020000 		.4byte	.LASF61
- 606 0015 89000000 		.4byte	.LASF62
- 607 0019 00000000 		.4byte	.Ldebug_ranges0+0
- 608 001d 00000000 		.4byte	0
- 609 0021 00000000 		.4byte	.Ldebug_line0
- 610 0025 02       		.uleb128 0x2
- 611 0026 01       		.byte	0x1
- 612 0027 06       		.byte	0x6
- 613 0028 65010000 		.4byte	.LASF0
- 614 002c 03       		.uleb128 0x3
- 615 002d 35010000 		.4byte	.LASF3
- 616 0031 02       		.byte	0x2
- 617 0032 1D       		.byte	0x1d
- 618 0033 37000000 		.4byte	0x37
- 619 0037 02       		.uleb128 0x2
- 620 0038 01       		.byte	0x1
- 621 0039 08       		.byte	0x8
- 622 003a 57010000 		.4byte	.LASF1
- 623 003e 02       		.uleb128 0x2
- 624 003f 02       		.byte	0x2
- 625 0040 05       		.byte	0x5
- 626 0041 16000000 		.4byte	.LASF2
- 627 0045 03       		.uleb128 0x3
- 628 0046 5E000000 		.4byte	.LASF4
- 629 004a 02       		.byte	0x2
- 630 004b 2B       		.byte	0x2b
- 631 004c 50000000 		.4byte	0x50
- 632 0050 02       		.uleb128 0x2
- 633 0051 02       		.byte	0x2
- 634 0052 07       		.byte	0x7
- 635 0053 C0010000 		.4byte	.LASF5
- 636 0057 03       		.uleb128 0x3
- 637 0058 7C020000 		.4byte	.LASF6
- 638 005c 02       		.byte	0x2
- 639 005d 3F       		.byte	0x3f
- 640 005e 62000000 		.4byte	0x62
- 641 0062 02       		.uleb128 0x2
- 642 0063 04       		.byte	0x4
- 643 0064 05       		.byte	0x5
- 644 0065 14010000 		.4byte	.LASF7
- 645 0069 03       		.uleb128 0x3
- 646 006a 46000000 		.4byte	.LASF8
- 647 006e 02       		.byte	0x2
- 648 006f 41       		.byte	0x41
- 649 0070 74000000 		.4byte	0x74
-ARM GAS  C:\Users\fiona\AppData\Local\Temp\ccaZv034.s 			page 24
+ 593 01f1 0B       		.uleb128 0xb
+ 594 01f2 69727100 		.ascii	"irq\000"
+ 595 01f6 05       		.byte	0x5
+ 596 01f7 87       		.byte	0x87
+ 597 01f8 C3000000 		.4byte	0xc3
+ 598 01fc 07       		.byte	0x7
+ 599 01fd 0B       		.uleb128 0xb
+ 600 01fe 6D736700 		.ascii	"msg\000"
+ 601 0202 05       		.byte	0x5
+ 602 0203 8B       		.byte	0x8b
+ 603 0204 0A020000 		.4byte	0x20a
+ 604 0208 08       		.byte	0x8
+ 605 0209 00       		.byte	0
+ 606 020a 0C       		.uleb128 0xc
+ 607 020b 04       		.byte	0x4
+ 608 020c 45010000 		.4byte	0x145
+ 609 0210 03       		.uleb128 0x3
+ 610 0211 32020000 		.4byte	.LASF30
+ 611 0215 05       		.byte	0x5
+ 612 0216 8C       		.byte	0x8c
+ 613 0217 BA010000 		.4byte	0x1ba
+ 614 021b 07       		.uleb128 0x7
+ 615 021c 20       		.byte	0x20
+ 616 021d 05       		.byte	0x5
+ 617 021e A0       		.byte	0xa0
+ 618 021f 78020000 		.4byte	0x278
+ 619 0223 08       		.uleb128 0x8
+ 620 0224 DA010000 		.4byte	.LASF31
+ 621 0228 05       		.byte	0x5
+ 622 0229 A2       		.byte	0xa2
+ 623 022a AF010000 		.4byte	0x1af
+ 624 022e 00       		.byte	0
+ 625 022f 08       		.uleb128 0x8
+ 626 0230 84000000 		.4byte	.LASF32
+ 627 0234 05       		.byte	0x5
+ 628 0235 A3       		.byte	0xa3
+ 629 0236 AF010000 		.4byte	0x1af
+ 630 023a 04       		.byte	0x4
+ 631 023b 08       		.uleb128 0x8
+ 632 023c 51000000 		.4byte	.LASF33
+ 633 0240 05       		.byte	0x5
+ 634 0241 A4       		.byte	0xa4
+ 635 0242 7A010000 		.4byte	0x17a
+ 636 0246 08       		.byte	0x8
+ 637 0247 08       		.uleb128 0x8
+ 638 0248 40030000 		.4byte	.LASF34
+ 639 024c 05       		.byte	0x5
+ 640 024d A5       		.byte	0xa5
+ 641 024e AF010000 		.4byte	0x1af
+ 642 0252 10       		.byte	0x10
+ 643 0253 08       		.uleb128 0x8
+ 644 0254 89000000 		.4byte	.LASF35
+ 645 0258 05       		.byte	0x5
+ 646 0259 A6       		.byte	0xa6
+ 647 025a AF010000 		.4byte	0x1af
+ 648 025e 14       		.byte	0x14
+ 649 025f 08       		.uleb128 0x8
+ARM GAS  C:\Users\fiona\AppData\Local\Temp\ccx2tiP4.s 			page 24
 
 
- 650 0074 02       		.uleb128 0x2
- 651 0075 04       		.byte	0x4
- 652 0076 07       		.byte	0x7
- 653 0077 23010000 		.4byte	.LASF9
- 654 007b 02       		.uleb128 0x2
- 655 007c 08       		.byte	0x8
- 656 007d 05       		.byte	0x5
- 657 007e ED000000 		.4byte	.LASF10
- 658 0082 02       		.uleb128 0x2
- 659 0083 08       		.byte	0x8
- 660 0084 07       		.byte	0x7
- 661 0085 71010000 		.4byte	.LASF11
- 662 0089 04       		.uleb128 0x4
- 663 008a 04       		.byte	0x4
- 664 008b 05       		.byte	0x5
- 665 008c 696E7400 		.ascii	"int\000"
- 666 0090 02       		.uleb128 0x2
- 667 0091 04       		.byte	0x4
- 668 0092 07       		.byte	0x7
- 669 0093 91010000 		.4byte	.LASF12
- 670 0097 03       		.uleb128 0x3
- 671 0098 76000000 		.4byte	.LASF13
- 672 009c 03       		.byte	0x3
- 673 009d 18       		.byte	0x18
- 674 009e 2C000000 		.4byte	0x2c
- 675 00a2 03       		.uleb128 0x3
- 676 00a3 9E010000 		.4byte	.LASF14
- 677 00a7 03       		.byte	0x3
- 678 00a8 24       		.byte	0x24
- 679 00a9 45000000 		.4byte	0x45
- 680 00ad 03       		.uleb128 0x3
- 681 00ae F7010000 		.4byte	.LASF15
- 682 00b2 03       		.byte	0x3
- 683 00b3 2C       		.byte	0x2c
- 684 00b4 57000000 		.4byte	0x57
- 685 00b8 03       		.uleb128 0x3
- 686 00b9 88010000 		.4byte	.LASF16
- 687 00bd 03       		.byte	0x3
- 688 00be 30       		.byte	0x30
- 689 00bf 69000000 		.4byte	0x69
- 690 00c3 05       		.uleb128 0x5
- 691 00c4 7E000000 		.4byte	.LASF17
- 692 00c8 04       		.byte	0x4
- 693 00c9 9201     		.2byte	0x192
- 694 00cb 37000000 		.4byte	0x37
- 695 00cf 05       		.uleb128 0x5
- 696 00d0 3B020000 		.4byte	.LASF18
- 697 00d4 04       		.byte	0x4
- 698 00d5 9401     		.2byte	0x194
- 699 00d7 74000000 		.4byte	0x74
- 700 00db 02       		.uleb128 0x2
- 701 00dc 04       		.byte	0x4
- 702 00dd 04       		.byte	0x4
- 703 00de E7000000 		.4byte	.LASF19
- 704 00e2 02       		.uleb128 0x2
- 705 00e3 08       		.byte	0x8
- 706 00e4 04       		.byte	0x4
-ARM GAS  C:\Users\fiona\AppData\Local\Temp\ccaZv034.s 			page 25
+ 650 0260 2B010000 		.4byte	.LASF36
+ 651 0264 05       		.byte	0x5
+ 652 0265 A7       		.byte	0xa7
+ 653 0266 AF010000 		.4byte	0x1af
+ 654 026a 18       		.byte	0x18
+ 655 026b 08       		.uleb128 0x8
+ 656 026c AE010000 		.4byte	.LASF37
+ 657 0270 05       		.byte	0x5
+ 658 0271 A8       		.byte	0xa8
+ 659 0272 AF010000 		.4byte	0x1af
+ 660 0276 1C       		.byte	0x1c
+ 661 0277 00       		.byte	0
+ 662 0278 03       		.uleb128 0x3
+ 663 0279 BA010000 		.4byte	.LASF38
+ 664 027d 05       		.byte	0x5
+ 665 027e A9       		.byte	0xa9
+ 666 027f 1B020000 		.4byte	0x21b
+ 667 0283 07       		.uleb128 0x7
+ 668 0284 10       		.byte	0x10
+ 669 0285 05       		.byte	0x5
+ 670 0286 AC       		.byte	0xac
+ 671 0287 B0020000 		.4byte	0x2b0
+ 672 028b 08       		.uleb128 0x8
+ 673 028c E9000000 		.4byte	.LASF39
+ 674 0290 05       		.byte	0x5
+ 675 0291 AE       		.byte	0xae
+ 676 0292 AF010000 		.4byte	0x1af
+ 677 0296 00       		.byte	0
+ 678 0297 08       		.uleb128 0x8
+ 679 0298 52020000 		.4byte	.LASF40
+ 680 029c 05       		.byte	0x5
+ 681 029d AF       		.byte	0xaf
+ 682 029e AF010000 		.4byte	0x1af
+ 683 02a2 04       		.byte	0x4
+ 684 02a3 08       		.uleb128 0x8
+ 685 02a4 3F000000 		.4byte	.LASF41
+ 686 02a8 05       		.byte	0x5
+ 687 02a9 B0       		.byte	0xb0
+ 688 02aa 7A010000 		.4byte	0x17a
+ 689 02ae 08       		.byte	0x8
+ 690 02af 00       		.byte	0
+ 691 02b0 03       		.uleb128 0x3
+ 692 02b1 08020000 		.4byte	.LASF42
+ 693 02b5 05       		.byte	0x5
+ 694 02b6 B1       		.byte	0xb1
+ 695 02b7 83020000 		.4byte	0x283
+ 696 02bb 07       		.uleb128 0x7
+ 697 02bc 10       		.byte	0x10
+ 698 02bd 06       		.byte	0x6
+ 699 02be 08       		.byte	0x8
+ 700 02bf F3020000 		.4byte	0x2f3
+ 701 02c3 08       		.uleb128 0x8
+ 702 02c4 69000000 		.4byte	.LASF43
+ 703 02c8 06       		.byte	0x6
+ 704 02c9 09       		.byte	0x9
+ 705 02ca B8000000 		.4byte	0xb8
+ 706 02ce 00       		.byte	0
+ARM GAS  C:\Users\fiona\AppData\Local\Temp\ccx2tiP4.s 			page 25
 
 
- 707 00e5 AE020000 		.4byte	.LASF20
- 708 00e9 02       		.uleb128 0x2
- 709 00ea 01       		.byte	0x1
- 710 00eb 08       		.byte	0x8
- 711 00ec DA010000 		.4byte	.LASF21
- 712 00f0 05       		.uleb128 0x5
- 713 00f1 42020000 		.4byte	.LASF22
- 714 00f5 04       		.byte	0x4
- 715 00f6 3C02     		.2byte	0x23c
- 716 00f8 FC000000 		.4byte	0xfc
- 717 00fc 06       		.uleb128 0x6
- 718 00fd C3000000 		.4byte	0xc3
- 719 0101 05       		.uleb128 0x5
- 720 0102 BA010000 		.4byte	.LASF23
- 721 0106 04       		.byte	0x4
- 722 0107 3E02     		.2byte	0x23e
- 723 0109 0D010000 		.4byte	0x10d
- 724 010d 06       		.uleb128 0x6
- 725 010e CF000000 		.4byte	0xcf
- 726 0112 02       		.uleb128 0x2
- 727 0113 08       		.byte	0x8
- 728 0114 04       		.byte	0x4
- 729 0115 44010000 		.4byte	.LASF24
- 730 0119 02       		.uleb128 0x2
- 731 011a 04       		.byte	0x4
- 732 011b 07       		.byte	0x7
- 733 011c 2F000000 		.4byte	.LASF25
- 734 0120 07       		.uleb128 0x7
- 735 0121 08       		.byte	0x8
- 736 0122 05       		.byte	0x5
- 737 0123 6F       		.byte	0x6f
- 738 0124 35010000 		.4byte	0x135
- 739 0128 08       		.uleb128 0x8
- 740 0129 3F010000 		.4byte	.LASF27
- 741 012d 05       		.byte	0x5
- 742 012e 71       		.byte	0x71
- 743 012f 35010000 		.4byte	0x135
- 744 0133 00       		.byte	0
- 745 0134 00       		.byte	0
- 746 0135 09       		.uleb128 0x9
- 747 0136 C3000000 		.4byte	0xc3
- 748 013a 45010000 		.4byte	0x145
- 749 013e 0A       		.uleb128 0xa
- 750 013f 19010000 		.4byte	0x119
- 751 0143 07       		.byte	0x7
- 752 0144 00       		.byte	0
- 753 0145 03       		.uleb128 0x3
- 754 0146 A7010000 		.4byte	.LASF26
- 755 014a 05       		.byte	0x5
- 756 014b 72       		.byte	0x72
- 757 014c 20010000 		.4byte	0x120
- 758 0150 07       		.uleb128 0x7
- 759 0151 08       		.byte	0x8
- 760 0152 05       		.byte	0x5
- 761 0153 75       		.byte	0x75
- 762 0154 65010000 		.4byte	0x165
- 763 0158 08       		.uleb128 0x8
-ARM GAS  C:\Users\fiona\AppData\Local\Temp\ccaZv034.s 			page 26
+ 707 02cf 0B       		.uleb128 0xb
+ 708 02d0 696400   		.ascii	"id\000"
+ 709 02d3 06       		.byte	0x6
+ 710 02d4 0A       		.byte	0xa
+ 711 02d5 A2000000 		.4byte	0xa2
+ 712 02d9 04       		.byte	0x4
+ 713 02da 08       		.uleb128 0x8
+ 714 02db 38000000 		.4byte	.LASF44
+ 715 02df 06       		.byte	0x6
+ 716 02e0 0B       		.byte	0xb
+ 717 02e1 97000000 		.4byte	0x97
+ 718 02e5 06       		.byte	0x6
+ 719 02e6 08       		.uleb128 0x8
+ 720 02e7 03020000 		.4byte	.LASF45
+ 721 02eb 06       		.byte	0x6
+ 722 02ec 0C       		.byte	0xc
+ 723 02ed F3020000 		.4byte	0x2f3
+ 724 02f1 07       		.byte	0x7
+ 725 02f2 00       		.byte	0
+ 726 02f3 09       		.uleb128 0x9
+ 727 02f4 97000000 		.4byte	0x97
+ 728 02f8 03030000 		.4byte	0x303
+ 729 02fc 0A       		.uleb128 0xa
+ 730 02fd 19010000 		.4byte	0x119
+ 731 0301 07       		.byte	0x7
+ 732 0302 00       		.byte	0
+ 733 0303 03       		.uleb128 0x3
+ 734 0304 EC010000 		.4byte	.LASF46
+ 735 0308 06       		.byte	0x6
+ 736 0309 0D       		.byte	0xd
+ 737 030a BB020000 		.4byte	0x2bb
+ 738 030e 0D       		.uleb128 0xd
+ 739 030f 3D020000 		.4byte	.LASF61
+ 740 0313 01       		.byte	0x1
+ 741 0314 35       		.byte	0x35
+ 742 0315 C3000000 		.4byte	0xc3
+ 743 0319 00000000 		.4byte	.LFB63
+ 744 031d D8000000 		.4byte	.LFE63-.LFB63
+ 745 0321 01       		.uleb128 0x1
+ 746 0322 9C       		.byte	0x9c
+ 747 0323 8D030000 		.4byte	0x38d
+ 748 0327 0E       		.uleb128 0xe
+ 749 0328 22020000 		.4byte	.LASF51
+ 750 032c 01       		.byte	0x1
+ 751 032d 35       		.byte	0x35
+ 752 032e 8D030000 		.4byte	0x38d
+ 753 0332 00000000 		.4byte	.LLST0
+ 754 0336 0F       		.uleb128 0xf
+ 755 0337 6900     		.ascii	"i\000"
+ 756 0339 01       		.byte	0x1
+ 757 033a 37       		.byte	0x37
+ 758 033b C3000000 		.4byte	0xc3
+ 759 033f 21000000 		.4byte	.LLST1
+ 760 0343 0F       		.uleb128 0xf
+ 761 0344 6A00     		.ascii	"j\000"
+ 762 0346 01       		.byte	0x1
+ 763 0347 37       		.byte	0x37
+ARM GAS  C:\Users\fiona\AppData\Local\Temp\ccx2tiP4.s 			page 26
 
 
- 764 0159 3F010000 		.4byte	.LASF27
- 765 015d 05       		.byte	0x5
- 766 015e 77       		.byte	0x77
- 767 015f 75010000 		.4byte	0x175
- 768 0163 00       		.byte	0
- 769 0164 00       		.byte	0
- 770 0165 09       		.uleb128 0x9
- 771 0166 F0000000 		.4byte	0xf0
- 772 016a 75010000 		.4byte	0x175
- 773 016e 0A       		.uleb128 0xa
- 774 016f 19010000 		.4byte	0x119
- 775 0173 07       		.byte	0x7
- 776 0174 00       		.byte	0
- 777 0175 06       		.uleb128 0x6
- 778 0176 65010000 		.4byte	0x165
- 779 017a 03       		.uleb128 0x3
- 780 017b 07000000 		.4byte	.LASF28
- 781 017f 05       		.byte	0x5
- 782 0180 78       		.byte	0x78
- 783 0181 50010000 		.4byte	0x150
- 784 0185 07       		.uleb128 0x7
- 785 0186 04       		.byte	0x4
- 786 0187 05       		.byte	0x5
- 787 0188 7B       		.byte	0x7b
- 788 0189 9A010000 		.4byte	0x19a
- 789 018d 08       		.uleb128 0x8
- 790 018e 3F010000 		.4byte	.LASF27
- 791 0192 05       		.byte	0x5
- 792 0193 7D       		.byte	0x7d
- 793 0194 AA010000 		.4byte	0x1aa
- 794 0198 00       		.byte	0
- 795 0199 00       		.byte	0
- 796 019a 09       		.uleb128 0x9
- 797 019b F0000000 		.4byte	0xf0
- 798 019f AA010000 		.4byte	0x1aa
- 799 01a3 0A       		.uleb128 0xa
- 800 01a4 19010000 		.4byte	0x119
- 801 01a8 03       		.byte	0x3
- 802 01a9 00       		.byte	0
- 803 01aa 06       		.uleb128 0x6
- 804 01ab 9A010000 		.4byte	0x19a
- 805 01af 03       		.uleb128 0x3
- 806 01b0 FB000000 		.4byte	.LASF29
- 807 01b4 05       		.byte	0x5
- 808 01b5 7E       		.byte	0x7e
- 809 01b6 85010000 		.4byte	0x185
- 810 01ba 07       		.uleb128 0x7
- 811 01bb 0C       		.byte	0xc
- 812 01bc 05       		.byte	0x5
- 813 01bd 81       		.byte	0x81
- 814 01be 0A020000 		.4byte	0x20a
- 815 01c2 0B       		.uleb128 0xb
- 816 01c3 696400   		.ascii	"id\000"
- 817 01c6 05       		.byte	0x5
- 818 01c7 83       		.byte	0x83
- 819 01c8 CF000000 		.4byte	0xcf
- 820 01cc 00       		.byte	0
-ARM GAS  C:\Users\fiona\AppData\Local\Temp\ccaZv034.s 			page 27
+ 764 0348 C3000000 		.4byte	0xc3
+ 765 034c 4A000000 		.4byte	.LLST2
+ 766 0350 10       		.uleb128 0x10
+ 767 0351 F8000000 		.4byte	.LASF47
+ 768 0355 01       		.byte	0x1
+ 769 0356 37       		.byte	0x37
+ 770 0357 C3000000 		.4byte	0xc3
+ 771 035b 74000000 		.4byte	.LLST3
+ 772 035f 10       		.uleb128 0x10
+ 773 0360 58000000 		.4byte	.LASF48
+ 774 0364 01       		.byte	0x1
+ 775 0365 38       		.byte	0x38
+ 776 0366 C3000000 		.4byte	0xc3
+ 777 036a 9D000000 		.4byte	.LLST4
+ 778 036e 10       		.uleb128 0x10
+ 779 036f 00000000 		.4byte	.LASF49
+ 780 0373 01       		.byte	0x1
+ 781 0374 39       		.byte	0x39
+ 782 0375 C3000000 		.4byte	0xc3
+ 783 0379 C7000000 		.4byte	.LLST5
+ 784 037d 10       		.uleb128 0x10
+ 785 037e 90020000 		.4byte	.LASF50
+ 786 0382 01       		.byte	0x1
+ 787 0383 3A       		.byte	0x3a
+ 788 0384 CF000000 		.4byte	0xcf
+ 789 0388 FD000000 		.4byte	.LLST6
+ 790 038c 00       		.byte	0
+ 791 038d 0C       		.uleb128 0xc
+ 792 038e 04       		.byte	0x4
+ 793 038f 93030000 		.4byte	0x393
+ 794 0393 11       		.uleb128 0x11
+ 795 0394 10020000 		.4byte	0x210
+ 796 0398 12       		.uleb128 0x12
+ 797 0399 98020000 		.4byte	.LASF53
+ 798 039d 01       		.byte	0x1
+ 799 039e B3       		.byte	0xb3
+ 800 039f 00000000 		.4byte	.LFB64
+ 801 03a3 1C000000 		.4byte	.LFE64-.LFB64
+ 802 03a7 01       		.uleb128 0x1
+ 803 03a8 9C       		.byte	0x9c
+ 804 03a9 BD030000 		.4byte	0x3bd
+ 805 03ad 0E       		.uleb128 0xe
+ 806 03ae 49020000 		.4byte	.LASF52
+ 807 03b2 01       		.byte	0x1
+ 808 03b3 B3       		.byte	0xb3
+ 809 03b4 C3000000 		.4byte	0xc3
+ 810 03b8 3D010000 		.4byte	.LLST7
+ 811 03bc 00       		.byte	0
+ 812 03bd 13       		.uleb128 0x13
+ 813 03be 20000000 		.4byte	.LASF54
+ 814 03c2 01       		.byte	0x1
+ 815 03c3 6F02     		.2byte	0x26f
+ 816 03c5 00000000 		.4byte	.LFB65
+ 817 03c9 64000000 		.4byte	.LFE65-.LFB65
+ 818 03cd 01       		.uleb128 0x1
+ 819 03ce 9C       		.byte	0x9c
+ 820 03cf 2B040000 		.4byte	0x42b
+ARM GAS  C:\Users\fiona\AppData\Local\Temp\ccx2tiP4.s 			page 27
 
 
- 821 01cd 0B       		.uleb128 0xb
- 822 01ce 72747200 		.ascii	"rtr\000"
- 823 01d2 05       		.byte	0x5
- 824 01d3 84       		.byte	0x84
- 825 01d4 C3000000 		.4byte	0xc3
- 826 01d8 04       		.byte	0x4
- 827 01d9 0B       		.uleb128 0xb
- 828 01da 69646500 		.ascii	"ide\000"
- 829 01de 05       		.byte	0x5
- 830 01df 85       		.byte	0x85
- 831 01e0 C3000000 		.4byte	0xc3
- 832 01e4 05       		.byte	0x5
- 833 01e5 0B       		.uleb128 0xb
- 834 01e6 646C6300 		.ascii	"dlc\000"
- 835 01ea 05       		.byte	0x5
- 836 01eb 86       		.byte	0x86
- 837 01ec C3000000 		.4byte	0xc3
- 838 01f0 06       		.byte	0x6
- 839 01f1 0B       		.uleb128 0xb
- 840 01f2 69727100 		.ascii	"irq\000"
- 841 01f6 05       		.byte	0x5
- 842 01f7 87       		.byte	0x87
- 843 01f8 C3000000 		.4byte	0xc3
- 844 01fc 07       		.byte	0x7
- 845 01fd 0B       		.uleb128 0xb
- 846 01fe 6D736700 		.ascii	"msg\000"
- 847 0202 05       		.byte	0x5
- 848 0203 8B       		.byte	0x8b
- 849 0204 0A020000 		.4byte	0x20a
- 850 0208 08       		.byte	0x8
- 851 0209 00       		.byte	0
- 852 020a 0C       		.uleb128 0xc
- 853 020b 04       		.byte	0x4
- 854 020c 45010000 		.4byte	0x145
- 855 0210 03       		.uleb128 0x3
- 856 0211 57020000 		.4byte	.LASF30
- 857 0215 05       		.byte	0x5
- 858 0216 8C       		.byte	0x8c
- 859 0217 BA010000 		.4byte	0x1ba
- 860 021b 07       		.uleb128 0x7
- 861 021c 20       		.byte	0x20
- 862 021d 05       		.byte	0x5
- 863 021e A0       		.byte	0xa0
- 864 021f 78020000 		.4byte	0x278
- 865 0223 08       		.uleb128 0x8
- 866 0224 FF010000 		.4byte	.LASF31
- 867 0228 05       		.byte	0x5
- 868 0229 A2       		.byte	0xa2
- 869 022a AF010000 		.4byte	0x1af
- 870 022e 00       		.byte	0
- 871 022f 08       		.uleb128 0x8
- 872 0230 84000000 		.4byte	.LASF32
- 873 0234 05       		.byte	0x5
- 874 0235 A3       		.byte	0xa3
- 875 0236 AF010000 		.4byte	0x1af
- 876 023a 04       		.byte	0x4
- 877 023b 08       		.uleb128 0x8
-ARM GAS  C:\Users\fiona\AppData\Local\Temp\ccaZv034.s 			page 28
+ 821 03d3 14       		.uleb128 0x14
+ 822 03d4 C8010000 		.4byte	.LASF55
+ 823 03d8 01       		.byte	0x1
+ 824 03d9 6F02     		.2byte	0x26f
+ 825 03db C3000000 		.4byte	0xc3
+ 826 03df 5E010000 		.4byte	.LLST8
+ 827 03e3 15       		.uleb128 0x15
+ 828 03e4 12000000 		.4byte	.LBB2
+ 829 03e8 48000000 		.4byte	.LBE2-.LBB2
+ 830 03ec 16       		.uleb128 0x16
+ 831 03ed 6900     		.ascii	"i\000"
+ 832 03ef 01       		.byte	0x1
+ 833 03f0 7802     		.2byte	0x278
+ 834 03f2 97000000 		.4byte	0x97
+ 835 03f6 7F010000 		.4byte	.LLST9
+ 836 03fa 17       		.uleb128 0x17
+ 837 03fb 2A020000 		.4byte	.LASF56
+ 838 03ff 01       		.byte	0x1
+ 839 0400 7902     		.2byte	0x279
+ 840 0402 03030000 		.4byte	0x303
+ 841 0406 02       		.uleb128 0x2
+ 842 0407 91       		.byte	0x91
+ 843 0408 60       		.sleb128 -32
+ 844 0409 18       		.uleb128 0x18
+ 845 040a F7010000 		.4byte	.LASF57
+ 846 040e 01       		.byte	0x1
+ 847 040f 7F02     		.2byte	0x27f
+ 848 0411 2B040000 		.4byte	0x42b
+ 849 0415 A9010000 		.4byte	.LLST10
+ 850 0419 19       		.uleb128 0x19
+ 851 041a 52000000 		.4byte	.LVL36
+ 852 041e 42040000 		.4byte	0x442
+ 853 0422 1A       		.uleb128 0x1a
+ 854 0423 01       		.uleb128 0x1
+ 855 0424 50       		.byte	0x50
+ 856 0425 02       		.uleb128 0x2
+ 857 0426 7D       		.byte	0x7d
+ 858 0427 00       		.sleb128 0
+ 859 0428 00       		.byte	0
+ 860 0429 00       		.byte	0
+ 861 042a 00       		.byte	0
+ 862 042b 0C       		.uleb128 0xc
+ 863 042c 04       		.byte	0x4
+ 864 042d 03030000 		.4byte	0x303
+ 865 0431 1B       		.uleb128 0x1b
+ 866 0432 A5020000 		.4byte	.LASF62
+ 867 0436 07       		.byte	0x7
+ 868 0437 9606     		.2byte	0x696
+ 869 0439 3D040000 		.4byte	0x43d
+ 870 043d 06       		.uleb128 0x6
+ 871 043e AD000000 		.4byte	0xad
+ 872 0442 1C       		.uleb128 0x1c
+ 873 0443 E0010000 		.4byte	.LASF63
+ 874 0447 E0010000 		.4byte	.LASF63
+ 875 044b 08       		.byte	0x8
+ 876 044c 0D       		.byte	0xd
+ 877 044d 00       		.byte	0
+ARM GAS  C:\Users\fiona\AppData\Local\Temp\ccx2tiP4.s 			page 28
 
 
- 878 023c 51000000 		.4byte	.LASF33
- 879 0240 05       		.byte	0x5
- 880 0241 A4       		.byte	0xa4
- 881 0242 7A010000 		.4byte	0x17a
- 882 0246 08       		.byte	0x8
- 883 0247 08       		.uleb128 0x8
- 884 0248 65030000 		.4byte	.LASF34
- 885 024c 05       		.byte	0x5
- 886 024d A5       		.byte	0xa5
- 887 024e AF010000 		.4byte	0x1af
- 888 0252 10       		.byte	0x10
- 889 0253 08       		.uleb128 0x8
- 890 0254 E1000000 		.4byte	.LASF35
- 891 0258 05       		.byte	0x5
- 892 0259 A6       		.byte	0xa6
- 893 025a AF010000 		.4byte	0x1af
- 894 025e 14       		.byte	0x14
- 895 025f 08       		.uleb128 0x8
- 896 0260 50010000 		.4byte	.LASF36
- 897 0264 05       		.byte	0x5
- 898 0265 A7       		.byte	0xa7
- 899 0266 AF010000 		.4byte	0x1af
- 900 026a 18       		.byte	0x18
- 901 026b 08       		.uleb128 0x8
- 902 026c D3010000 		.4byte	.LASF37
- 903 0270 05       		.byte	0x5
- 904 0271 A8       		.byte	0xa8
- 905 0272 AF010000 		.4byte	0x1af
- 906 0276 1C       		.byte	0x1c
- 907 0277 00       		.byte	0
- 908 0278 03       		.uleb128 0x3
- 909 0279 DF010000 		.4byte	.LASF38
- 910 027d 05       		.byte	0x5
- 911 027e A9       		.byte	0xa9
- 912 027f 1B020000 		.4byte	0x21b
- 913 0283 07       		.uleb128 0x7
- 914 0284 10       		.byte	0x10
- 915 0285 05       		.byte	0x5
- 916 0286 AC       		.byte	0xac
- 917 0287 B0020000 		.4byte	0x2b0
- 918 028b 08       		.uleb128 0x8
- 919 028c 0E010000 		.4byte	.LASF39
- 920 0290 05       		.byte	0x5
- 921 0291 AE       		.byte	0xae
- 922 0292 AF010000 		.4byte	0x1af
- 923 0296 00       		.byte	0
- 924 0297 08       		.uleb128 0x8
- 925 0298 77020000 		.4byte	.LASF40
- 926 029c 05       		.byte	0x5
- 927 029d AF       		.byte	0xaf
- 928 029e AF010000 		.4byte	0x1af
- 929 02a2 04       		.byte	0x4
- 930 02a3 08       		.uleb128 0x8
- 931 02a4 3F000000 		.4byte	.LASF41
- 932 02a8 05       		.byte	0x5
- 933 02a9 B0       		.byte	0xb0
- 934 02aa 7A010000 		.4byte	0x17a
-ARM GAS  C:\Users\fiona\AppData\Local\Temp\ccaZv034.s 			page 29
+ 878              		.section	.debug_abbrev,"",%progbits
+ 879              	.Ldebug_abbrev0:
+ 880 0000 01       		.uleb128 0x1
+ 881 0001 11       		.uleb128 0x11
+ 882 0002 01       		.byte	0x1
+ 883 0003 25       		.uleb128 0x25
+ 884 0004 0E       		.uleb128 0xe
+ 885 0005 13       		.uleb128 0x13
+ 886 0006 0B       		.uleb128 0xb
+ 887 0007 03       		.uleb128 0x3
+ 888 0008 0E       		.uleb128 0xe
+ 889 0009 1B       		.uleb128 0x1b
+ 890 000a 0E       		.uleb128 0xe
+ 891 000b 55       		.uleb128 0x55
+ 892 000c 17       		.uleb128 0x17
+ 893 000d 11       		.uleb128 0x11
+ 894 000e 01       		.uleb128 0x1
+ 895 000f 10       		.uleb128 0x10
+ 896 0010 17       		.uleb128 0x17
+ 897 0011 00       		.byte	0
+ 898 0012 00       		.byte	0
+ 899 0013 02       		.uleb128 0x2
+ 900 0014 24       		.uleb128 0x24
+ 901 0015 00       		.byte	0
+ 902 0016 0B       		.uleb128 0xb
+ 903 0017 0B       		.uleb128 0xb
+ 904 0018 3E       		.uleb128 0x3e
+ 905 0019 0B       		.uleb128 0xb
+ 906 001a 03       		.uleb128 0x3
+ 907 001b 0E       		.uleb128 0xe
+ 908 001c 00       		.byte	0
+ 909 001d 00       		.byte	0
+ 910 001e 03       		.uleb128 0x3
+ 911 001f 16       		.uleb128 0x16
+ 912 0020 00       		.byte	0
+ 913 0021 03       		.uleb128 0x3
+ 914 0022 0E       		.uleb128 0xe
+ 915 0023 3A       		.uleb128 0x3a
+ 916 0024 0B       		.uleb128 0xb
+ 917 0025 3B       		.uleb128 0x3b
+ 918 0026 0B       		.uleb128 0xb
+ 919 0027 49       		.uleb128 0x49
+ 920 0028 13       		.uleb128 0x13
+ 921 0029 00       		.byte	0
+ 922 002a 00       		.byte	0
+ 923 002b 04       		.uleb128 0x4
+ 924 002c 24       		.uleb128 0x24
+ 925 002d 00       		.byte	0
+ 926 002e 0B       		.uleb128 0xb
+ 927 002f 0B       		.uleb128 0xb
+ 928 0030 3E       		.uleb128 0x3e
+ 929 0031 0B       		.uleb128 0xb
+ 930 0032 03       		.uleb128 0x3
+ 931 0033 08       		.uleb128 0x8
+ 932 0034 00       		.byte	0
+ 933 0035 00       		.byte	0
+ 934 0036 05       		.uleb128 0x5
+ARM GAS  C:\Users\fiona\AppData\Local\Temp\ccx2tiP4.s 			page 29
 
 
- 935 02ae 08       		.byte	0x8
- 936 02af 00       		.byte	0
- 937 02b0 03       		.uleb128 0x3
- 938 02b1 2D020000 		.4byte	.LASF42
- 939 02b5 05       		.byte	0x5
- 940 02b6 B1       		.byte	0xb1
- 941 02b7 83020000 		.4byte	0x283
- 942 02bb 07       		.uleb128 0x7
- 943 02bc 10       		.byte	0x10
- 944 02bd 06       		.byte	0x6
- 945 02be 08       		.byte	0x8
- 946 02bf F3020000 		.4byte	0x2f3
- 947 02c3 08       		.uleb128 0x8
- 948 02c4 69000000 		.4byte	.LASF43
- 949 02c8 06       		.byte	0x6
- 950 02c9 09       		.byte	0x9
- 951 02ca B8000000 		.4byte	0xb8
- 952 02ce 00       		.byte	0
- 953 02cf 0B       		.uleb128 0xb
- 954 02d0 696400   		.ascii	"id\000"
- 955 02d3 06       		.byte	0x6
- 956 02d4 0A       		.byte	0xa
- 957 02d5 A2000000 		.4byte	0xa2
- 958 02d9 04       		.byte	0x4
- 959 02da 08       		.uleb128 0x8
- 960 02db 38000000 		.4byte	.LASF44
- 961 02df 06       		.byte	0x6
- 962 02e0 0B       		.byte	0xb
- 963 02e1 97000000 		.4byte	0x97
- 964 02e5 06       		.byte	0x6
- 965 02e6 08       		.uleb128 0x8
- 966 02e7 28020000 		.4byte	.LASF45
- 967 02eb 06       		.byte	0x6
- 968 02ec 0C       		.byte	0xc
- 969 02ed F3020000 		.4byte	0x2f3
- 970 02f1 07       		.byte	0x7
- 971 02f2 00       		.byte	0
- 972 02f3 09       		.uleb128 0x9
- 973 02f4 97000000 		.4byte	0x97
- 974 02f8 03030000 		.4byte	0x303
- 975 02fc 0A       		.uleb128 0xa
- 976 02fd 19010000 		.4byte	0x119
- 977 0301 07       		.byte	0x7
- 978 0302 00       		.byte	0
- 979 0303 03       		.uleb128 0x3
- 980 0304 11020000 		.4byte	.LASF46
- 981 0308 06       		.byte	0x6
- 982 0309 0D       		.byte	0xd
- 983 030a BB020000 		.4byte	0x2bb
- 984 030e 0D       		.uleb128 0xd
- 985 030f 62020000 		.4byte	.LASF63
- 986 0313 01       		.byte	0x1
- 987 0314 35       		.byte	0x35
- 988 0315 C3000000 		.4byte	0xc3
- 989 0319 00000000 		.4byte	.LFB63
- 990 031d D8000000 		.4byte	.LFE63-.LFB63
- 991 0321 01       		.uleb128 0x1
-ARM GAS  C:\Users\fiona\AppData\Local\Temp\ccaZv034.s 			page 30
+ 935 0037 16       		.uleb128 0x16
+ 936 0038 00       		.byte	0
+ 937 0039 03       		.uleb128 0x3
+ 938 003a 0E       		.uleb128 0xe
+ 939 003b 3A       		.uleb128 0x3a
+ 940 003c 0B       		.uleb128 0xb
+ 941 003d 3B       		.uleb128 0x3b
+ 942 003e 05       		.uleb128 0x5
+ 943 003f 49       		.uleb128 0x49
+ 944 0040 13       		.uleb128 0x13
+ 945 0041 00       		.byte	0
+ 946 0042 00       		.byte	0
+ 947 0043 06       		.uleb128 0x6
+ 948 0044 35       		.uleb128 0x35
+ 949 0045 00       		.byte	0
+ 950 0046 49       		.uleb128 0x49
+ 951 0047 13       		.uleb128 0x13
+ 952 0048 00       		.byte	0
+ 953 0049 00       		.byte	0
+ 954 004a 07       		.uleb128 0x7
+ 955 004b 13       		.uleb128 0x13
+ 956 004c 01       		.byte	0x1
+ 957 004d 0B       		.uleb128 0xb
+ 958 004e 0B       		.uleb128 0xb
+ 959 004f 3A       		.uleb128 0x3a
+ 960 0050 0B       		.uleb128 0xb
+ 961 0051 3B       		.uleb128 0x3b
+ 962 0052 0B       		.uleb128 0xb
+ 963 0053 01       		.uleb128 0x1
+ 964 0054 13       		.uleb128 0x13
+ 965 0055 00       		.byte	0
+ 966 0056 00       		.byte	0
+ 967 0057 08       		.uleb128 0x8
+ 968 0058 0D       		.uleb128 0xd
+ 969 0059 00       		.byte	0
+ 970 005a 03       		.uleb128 0x3
+ 971 005b 0E       		.uleb128 0xe
+ 972 005c 3A       		.uleb128 0x3a
+ 973 005d 0B       		.uleb128 0xb
+ 974 005e 3B       		.uleb128 0x3b
+ 975 005f 0B       		.uleb128 0xb
+ 976 0060 49       		.uleb128 0x49
+ 977 0061 13       		.uleb128 0x13
+ 978 0062 38       		.uleb128 0x38
+ 979 0063 0B       		.uleb128 0xb
+ 980 0064 00       		.byte	0
+ 981 0065 00       		.byte	0
+ 982 0066 09       		.uleb128 0x9
+ 983 0067 01       		.uleb128 0x1
+ 984 0068 01       		.byte	0x1
+ 985 0069 49       		.uleb128 0x49
+ 986 006a 13       		.uleb128 0x13
+ 987 006b 01       		.uleb128 0x1
+ 988 006c 13       		.uleb128 0x13
+ 989 006d 00       		.byte	0
+ 990 006e 00       		.byte	0
+ 991 006f 0A       		.uleb128 0xa
+ARM GAS  C:\Users\fiona\AppData\Local\Temp\ccx2tiP4.s 			page 30
 
 
- 992 0322 9C       		.byte	0x9c
- 993 0323 8D030000 		.4byte	0x38d
- 994 0327 0E       		.uleb128 0xe
- 995 0328 47020000 		.4byte	.LASF51
- 996 032c 01       		.byte	0x1
- 997 032d 35       		.byte	0x35
- 998 032e 8D030000 		.4byte	0x38d
- 999 0332 00000000 		.4byte	.LLST0
- 1000 0336 0F       		.uleb128 0xf
- 1001 0337 6900     		.ascii	"i\000"
- 1002 0339 01       		.byte	0x1
- 1003 033a 37       		.byte	0x37
- 1004 033b C3000000 		.4byte	0xc3
- 1005 033f 21000000 		.4byte	.LLST1
- 1006 0343 0F       		.uleb128 0xf
- 1007 0344 6A00     		.ascii	"j\000"
- 1008 0346 01       		.byte	0x1
- 1009 0347 37       		.byte	0x37
- 1010 0348 C3000000 		.4byte	0xc3
- 1011 034c 4A000000 		.4byte	.LLST2
- 1012 0350 10       		.uleb128 0x10
- 1013 0351 1D010000 		.4byte	.LASF47
- 1014 0355 01       		.byte	0x1
- 1015 0356 37       		.byte	0x37
- 1016 0357 C3000000 		.4byte	0xc3
- 1017 035b 74000000 		.4byte	.LLST3
- 1018 035f 10       		.uleb128 0x10
- 1019 0360 58000000 		.4byte	.LASF48
- 1020 0364 01       		.byte	0x1
- 1021 0365 38       		.byte	0x38
- 1022 0366 C3000000 		.4byte	0xc3
- 1023 036a 9D000000 		.4byte	.LLST4
- 1024 036e 10       		.uleb128 0x10
- 1025 036f 00000000 		.4byte	.LASF49
- 1026 0373 01       		.byte	0x1
- 1027 0374 39       		.byte	0x39
- 1028 0375 C3000000 		.4byte	0xc3
- 1029 0379 C7000000 		.4byte	.LLST5
- 1030 037d 10       		.uleb128 0x10
- 1031 037e B5020000 		.4byte	.LASF50
- 1032 0382 01       		.byte	0x1
- 1033 0383 3A       		.byte	0x3a
- 1034 0384 CF000000 		.4byte	0xcf
- 1035 0388 FD000000 		.4byte	.LLST6
- 1036 038c 00       		.byte	0
- 1037 038d 0C       		.uleb128 0xc
- 1038 038e 04       		.byte	0x4
- 1039 038f 93030000 		.4byte	0x393
- 1040 0393 11       		.uleb128 0x11
- 1041 0394 10020000 		.4byte	0x210
- 1042 0398 12       		.uleb128 0x12
- 1043 0399 BD020000 		.4byte	.LASF53
- 1044 039d 01       		.byte	0x1
- 1045 039e B3       		.byte	0xb3
- 1046 039f 00000000 		.4byte	.LFB64
- 1047 03a3 1C000000 		.4byte	.LFE64-.LFB64
- 1048 03a7 01       		.uleb128 0x1
-ARM GAS  C:\Users\fiona\AppData\Local\Temp\ccaZv034.s 			page 31
+ 992 0070 21       		.uleb128 0x21
+ 993 0071 00       		.byte	0
+ 994 0072 49       		.uleb128 0x49
+ 995 0073 13       		.uleb128 0x13
+ 996 0074 2F       		.uleb128 0x2f
+ 997 0075 0B       		.uleb128 0xb
+ 998 0076 00       		.byte	0
+ 999 0077 00       		.byte	0
+ 1000 0078 0B       		.uleb128 0xb
+ 1001 0079 0D       		.uleb128 0xd
+ 1002 007a 00       		.byte	0
+ 1003 007b 03       		.uleb128 0x3
+ 1004 007c 08       		.uleb128 0x8
+ 1005 007d 3A       		.uleb128 0x3a
+ 1006 007e 0B       		.uleb128 0xb
+ 1007 007f 3B       		.uleb128 0x3b
+ 1008 0080 0B       		.uleb128 0xb
+ 1009 0081 49       		.uleb128 0x49
+ 1010 0082 13       		.uleb128 0x13
+ 1011 0083 38       		.uleb128 0x38
+ 1012 0084 0B       		.uleb128 0xb
+ 1013 0085 00       		.byte	0
+ 1014 0086 00       		.byte	0
+ 1015 0087 0C       		.uleb128 0xc
+ 1016 0088 0F       		.uleb128 0xf
+ 1017 0089 00       		.byte	0
+ 1018 008a 0B       		.uleb128 0xb
+ 1019 008b 0B       		.uleb128 0xb
+ 1020 008c 49       		.uleb128 0x49
+ 1021 008d 13       		.uleb128 0x13
+ 1022 008e 00       		.byte	0
+ 1023 008f 00       		.byte	0
+ 1024 0090 0D       		.uleb128 0xd
+ 1025 0091 2E       		.uleb128 0x2e
+ 1026 0092 01       		.byte	0x1
+ 1027 0093 3F       		.uleb128 0x3f
+ 1028 0094 19       		.uleb128 0x19
+ 1029 0095 03       		.uleb128 0x3
+ 1030 0096 0E       		.uleb128 0xe
+ 1031 0097 3A       		.uleb128 0x3a
+ 1032 0098 0B       		.uleb128 0xb
+ 1033 0099 3B       		.uleb128 0x3b
+ 1034 009a 0B       		.uleb128 0xb
+ 1035 009b 27       		.uleb128 0x27
+ 1036 009c 19       		.uleb128 0x19
+ 1037 009d 49       		.uleb128 0x49
+ 1038 009e 13       		.uleb128 0x13
+ 1039 009f 11       		.uleb128 0x11
+ 1040 00a0 01       		.uleb128 0x1
+ 1041 00a1 12       		.uleb128 0x12
+ 1042 00a2 06       		.uleb128 0x6
+ 1043 00a3 40       		.uleb128 0x40
+ 1044 00a4 18       		.uleb128 0x18
+ 1045 00a5 9742     		.uleb128 0x2117
+ 1046 00a7 19       		.uleb128 0x19
+ 1047 00a8 01       		.uleb128 0x1
+ 1048 00a9 13       		.uleb128 0x13
+ARM GAS  C:\Users\fiona\AppData\Local\Temp\ccx2tiP4.s 			page 31
 
 
- 1049 03a8 9C       		.byte	0x9c
- 1050 03a9 BD030000 		.4byte	0x3bd
- 1051 03ad 0E       		.uleb128 0xe
- 1052 03ae 6E020000 		.4byte	.LASF52
- 1053 03b2 01       		.byte	0x1
- 1054 03b3 B3       		.byte	0xb3
- 1055 03b4 C3000000 		.4byte	0xc3
- 1056 03b8 3D010000 		.4byte	.LLST7
- 1057 03bc 00       		.byte	0
- 1058 03bd 13       		.uleb128 0x13
- 1059 03be 20000000 		.4byte	.LASF54
- 1060 03c2 01       		.byte	0x1
- 1061 03c3 6F02     		.2byte	0x26f
- 1062 03c5 00000000 		.4byte	.LFB65
- 1063 03c9 64000000 		.4byte	.LFE65-.LFB65
- 1064 03cd 01       		.uleb128 0x1
- 1065 03ce 9C       		.byte	0x9c
- 1066 03cf 2B040000 		.4byte	0x42b
- 1067 03d3 14       		.uleb128 0x14
- 1068 03d4 ED010000 		.4byte	.LASF55
- 1069 03d8 01       		.byte	0x1
- 1070 03d9 6F02     		.2byte	0x26f
- 1071 03db C3000000 		.4byte	0xc3
- 1072 03df 5E010000 		.4byte	.LLST8
- 1073 03e3 15       		.uleb128 0x15
- 1074 03e4 12000000 		.4byte	.LBB2
- 1075 03e8 48000000 		.4byte	.LBE2-.LBB2
- 1076 03ec 16       		.uleb128 0x16
- 1077 03ed 6900     		.ascii	"i\000"
- 1078 03ef 01       		.byte	0x1
- 1079 03f0 7802     		.2byte	0x278
- 1080 03f2 97000000 		.4byte	0x97
- 1081 03f6 7F010000 		.4byte	.LLST9
- 1082 03fa 17       		.uleb128 0x17
- 1083 03fb 4F020000 		.4byte	.LASF56
- 1084 03ff 01       		.byte	0x1
- 1085 0400 7902     		.2byte	0x279
- 1086 0402 03030000 		.4byte	0x303
- 1087 0406 02       		.uleb128 0x2
- 1088 0407 91       		.byte	0x91
- 1089 0408 60       		.sleb128 -32
- 1090 0409 18       		.uleb128 0x18
- 1091 040a 1C020000 		.4byte	.LASF57
- 1092 040e 01       		.byte	0x1
- 1093 040f 7F02     		.2byte	0x27f
- 1094 0411 2B040000 		.4byte	0x42b
- 1095 0415 A9010000 		.4byte	.LLST10
- 1096 0419 19       		.uleb128 0x19
- 1097 041a 52000000 		.4byte	.LVL36
- 1098 041e 63040000 		.4byte	0x463
- 1099 0422 1A       		.uleb128 0x1a
- 1100 0423 01       		.uleb128 0x1
- 1101 0424 50       		.byte	0x50
- 1102 0425 02       		.uleb128 0x2
- 1103 0426 7D       		.byte	0x7d
- 1104 0427 00       		.sleb128 0
- 1105 0428 00       		.byte	0
-ARM GAS  C:\Users\fiona\AppData\Local\Temp\ccaZv034.s 			page 32
+ 1049 00aa 00       		.byte	0
+ 1050 00ab 00       		.byte	0
+ 1051 00ac 0E       		.uleb128 0xe
+ 1052 00ad 05       		.uleb128 0x5
+ 1053 00ae 00       		.byte	0
+ 1054 00af 03       		.uleb128 0x3
+ 1055 00b0 0E       		.uleb128 0xe
+ 1056 00b1 3A       		.uleb128 0x3a
+ 1057 00b2 0B       		.uleb128 0xb
+ 1058 00b3 3B       		.uleb128 0x3b
+ 1059 00b4 0B       		.uleb128 0xb
+ 1060 00b5 49       		.uleb128 0x49
+ 1061 00b6 13       		.uleb128 0x13
+ 1062 00b7 02       		.uleb128 0x2
+ 1063 00b8 17       		.uleb128 0x17
+ 1064 00b9 00       		.byte	0
+ 1065 00ba 00       		.byte	0
+ 1066 00bb 0F       		.uleb128 0xf
+ 1067 00bc 34       		.uleb128 0x34
+ 1068 00bd 00       		.byte	0
+ 1069 00be 03       		.uleb128 0x3
+ 1070 00bf 08       		.uleb128 0x8
+ 1071 00c0 3A       		.uleb128 0x3a
+ 1072 00c1 0B       		.uleb128 0xb
+ 1073 00c2 3B       		.uleb128 0x3b
+ 1074 00c3 0B       		.uleb128 0xb
+ 1075 00c4 49       		.uleb128 0x49
+ 1076 00c5 13       		.uleb128 0x13
+ 1077 00c6 02       		.uleb128 0x2
+ 1078 00c7 17       		.uleb128 0x17
+ 1079 00c8 00       		.byte	0
+ 1080 00c9 00       		.byte	0
+ 1081 00ca 10       		.uleb128 0x10
+ 1082 00cb 34       		.uleb128 0x34
+ 1083 00cc 00       		.byte	0
+ 1084 00cd 03       		.uleb128 0x3
+ 1085 00ce 0E       		.uleb128 0xe
+ 1086 00cf 3A       		.uleb128 0x3a
+ 1087 00d0 0B       		.uleb128 0xb
+ 1088 00d1 3B       		.uleb128 0x3b
+ 1089 00d2 0B       		.uleb128 0xb
+ 1090 00d3 49       		.uleb128 0x49
+ 1091 00d4 13       		.uleb128 0x13
+ 1092 00d5 02       		.uleb128 0x2
+ 1093 00d6 17       		.uleb128 0x17
+ 1094 00d7 00       		.byte	0
+ 1095 00d8 00       		.byte	0
+ 1096 00d9 11       		.uleb128 0x11
+ 1097 00da 26       		.uleb128 0x26
+ 1098 00db 00       		.byte	0
+ 1099 00dc 49       		.uleb128 0x49
+ 1100 00dd 13       		.uleb128 0x13
+ 1101 00de 00       		.byte	0
+ 1102 00df 00       		.byte	0
+ 1103 00e0 12       		.uleb128 0x12
+ 1104 00e1 2E       		.uleb128 0x2e
+ 1105 00e2 01       		.byte	0x1
+ARM GAS  C:\Users\fiona\AppData\Local\Temp\ccx2tiP4.s 			page 32
 
 
- 1106 0429 00       		.byte	0
- 1107 042a 00       		.byte	0
- 1108 042b 0C       		.uleb128 0xc
- 1109 042c 04       		.byte	0x4
- 1110 042d 03030000 		.4byte	0x303
- 1111 0431 1B       		.uleb128 0x1b
- 1112 0432 CA020000 		.4byte	.LASF58
- 1113 0436 07       		.byte	0x7
- 1114 0437 9606     		.2byte	0x696
- 1115 0439 3D040000 		.4byte	0x43d
- 1116 043d 06       		.uleb128 0x6
- 1117 043e AD000000 		.4byte	0xad
- 1118 0442 09       		.uleb128 0x9
- 1119 0443 89000000 		.4byte	0x89
- 1120 0447 52040000 		.4byte	0x452
- 1121 044b 0A       		.uleb128 0xa
- 1122 044c 19010000 		.4byte	0x119
- 1123 0450 EF       		.byte	0xef
- 1124 0451 00       		.byte	0
- 1125 0452 1C       		.uleb128 0x1c
- 1126 0453 06010000 		.4byte	.LASF59
- 1127 0457 06       		.byte	0x6
- 1128 0458 12       		.byte	0x12
- 1129 0459 42040000 		.4byte	0x442
- 1130 045d 05       		.uleb128 0x5
- 1131 045e 03       		.byte	0x3
- 1132 045f 00000000 		.4byte	SOC_LUT
- 1133 0463 1D       		.uleb128 0x1d
- 1134 0464 05020000 		.4byte	.LASF64
- 1135 0468 05020000 		.4byte	.LASF64
- 1136 046c 08       		.byte	0x8
- 1137 046d 0B       		.byte	0xb
- 1138 046e 00       		.byte	0
- 1139              		.section	.debug_abbrev,"",%progbits
- 1140              	.Ldebug_abbrev0:
- 1141 0000 01       		.uleb128 0x1
- 1142 0001 11       		.uleb128 0x11
- 1143 0002 01       		.byte	0x1
- 1144 0003 25       		.uleb128 0x25
- 1145 0004 0E       		.uleb128 0xe
- 1146 0005 13       		.uleb128 0x13
- 1147 0006 0B       		.uleb128 0xb
- 1148 0007 03       		.uleb128 0x3
- 1149 0008 0E       		.uleb128 0xe
- 1150 0009 1B       		.uleb128 0x1b
- 1151 000a 0E       		.uleb128 0xe
- 1152 000b 55       		.uleb128 0x55
- 1153 000c 17       		.uleb128 0x17
- 1154 000d 11       		.uleb128 0x11
- 1155 000e 01       		.uleb128 0x1
- 1156 000f 10       		.uleb128 0x10
- 1157 0010 17       		.uleb128 0x17
- 1158 0011 00       		.byte	0
- 1159 0012 00       		.byte	0
- 1160 0013 02       		.uleb128 0x2
- 1161 0014 24       		.uleb128 0x24
- 1162 0015 00       		.byte	0
-ARM GAS  C:\Users\fiona\AppData\Local\Temp\ccaZv034.s 			page 33
+ 1106 00e3 3F       		.uleb128 0x3f
+ 1107 00e4 19       		.uleb128 0x19
+ 1108 00e5 03       		.uleb128 0x3
+ 1109 00e6 0E       		.uleb128 0xe
+ 1110 00e7 3A       		.uleb128 0x3a
+ 1111 00e8 0B       		.uleb128 0xb
+ 1112 00e9 3B       		.uleb128 0x3b
+ 1113 00ea 0B       		.uleb128 0xb
+ 1114 00eb 27       		.uleb128 0x27
+ 1115 00ec 19       		.uleb128 0x19
+ 1116 00ed 11       		.uleb128 0x11
+ 1117 00ee 01       		.uleb128 0x1
+ 1118 00ef 12       		.uleb128 0x12
+ 1119 00f0 06       		.uleb128 0x6
+ 1120 00f1 40       		.uleb128 0x40
+ 1121 00f2 18       		.uleb128 0x18
+ 1122 00f3 9742     		.uleb128 0x2117
+ 1123 00f5 19       		.uleb128 0x19
+ 1124 00f6 01       		.uleb128 0x1
+ 1125 00f7 13       		.uleb128 0x13
+ 1126 00f8 00       		.byte	0
+ 1127 00f9 00       		.byte	0
+ 1128 00fa 13       		.uleb128 0x13
+ 1129 00fb 2E       		.uleb128 0x2e
+ 1130 00fc 01       		.byte	0x1
+ 1131 00fd 3F       		.uleb128 0x3f
+ 1132 00fe 19       		.uleb128 0x19
+ 1133 00ff 03       		.uleb128 0x3
+ 1134 0100 0E       		.uleb128 0xe
+ 1135 0101 3A       		.uleb128 0x3a
+ 1136 0102 0B       		.uleb128 0xb
+ 1137 0103 3B       		.uleb128 0x3b
+ 1138 0104 05       		.uleb128 0x5
+ 1139 0105 27       		.uleb128 0x27
+ 1140 0106 19       		.uleb128 0x19
+ 1141 0107 11       		.uleb128 0x11
+ 1142 0108 01       		.uleb128 0x1
+ 1143 0109 12       		.uleb128 0x12
+ 1144 010a 06       		.uleb128 0x6
+ 1145 010b 40       		.uleb128 0x40
+ 1146 010c 18       		.uleb128 0x18
+ 1147 010d 9742     		.uleb128 0x2117
+ 1148 010f 19       		.uleb128 0x19
+ 1149 0110 01       		.uleb128 0x1
+ 1150 0111 13       		.uleb128 0x13
+ 1151 0112 00       		.byte	0
+ 1152 0113 00       		.byte	0
+ 1153 0114 14       		.uleb128 0x14
+ 1154 0115 05       		.uleb128 0x5
+ 1155 0116 00       		.byte	0
+ 1156 0117 03       		.uleb128 0x3
+ 1157 0118 0E       		.uleb128 0xe
+ 1158 0119 3A       		.uleb128 0x3a
+ 1159 011a 0B       		.uleb128 0xb
+ 1160 011b 3B       		.uleb128 0x3b
+ 1161 011c 05       		.uleb128 0x5
+ 1162 011d 49       		.uleb128 0x49
+ARM GAS  C:\Users\fiona\AppData\Local\Temp\ccx2tiP4.s 			page 33
 
 
- 1163 0016 0B       		.uleb128 0xb
- 1164 0017 0B       		.uleb128 0xb
- 1165 0018 3E       		.uleb128 0x3e
- 1166 0019 0B       		.uleb128 0xb
- 1167 001a 03       		.uleb128 0x3
- 1168 001b 0E       		.uleb128 0xe
- 1169 001c 00       		.byte	0
- 1170 001d 00       		.byte	0
- 1171 001e 03       		.uleb128 0x3
- 1172 001f 16       		.uleb128 0x16
- 1173 0020 00       		.byte	0
- 1174 0021 03       		.uleb128 0x3
- 1175 0022 0E       		.uleb128 0xe
- 1176 0023 3A       		.uleb128 0x3a
- 1177 0024 0B       		.uleb128 0xb
- 1178 0025 3B       		.uleb128 0x3b
- 1179 0026 0B       		.uleb128 0xb
- 1180 0027 49       		.uleb128 0x49
- 1181 0028 13       		.uleb128 0x13
- 1182 0029 00       		.byte	0
- 1183 002a 00       		.byte	0
- 1184 002b 04       		.uleb128 0x4
- 1185 002c 24       		.uleb128 0x24
- 1186 002d 00       		.byte	0
- 1187 002e 0B       		.uleb128 0xb
- 1188 002f 0B       		.uleb128 0xb
- 1189 0030 3E       		.uleb128 0x3e
- 1190 0031 0B       		.uleb128 0xb
- 1191 0032 03       		.uleb128 0x3
- 1192 0033 08       		.uleb128 0x8
- 1193 0034 00       		.byte	0
- 1194 0035 00       		.byte	0
- 1195 0036 05       		.uleb128 0x5
- 1196 0037 16       		.uleb128 0x16
- 1197 0038 00       		.byte	0
- 1198 0039 03       		.uleb128 0x3
- 1199 003a 0E       		.uleb128 0xe
- 1200 003b 3A       		.uleb128 0x3a
- 1201 003c 0B       		.uleb128 0xb
- 1202 003d 3B       		.uleb128 0x3b
- 1203 003e 05       		.uleb128 0x5
- 1204 003f 49       		.uleb128 0x49
- 1205 0040 13       		.uleb128 0x13
- 1206 0041 00       		.byte	0
- 1207 0042 00       		.byte	0
- 1208 0043 06       		.uleb128 0x6
- 1209 0044 35       		.uleb128 0x35
- 1210 0045 00       		.byte	0
- 1211 0046 49       		.uleb128 0x49
- 1212 0047 13       		.uleb128 0x13
- 1213 0048 00       		.byte	0
- 1214 0049 00       		.byte	0
- 1215 004a 07       		.uleb128 0x7
- 1216 004b 13       		.uleb128 0x13
- 1217 004c 01       		.byte	0x1
- 1218 004d 0B       		.uleb128 0xb
- 1219 004e 0B       		.uleb128 0xb
-ARM GAS  C:\Users\fiona\AppData\Local\Temp\ccaZv034.s 			page 34
+ 1163 011e 13       		.uleb128 0x13
+ 1164 011f 02       		.uleb128 0x2
+ 1165 0120 17       		.uleb128 0x17
+ 1166 0121 00       		.byte	0
+ 1167 0122 00       		.byte	0
+ 1168 0123 15       		.uleb128 0x15
+ 1169 0124 0B       		.uleb128 0xb
+ 1170 0125 01       		.byte	0x1
+ 1171 0126 11       		.uleb128 0x11
+ 1172 0127 01       		.uleb128 0x1
+ 1173 0128 12       		.uleb128 0x12
+ 1174 0129 06       		.uleb128 0x6
+ 1175 012a 00       		.byte	0
+ 1176 012b 00       		.byte	0
+ 1177 012c 16       		.uleb128 0x16
+ 1178 012d 34       		.uleb128 0x34
+ 1179 012e 00       		.byte	0
+ 1180 012f 03       		.uleb128 0x3
+ 1181 0130 08       		.uleb128 0x8
+ 1182 0131 3A       		.uleb128 0x3a
+ 1183 0132 0B       		.uleb128 0xb
+ 1184 0133 3B       		.uleb128 0x3b
+ 1185 0134 05       		.uleb128 0x5
+ 1186 0135 49       		.uleb128 0x49
+ 1187 0136 13       		.uleb128 0x13
+ 1188 0137 02       		.uleb128 0x2
+ 1189 0138 17       		.uleb128 0x17
+ 1190 0139 00       		.byte	0
+ 1191 013a 00       		.byte	0
+ 1192 013b 17       		.uleb128 0x17
+ 1193 013c 34       		.uleb128 0x34
+ 1194 013d 00       		.byte	0
+ 1195 013e 03       		.uleb128 0x3
+ 1196 013f 0E       		.uleb128 0xe
+ 1197 0140 3A       		.uleb128 0x3a
+ 1198 0141 0B       		.uleb128 0xb
+ 1199 0142 3B       		.uleb128 0x3b
+ 1200 0143 05       		.uleb128 0x5
+ 1201 0144 49       		.uleb128 0x49
+ 1202 0145 13       		.uleb128 0x13
+ 1203 0146 02       		.uleb128 0x2
+ 1204 0147 18       		.uleb128 0x18
+ 1205 0148 00       		.byte	0
+ 1206 0149 00       		.byte	0
+ 1207 014a 18       		.uleb128 0x18
+ 1208 014b 34       		.uleb128 0x34
+ 1209 014c 00       		.byte	0
+ 1210 014d 03       		.uleb128 0x3
+ 1211 014e 0E       		.uleb128 0xe
+ 1212 014f 3A       		.uleb128 0x3a
+ 1213 0150 0B       		.uleb128 0xb
+ 1214 0151 3B       		.uleb128 0x3b
+ 1215 0152 05       		.uleb128 0x5
+ 1216 0153 49       		.uleb128 0x49
+ 1217 0154 13       		.uleb128 0x13
+ 1218 0155 02       		.uleb128 0x2
+ 1219 0156 17       		.uleb128 0x17
+ARM GAS  C:\Users\fiona\AppData\Local\Temp\ccx2tiP4.s 			page 34
 
 
- 1220 004f 3A       		.uleb128 0x3a
- 1221 0050 0B       		.uleb128 0xb
- 1222 0051 3B       		.uleb128 0x3b
- 1223 0052 0B       		.uleb128 0xb
- 1224 0053 01       		.uleb128 0x1
- 1225 0054 13       		.uleb128 0x13
- 1226 0055 00       		.byte	0
- 1227 0056 00       		.byte	0
- 1228 0057 08       		.uleb128 0x8
- 1229 0058 0D       		.uleb128 0xd
- 1230 0059 00       		.byte	0
- 1231 005a 03       		.uleb128 0x3
- 1232 005b 0E       		.uleb128 0xe
- 1233 005c 3A       		.uleb128 0x3a
- 1234 005d 0B       		.uleb128 0xb
- 1235 005e 3B       		.uleb128 0x3b
- 1236 005f 0B       		.uleb128 0xb
- 1237 0060 49       		.uleb128 0x49
- 1238 0061 13       		.uleb128 0x13
- 1239 0062 38       		.uleb128 0x38
- 1240 0063 0B       		.uleb128 0xb
- 1241 0064 00       		.byte	0
- 1242 0065 00       		.byte	0
- 1243 0066 09       		.uleb128 0x9
- 1244 0067 01       		.uleb128 0x1
- 1245 0068 01       		.byte	0x1
- 1246 0069 49       		.uleb128 0x49
- 1247 006a 13       		.uleb128 0x13
- 1248 006b 01       		.uleb128 0x1
- 1249 006c 13       		.uleb128 0x13
- 1250 006d 00       		.byte	0
- 1251 006e 00       		.byte	0
- 1252 006f 0A       		.uleb128 0xa
- 1253 0070 21       		.uleb128 0x21
- 1254 0071 00       		.byte	0
- 1255 0072 49       		.uleb128 0x49
- 1256 0073 13       		.uleb128 0x13
- 1257 0074 2F       		.uleb128 0x2f
- 1258 0075 0B       		.uleb128 0xb
- 1259 0076 00       		.byte	0
- 1260 0077 00       		.byte	0
- 1261 0078 0B       		.uleb128 0xb
- 1262 0079 0D       		.uleb128 0xd
- 1263 007a 00       		.byte	0
- 1264 007b 03       		.uleb128 0x3
- 1265 007c 08       		.uleb128 0x8
- 1266 007d 3A       		.uleb128 0x3a
- 1267 007e 0B       		.uleb128 0xb
- 1268 007f 3B       		.uleb128 0x3b
- 1269 0080 0B       		.uleb128 0xb
- 1270 0081 49       		.uleb128 0x49
- 1271 0082 13       		.uleb128 0x13
- 1272 0083 38       		.uleb128 0x38
- 1273 0084 0B       		.uleb128 0xb
- 1274 0085 00       		.byte	0
- 1275 0086 00       		.byte	0
- 1276 0087 0C       		.uleb128 0xc
-ARM GAS  C:\Users\fiona\AppData\Local\Temp\ccaZv034.s 			page 35
+ 1220 0157 00       		.byte	0
+ 1221 0158 00       		.byte	0
+ 1222 0159 19       		.uleb128 0x19
+ 1223 015a 898201   		.uleb128 0x4109
+ 1224 015d 01       		.byte	0x1
+ 1225 015e 11       		.uleb128 0x11
+ 1226 015f 01       		.uleb128 0x1
+ 1227 0160 31       		.uleb128 0x31
+ 1228 0161 13       		.uleb128 0x13
+ 1229 0162 00       		.byte	0
+ 1230 0163 00       		.byte	0
+ 1231 0164 1A       		.uleb128 0x1a
+ 1232 0165 8A8201   		.uleb128 0x410a
+ 1233 0168 00       		.byte	0
+ 1234 0169 02       		.uleb128 0x2
+ 1235 016a 18       		.uleb128 0x18
+ 1236 016b 9142     		.uleb128 0x2111
+ 1237 016d 18       		.uleb128 0x18
+ 1238 016e 00       		.byte	0
+ 1239 016f 00       		.byte	0
+ 1240 0170 1B       		.uleb128 0x1b
+ 1241 0171 34       		.uleb128 0x34
+ 1242 0172 00       		.byte	0
+ 1243 0173 03       		.uleb128 0x3
+ 1244 0174 0E       		.uleb128 0xe
+ 1245 0175 3A       		.uleb128 0x3a
+ 1246 0176 0B       		.uleb128 0xb
+ 1247 0177 3B       		.uleb128 0x3b
+ 1248 0178 05       		.uleb128 0x5
+ 1249 0179 49       		.uleb128 0x49
+ 1250 017a 13       		.uleb128 0x13
+ 1251 017b 3F       		.uleb128 0x3f
+ 1252 017c 19       		.uleb128 0x19
+ 1253 017d 3C       		.uleb128 0x3c
+ 1254 017e 19       		.uleb128 0x19
+ 1255 017f 00       		.byte	0
+ 1256 0180 00       		.byte	0
+ 1257 0181 1C       		.uleb128 0x1c
+ 1258 0182 2E       		.uleb128 0x2e
+ 1259 0183 00       		.byte	0
+ 1260 0184 3F       		.uleb128 0x3f
+ 1261 0185 19       		.uleb128 0x19
+ 1262 0186 3C       		.uleb128 0x3c
+ 1263 0187 19       		.uleb128 0x19
+ 1264 0188 6E       		.uleb128 0x6e
+ 1265 0189 0E       		.uleb128 0xe
+ 1266 018a 03       		.uleb128 0x3
+ 1267 018b 0E       		.uleb128 0xe
+ 1268 018c 3A       		.uleb128 0x3a
+ 1269 018d 0B       		.uleb128 0xb
+ 1270 018e 3B       		.uleb128 0x3b
+ 1271 018f 0B       		.uleb128 0xb
+ 1272 0190 00       		.byte	0
+ 1273 0191 00       		.byte	0
+ 1274 0192 00       		.byte	0
+ 1275              		.section	.debug_loc,"",%progbits
+ 1276              	.Ldebug_loc0:
+ARM GAS  C:\Users\fiona\AppData\Local\Temp\ccx2tiP4.s 			page 35
 
 
- 1277 0088 0F       		.uleb128 0xf
- 1278 0089 00       		.byte	0
- 1279 008a 0B       		.uleb128 0xb
- 1280 008b 0B       		.uleb128 0xb
- 1281 008c 49       		.uleb128 0x49
- 1282 008d 13       		.uleb128 0x13
- 1283 008e 00       		.byte	0
- 1284 008f 00       		.byte	0
- 1285 0090 0D       		.uleb128 0xd
- 1286 0091 2E       		.uleb128 0x2e
- 1287 0092 01       		.byte	0x1
- 1288 0093 3F       		.uleb128 0x3f
- 1289 0094 19       		.uleb128 0x19
- 1290 0095 03       		.uleb128 0x3
- 1291 0096 0E       		.uleb128 0xe
- 1292 0097 3A       		.uleb128 0x3a
- 1293 0098 0B       		.uleb128 0xb
- 1294 0099 3B       		.uleb128 0x3b
- 1295 009a 0B       		.uleb128 0xb
- 1296 009b 27       		.uleb128 0x27
- 1297 009c 19       		.uleb128 0x19
- 1298 009d 49       		.uleb128 0x49
- 1299 009e 13       		.uleb128 0x13
- 1300 009f 11       		.uleb128 0x11
- 1301 00a0 01       		.uleb128 0x1
- 1302 00a1 12       		.uleb128 0x12
- 1303 00a2 06       		.uleb128 0x6
- 1304 00a3 40       		.uleb128 0x40
- 1305 00a4 18       		.uleb128 0x18
- 1306 00a5 9742     		.uleb128 0x2117
- 1307 00a7 19       		.uleb128 0x19
- 1308 00a8 01       		.uleb128 0x1
- 1309 00a9 13       		.uleb128 0x13
- 1310 00aa 00       		.byte	0
- 1311 00ab 00       		.byte	0
- 1312 00ac 0E       		.uleb128 0xe
- 1313 00ad 05       		.uleb128 0x5
- 1314 00ae 00       		.byte	0
- 1315 00af 03       		.uleb128 0x3
- 1316 00b0 0E       		.uleb128 0xe
- 1317 00b1 3A       		.uleb128 0x3a
- 1318 00b2 0B       		.uleb128 0xb
- 1319 00b3 3B       		.uleb128 0x3b
- 1320 00b4 0B       		.uleb128 0xb
- 1321 00b5 49       		.uleb128 0x49
- 1322 00b6 13       		.uleb128 0x13
- 1323 00b7 02       		.uleb128 0x2
- 1324 00b8 17       		.uleb128 0x17
- 1325 00b9 00       		.byte	0
- 1326 00ba 00       		.byte	0
- 1327 00bb 0F       		.uleb128 0xf
- 1328 00bc 34       		.uleb128 0x34
- 1329 00bd 00       		.byte	0
- 1330 00be 03       		.uleb128 0x3
- 1331 00bf 08       		.uleb128 0x8
- 1332 00c0 3A       		.uleb128 0x3a
- 1333 00c1 0B       		.uleb128 0xb
-ARM GAS  C:\Users\fiona\AppData\Local\Temp\ccaZv034.s 			page 36
+ 1277              	.LLST0:
+ 1278 0000 00000000 		.4byte	.LVL0
+ 1279 0004 C4000000 		.4byte	.LVL25
+ 1280 0008 0100     		.2byte	0x1
+ 1281 000a 50       		.byte	0x50
+ 1282 000b C4000000 		.4byte	.LVL25
+ 1283 000f D8000000 		.4byte	.LFE63
+ 1284 0013 0400     		.2byte	0x4
+ 1285 0015 F3       		.byte	0xf3
+ 1286 0016 01       		.uleb128 0x1
+ 1287 0017 50       		.byte	0x50
+ 1288 0018 9F       		.byte	0x9f
+ 1289 0019 00000000 		.4byte	0
+ 1290 001d 00000000 		.4byte	0
+ 1291              	.LLST1:
+ 1292 0021 08000000 		.4byte	.LVL2
+ 1293 0025 AC000000 		.4byte	.LVL19
+ 1294 0029 0100     		.2byte	0x1
+ 1295 002b 54       		.byte	0x54
+ 1296 002c AE000000 		.4byte	.LVL20
+ 1297 0030 B0000000 		.4byte	.LVL21
+ 1298 0034 0100     		.2byte	0x1
+ 1299 0036 54       		.byte	0x54
+ 1300 0037 B4000000 		.4byte	.LVL22
+ 1301 003b BE000000 		.4byte	.LVL24
+ 1302 003f 0100     		.2byte	0x1
+ 1303 0041 54       		.byte	0x54
+ 1304 0042 00000000 		.4byte	0
+ 1305 0046 00000000 		.4byte	0
+ 1306              	.LLST2:
+ 1307 004a 56000000 		.4byte	.LVL10
+ 1308 004e 5A000000 		.4byte	.LVL11
+ 1309 0052 0200     		.2byte	0x2
+ 1310 0054 30       		.byte	0x30
+ 1311 0055 9F       		.byte	0x9f
+ 1312 0056 5A000000 		.4byte	.LVL11
+ 1313 005a 78000000 		.4byte	.LVL12
+ 1314 005e 0100     		.2byte	0x1
+ 1315 0060 53       		.byte	0x53
+ 1316 0061 7A000000 		.4byte	.LVL13
+ 1317 0065 8A000000 		.4byte	.LVL14
+ 1318 0069 0100     		.2byte	0x1
+ 1319 006b 53       		.byte	0x53
+ 1320 006c 00000000 		.4byte	0
+ 1321 0070 00000000 		.4byte	0
+ 1322              	.LLST3:
+ 1323 0074 08000000 		.4byte	.LVL2
+ 1324 0078 A6000000 		.4byte	.LVL17
+ 1325 007c 0100     		.2byte	0x1
+ 1326 007e 56       		.byte	0x56
+ 1327 007f A8000000 		.4byte	.LVL18
+ 1328 0083 B0000000 		.4byte	.LVL21
+ 1329 0087 0100     		.2byte	0x1
+ 1330 0089 56       		.byte	0x56
+ 1331 008a B4000000 		.4byte	.LVL22
+ 1332 008e BE000000 		.4byte	.LVL24
+ 1333 0092 0100     		.2byte	0x1
+ARM GAS  C:\Users\fiona\AppData\Local\Temp\ccx2tiP4.s 			page 36
 
 
- 1334 00c2 3B       		.uleb128 0x3b
- 1335 00c3 0B       		.uleb128 0xb
- 1336 00c4 49       		.uleb128 0x49
- 1337 00c5 13       		.uleb128 0x13
- 1338 00c6 02       		.uleb128 0x2
- 1339 00c7 17       		.uleb128 0x17
- 1340 00c8 00       		.byte	0
- 1341 00c9 00       		.byte	0
- 1342 00ca 10       		.uleb128 0x10
- 1343 00cb 34       		.uleb128 0x34
- 1344 00cc 00       		.byte	0
- 1345 00cd 03       		.uleb128 0x3
- 1346 00ce 0E       		.uleb128 0xe
- 1347 00cf 3A       		.uleb128 0x3a
- 1348 00d0 0B       		.uleb128 0xb
- 1349 00d1 3B       		.uleb128 0x3b
- 1350 00d2 0B       		.uleb128 0xb
- 1351 00d3 49       		.uleb128 0x49
- 1352 00d4 13       		.uleb128 0x13
- 1353 00d5 02       		.uleb128 0x2
- 1354 00d6 17       		.uleb128 0x17
- 1355 00d7 00       		.byte	0
- 1356 00d8 00       		.byte	0
- 1357 00d9 11       		.uleb128 0x11
- 1358 00da 26       		.uleb128 0x26
- 1359 00db 00       		.byte	0
- 1360 00dc 49       		.uleb128 0x49
- 1361 00dd 13       		.uleb128 0x13
- 1362 00de 00       		.byte	0
- 1363 00df 00       		.byte	0
- 1364 00e0 12       		.uleb128 0x12
- 1365 00e1 2E       		.uleb128 0x2e
- 1366 00e2 01       		.byte	0x1
- 1367 00e3 3F       		.uleb128 0x3f
- 1368 00e4 19       		.uleb128 0x19
- 1369 00e5 03       		.uleb128 0x3
- 1370 00e6 0E       		.uleb128 0xe
- 1371 00e7 3A       		.uleb128 0x3a
- 1372 00e8 0B       		.uleb128 0xb
- 1373 00e9 3B       		.uleb128 0x3b
- 1374 00ea 0B       		.uleb128 0xb
- 1375 00eb 27       		.uleb128 0x27
- 1376 00ec 19       		.uleb128 0x19
- 1377 00ed 11       		.uleb128 0x11
- 1378 00ee 01       		.uleb128 0x1
- 1379 00ef 12       		.uleb128 0x12
- 1380 00f0 06       		.uleb128 0x6
- 1381 00f1 40       		.uleb128 0x40
- 1382 00f2 18       		.uleb128 0x18
- 1383 00f3 9742     		.uleb128 0x2117
- 1384 00f5 19       		.uleb128 0x19
- 1385 00f6 01       		.uleb128 0x1
- 1386 00f7 13       		.uleb128 0x13
- 1387 00f8 00       		.byte	0
- 1388 00f9 00       		.byte	0
- 1389 00fa 13       		.uleb128 0x13
- 1390 00fb 2E       		.uleb128 0x2e
-ARM GAS  C:\Users\fiona\AppData\Local\Temp\ccaZv034.s 			page 37
+ 1334 0094 56       		.byte	0x56
+ 1335 0095 00000000 		.4byte	0
+ 1336 0099 00000000 		.4byte	0
+ 1337              	.LLST4:
+ 1338 009d 02000000 		.4byte	.LVL1
+ 1339 00a1 08000000 		.4byte	.LVL2
+ 1340 00a5 0200     		.2byte	0x2
+ 1341 00a7 30       		.byte	0x30
+ 1342 00a8 9F       		.byte	0x9f
+ 1343 00a9 08000000 		.4byte	.LVL2
+ 1344 00ad BC000000 		.4byte	.LVL23
+ 1345 00b1 0100     		.2byte	0x1
+ 1346 00b3 57       		.byte	0x57
+ 1347 00b4 BE000000 		.4byte	.LVL24
+ 1348 00b8 C6000000 		.4byte	.LVL26
+ 1349 00bc 0100     		.2byte	0x1
+ 1350 00be 57       		.byte	0x57
+ 1351 00bf 00000000 		.4byte	0
+ 1352 00c3 00000000 		.4byte	0
+ 1353              	.LLST5:
+ 1354 00c7 02000000 		.4byte	.LVL1
+ 1355 00cb 08000000 		.4byte	.LVL2
+ 1356 00cf 0200     		.2byte	0x2
+ 1357 00d1 31       		.byte	0x31
+ 1358 00d2 9F       		.byte	0x9f
+ 1359 00d3 08000000 		.4byte	.LVL2
+ 1360 00d7 1A000000 		.4byte	.LVL5
+ 1361 00db 0100     		.2byte	0x1
+ 1362 00dd 52       		.byte	0x52
+ 1363 00de A2000000 		.4byte	.LVL15
+ 1364 00e2 A4000000 		.4byte	.LVL16
+ 1365 00e6 0200     		.2byte	0x2
+ 1366 00e8 30       		.byte	0x30
+ 1367 00e9 9F       		.byte	0x9f
+ 1368 00ea A4000000 		.4byte	.LVL16
+ 1369 00ee D8000000 		.4byte	.LFE63
+ 1370 00f2 0100     		.2byte	0x1
+ 1371 00f4 52       		.byte	0x52
+ 1372 00f5 00000000 		.4byte	0
+ 1373 00f9 00000000 		.4byte	0
+ 1374              	.LLST6:
+ 1375 00fd 10000000 		.4byte	.LVL3
+ 1376 0101 18000000 		.4byte	.LVL4
+ 1377 0105 0200     		.2byte	0x2
+ 1378 0107 30       		.byte	0x30
+ 1379 0108 9F       		.byte	0x9f
+ 1380 0109 18000000 		.4byte	.LVL4
+ 1381 010d 48000000 		.4byte	.LVL7
+ 1382 0111 0100     		.2byte	0x1
+ 1383 0113 53       		.byte	0x53
+ 1384 0114 48000000 		.4byte	.LVL7
+ 1385 0118 4A000000 		.4byte	.LVL8
+ 1386 011c 0100     		.2byte	0x1
+ 1387 011e 5E       		.byte	0x5e
+ 1388 011f 4A000000 		.4byte	.LVL8
+ 1389 0123 4E000000 		.4byte	.LVL9
+ 1390 0127 0100     		.2byte	0x1
+ARM GAS  C:\Users\fiona\AppData\Local\Temp\ccx2tiP4.s 			page 37
 
 
- 1391 00fc 01       		.byte	0x1
- 1392 00fd 3F       		.uleb128 0x3f
- 1393 00fe 19       		.uleb128 0x19
- 1394 00ff 03       		.uleb128 0x3
- 1395 0100 0E       		.uleb128 0xe
- 1396 0101 3A       		.uleb128 0x3a
- 1397 0102 0B       		.uleb128 0xb
- 1398 0103 3B       		.uleb128 0x3b
- 1399 0104 05       		.uleb128 0x5
- 1400 0105 27       		.uleb128 0x27
- 1401 0106 19       		.uleb128 0x19
- 1402 0107 11       		.uleb128 0x11
- 1403 0108 01       		.uleb128 0x1
- 1404 0109 12       		.uleb128 0x12
- 1405 010a 06       		.uleb128 0x6
- 1406 010b 40       		.uleb128 0x40
- 1407 010c 18       		.uleb128 0x18
- 1408 010d 9742     		.uleb128 0x2117
- 1409 010f 19       		.uleb128 0x19
- 1410 0110 01       		.uleb128 0x1
- 1411 0111 13       		.uleb128 0x13
- 1412 0112 00       		.byte	0
- 1413 0113 00       		.byte	0
- 1414 0114 14       		.uleb128 0x14
- 1415 0115 05       		.uleb128 0x5
- 1416 0116 00       		.byte	0
- 1417 0117 03       		.uleb128 0x3
- 1418 0118 0E       		.uleb128 0xe
- 1419 0119 3A       		.uleb128 0x3a
- 1420 011a 0B       		.uleb128 0xb
- 1421 011b 3B       		.uleb128 0x3b
- 1422 011c 05       		.uleb128 0x5
- 1423 011d 49       		.uleb128 0x49
- 1424 011e 13       		.uleb128 0x13
- 1425 011f 02       		.uleb128 0x2
- 1426 0120 17       		.uleb128 0x17
- 1427 0121 00       		.byte	0
- 1428 0122 00       		.byte	0
- 1429 0123 15       		.uleb128 0x15
- 1430 0124 0B       		.uleb128 0xb
- 1431 0125 01       		.byte	0x1
- 1432 0126 11       		.uleb128 0x11
- 1433 0127 01       		.uleb128 0x1
- 1434 0128 12       		.uleb128 0x12
- 1435 0129 06       		.uleb128 0x6
- 1436 012a 00       		.byte	0
- 1437 012b 00       		.byte	0
- 1438 012c 16       		.uleb128 0x16
- 1439 012d 34       		.uleb128 0x34
- 1440 012e 00       		.byte	0
- 1441 012f 03       		.uleb128 0x3
- 1442 0130 08       		.uleb128 0x8
- 1443 0131 3A       		.uleb128 0x3a
- 1444 0132 0B       		.uleb128 0xb
- 1445 0133 3B       		.uleb128 0x3b
- 1446 0134 05       		.uleb128 0x5
- 1447 0135 49       		.uleb128 0x49
-ARM GAS  C:\Users\fiona\AppData\Local\Temp\ccaZv034.s 			page 38
+ 1391 0129 53       		.byte	0x53
+ 1392 012a 4E000000 		.4byte	.LVL9
+ 1393 012e A4000000 		.4byte	.LVL16
+ 1394 0132 0100     		.2byte	0x1
+ 1395 0134 5E       		.byte	0x5e
+ 1396 0135 00000000 		.4byte	0
+ 1397 0139 00000000 		.4byte	0
+ 1398              	.LLST7:
+ 1399 013d 00000000 		.4byte	.LVL27
+ 1400 0141 06000000 		.4byte	.LVL28
+ 1401 0145 0100     		.2byte	0x1
+ 1402 0147 50       		.byte	0x50
+ 1403 0148 06000000 		.4byte	.LVL28
+ 1404 014c 1C000000 		.4byte	.LFE64
+ 1405 0150 0400     		.2byte	0x4
+ 1406 0152 F3       		.byte	0xf3
+ 1407 0153 01       		.uleb128 0x1
+ 1408 0154 50       		.byte	0x50
+ 1409 0155 9F       		.byte	0x9f
+ 1410 0156 00000000 		.4byte	0
+ 1411 015a 00000000 		.4byte	0
+ 1412              	.LLST8:
+ 1413 015e 00000000 		.4byte	.LVL29
+ 1414 0162 2C000000 		.4byte	.LVL30
+ 1415 0166 0100     		.2byte	0x1
+ 1416 0168 50       		.byte	0x50
+ 1417 0169 2C000000 		.4byte	.LVL30
+ 1418 016d 64000000 		.4byte	.LFE65
+ 1419 0171 0400     		.2byte	0x4
+ 1420 0173 F3       		.byte	0xf3
+ 1421 0174 01       		.uleb128 0x1
+ 1422 0175 50       		.byte	0x50
+ 1423 0176 9F       		.byte	0x9f
+ 1424 0177 00000000 		.4byte	0
+ 1425 017b 00000000 		.4byte	0
+ 1426              	.LLST9:
+ 1427 017f 34000000 		.4byte	.LVL31
+ 1428 0183 38000000 		.4byte	.LVL32
+ 1429 0187 0200     		.2byte	0x2
+ 1430 0189 30       		.byte	0x30
+ 1431 018a 9F       		.byte	0x9f
+ 1432 018b 38000000 		.4byte	.LVL32
+ 1433 018f 46000000 		.4byte	.LVL33
+ 1434 0193 0100     		.2byte	0x1
+ 1435 0195 53       		.byte	0x53
+ 1436 0196 48000000 		.4byte	.LVL34
+ 1437 019a 51000000 		.4byte	.LVL36-1
+ 1438 019e 0100     		.2byte	0x1
+ 1439 01a0 53       		.byte	0x53
+ 1440 01a1 00000000 		.4byte	0
+ 1441 01a5 00000000 		.4byte	0
+ 1442              	.LLST10:
+ 1443 01a9 4C000000 		.4byte	.LVL35
+ 1444 01ad 5A000000 		.4byte	.LVL37
+ 1445 01b1 0100     		.2byte	0x1
+ 1446 01b3 5D       		.byte	0x5d
+ 1447 01b4 00000000 		.4byte	0
+ARM GAS  C:\Users\fiona\AppData\Local\Temp\ccx2tiP4.s 			page 38
 
 
- 1448 0136 13       		.uleb128 0x13
- 1449 0137 02       		.uleb128 0x2
- 1450 0138 17       		.uleb128 0x17
- 1451 0139 00       		.byte	0
- 1452 013a 00       		.byte	0
- 1453 013b 17       		.uleb128 0x17
- 1454 013c 34       		.uleb128 0x34
- 1455 013d 00       		.byte	0
- 1456 013e 03       		.uleb128 0x3
- 1457 013f 0E       		.uleb128 0xe
- 1458 0140 3A       		.uleb128 0x3a
- 1459 0141 0B       		.uleb128 0xb
- 1460 0142 3B       		.uleb128 0x3b
- 1461 0143 05       		.uleb128 0x5
- 1462 0144 49       		.uleb128 0x49
- 1463 0145 13       		.uleb128 0x13
- 1464 0146 02       		.uleb128 0x2
- 1465 0147 18       		.uleb128 0x18
- 1466 0148 00       		.byte	0
- 1467 0149 00       		.byte	0
- 1468 014a 18       		.uleb128 0x18
- 1469 014b 34       		.uleb128 0x34
- 1470 014c 00       		.byte	0
- 1471 014d 03       		.uleb128 0x3
- 1472 014e 0E       		.uleb128 0xe
- 1473 014f 3A       		.uleb128 0x3a
- 1474 0150 0B       		.uleb128 0xb
- 1475 0151 3B       		.uleb128 0x3b
- 1476 0152 05       		.uleb128 0x5
- 1477 0153 49       		.uleb128 0x49
- 1478 0154 13       		.uleb128 0x13
- 1479 0155 02       		.uleb128 0x2
- 1480 0156 17       		.uleb128 0x17
- 1481 0157 00       		.byte	0
- 1482 0158 00       		.byte	0
- 1483 0159 19       		.uleb128 0x19
- 1484 015a 898201   		.uleb128 0x4109
- 1485 015d 01       		.byte	0x1
- 1486 015e 11       		.uleb128 0x11
- 1487 015f 01       		.uleb128 0x1
- 1488 0160 31       		.uleb128 0x31
- 1489 0161 13       		.uleb128 0x13
- 1490 0162 00       		.byte	0
- 1491 0163 00       		.byte	0
- 1492 0164 1A       		.uleb128 0x1a
- 1493 0165 8A8201   		.uleb128 0x410a
- 1494 0168 00       		.byte	0
- 1495 0169 02       		.uleb128 0x2
- 1496 016a 18       		.uleb128 0x18
- 1497 016b 9142     		.uleb128 0x2111
- 1498 016d 18       		.uleb128 0x18
- 1499 016e 00       		.byte	0
- 1500 016f 00       		.byte	0
- 1501 0170 1B       		.uleb128 0x1b
- 1502 0171 34       		.uleb128 0x34
- 1503 0172 00       		.byte	0
- 1504 0173 03       		.uleb128 0x3
-ARM GAS  C:\Users\fiona\AppData\Local\Temp\ccaZv034.s 			page 39
+ 1448 01b8 00000000 		.4byte	0
+ 1449              		.section	.debug_aranges,"",%progbits
+ 1450 0000 2C000000 		.4byte	0x2c
+ 1451 0004 0200     		.2byte	0x2
+ 1452 0006 00000000 		.4byte	.Ldebug_info0
+ 1453 000a 04       		.byte	0x4
+ 1454 000b 00       		.byte	0
+ 1455 000c 0000     		.2byte	0
+ 1456 000e 0000     		.2byte	0
+ 1457 0010 00000000 		.4byte	.LFB63
+ 1458 0014 D8000000 		.4byte	.LFE63-.LFB63
+ 1459 0018 00000000 		.4byte	.LFB64
+ 1460 001c 1C000000 		.4byte	.LFE64-.LFB64
+ 1461 0020 00000000 		.4byte	.LFB65
+ 1462 0024 64000000 		.4byte	.LFE65-.LFB65
+ 1463 0028 00000000 		.4byte	0
+ 1464 002c 00000000 		.4byte	0
+ 1465              		.section	.debug_ranges,"",%progbits
+ 1466              	.Ldebug_ranges0:
+ 1467 0000 00000000 		.4byte	.LFB63
+ 1468 0004 D8000000 		.4byte	.LFE63
+ 1469 0008 00000000 		.4byte	.LFB64
+ 1470 000c 1C000000 		.4byte	.LFE64
+ 1471 0010 00000000 		.4byte	.LFB65
+ 1472 0014 64000000 		.4byte	.LFE65
+ 1473 0018 00000000 		.4byte	0
+ 1474 001c 00000000 		.4byte	0
+ 1475              		.section	.debug_line,"",%progbits
+ 1476              	.Ldebug_line0:
+ 1477 0000 44020000 		.section	.debug_str,"MS",%progbits,1
+ 1477      02007E01 
+ 1477      00000201 
+ 1477      FB0E0D00 
+ 1477      01010101 
+ 1478              	.LASF49:
+ 1479 0000 72657375 		.ascii	"result\000"
+ 1479      6C7400
+ 1480              	.LASF28:
+ 1481 0007 43414E5F 		.ascii	"CAN_DATA_BYTES\000"
+ 1481      44415441 
+ 1481      5F425954 
+ 1481      455300
+ 1482              	.LASF2:
+ 1483 0016 73686F72 		.ascii	"short int\000"
+ 1483      7420696E 
+ 1483      7400
+ 1484              	.LASF54:
+ 1485 0020 43414E5F 		.ascii	"CAN_ReceiveMsg\000"
+ 1485      52656365 
+ 1485      6976654D 
+ 1485      736700
+ 1486              	.LASF25:
+ 1487 002f 73697A65 		.ascii	"sizetype\000"
+ 1487      74797065 
+ 1487      00
+ 1488              	.LASF44:
+ 1489 0038 6C656E67 		.ascii	"length\000"
+ARM GAS  C:\Users\fiona\AppData\Local\Temp\ccx2tiP4.s 			page 39
 
 
- 1505 0174 0E       		.uleb128 0xe
- 1506 0175 3A       		.uleb128 0x3a
- 1507 0176 0B       		.uleb128 0xb
- 1508 0177 3B       		.uleb128 0x3b
- 1509 0178 05       		.uleb128 0x5
- 1510 0179 49       		.uleb128 0x49
- 1511 017a 13       		.uleb128 0x13
- 1512 017b 3F       		.uleb128 0x3f
- 1513 017c 19       		.uleb128 0x19
- 1514 017d 3C       		.uleb128 0x3c
- 1515 017e 19       		.uleb128 0x19
- 1516 017f 00       		.byte	0
- 1517 0180 00       		.byte	0
- 1518 0181 1C       		.uleb128 0x1c
- 1519 0182 34       		.uleb128 0x34
- 1520 0183 00       		.byte	0
- 1521 0184 03       		.uleb128 0x3
- 1522 0185 0E       		.uleb128 0xe
- 1523 0186 3A       		.uleb128 0x3a
- 1524 0187 0B       		.uleb128 0xb
- 1525 0188 3B       		.uleb128 0x3b
- 1526 0189 0B       		.uleb128 0xb
- 1527 018a 49       		.uleb128 0x49
- 1528 018b 13       		.uleb128 0x13
- 1529 018c 3F       		.uleb128 0x3f
- 1530 018d 19       		.uleb128 0x19
- 1531 018e 02       		.uleb128 0x2
- 1532 018f 18       		.uleb128 0x18
- 1533 0190 00       		.byte	0
- 1534 0191 00       		.byte	0
- 1535 0192 1D       		.uleb128 0x1d
- 1536 0193 2E       		.uleb128 0x2e
- 1537 0194 00       		.byte	0
- 1538 0195 3F       		.uleb128 0x3f
- 1539 0196 19       		.uleb128 0x19
- 1540 0197 3C       		.uleb128 0x3c
- 1541 0198 19       		.uleb128 0x19
- 1542 0199 6E       		.uleb128 0x6e
- 1543 019a 0E       		.uleb128 0xe
- 1544 019b 03       		.uleb128 0x3
- 1545 019c 0E       		.uleb128 0xe
- 1546 019d 3A       		.uleb128 0x3a
- 1547 019e 0B       		.uleb128 0xb
- 1548 019f 3B       		.uleb128 0x3b
- 1549 01a0 0B       		.uleb128 0xb
- 1550 01a1 00       		.byte	0
- 1551 01a2 00       		.byte	0
- 1552 01a3 00       		.byte	0
- 1553              		.section	.debug_loc,"",%progbits
- 1554              	.Ldebug_loc0:
- 1555              	.LLST0:
- 1556 0000 00000000 		.4byte	.LVL0
- 1557 0004 C4000000 		.4byte	.LVL25
- 1558 0008 0100     		.2byte	0x1
- 1559 000a 50       		.byte	0x50
- 1560 000b C4000000 		.4byte	.LVL25
- 1561 000f D8000000 		.4byte	.LFE63
-ARM GAS  C:\Users\fiona\AppData\Local\Temp\ccaZv034.s 			page 40
+ 1489      746800
+ 1490              	.LASF41:
+ 1491 003f 74786461 		.ascii	"txdata\000"
+ 1491      746100
+ 1492              	.LASF8:
+ 1493 0046 5F5F7569 		.ascii	"__uint32_t\000"
+ 1493      6E743332 
+ 1493      5F7400
+ 1494              	.LASF33:
+ 1495 0051 72786461 		.ascii	"rxdata\000"
+ 1495      746100
+ 1496              	.LASF48:
+ 1497 0058 72657472 		.ascii	"retry\000"
+ 1497      7900
+ 1498              	.LASF4:
+ 1499 005e 5F5F7569 		.ascii	"__uint16_t\000"
+ 1499      6E743136 
+ 1499      5F7400
+ 1500              	.LASF43:
+ 1501 0069 6D696C6C 		.ascii	"millicounter\000"
+ 1501      69636F75 
+ 1501      6E746572 
+ 1501      00
+ 1502              	.LASF13:
+ 1503 0076 75696E74 		.ascii	"uint8_t\000"
+ 1503      385F7400 
+ 1504              	.LASF17:
+ 1505 007e 75696E74 		.ascii	"uint8\000"
+ 1505      3800
+ 1506              	.LASF32:
+ 1507 0084 72786964 		.ascii	"rxid\000"
+ 1507      00
+ 1508              	.LASF35:
+ 1509 0089 72786163 		.ascii	"rxacr\000"
+ 1509      7200
+ 1510              	.LASF19:
+ 1511 008f 666C6F61 		.ascii	"float\000"
+ 1511      7400
+ 1512              	.LASF10:
+ 1513 0095 6C6F6E67 		.ascii	"long long int\000"
+ 1513      206C6F6E 
+ 1513      6720696E 
+ 1513      7400
+ 1514              	.LASF29:
+ 1515 00a3 43414E5F 		.ascii	"CAN_REG_32\000"
+ 1515      5245475F 
+ 1515      333200
+ 1516              	.LASF60:
+ 1517 00ae 433A5C4E 		.ascii	"C:\\Node-Rhinosaurous\\Node-Rhinoceros\\Node-Rhinoc"
+ 1517      6F64652D 
+ 1517      5268696E 
+ 1517      6F736175 
+ 1517      726F7573 
+ 1518 00de 65726F73 		.ascii	"eros.cydsn\000"
+ 1518      2E637964 
+ 1518      736E00
+ 1519              	.LASF39:
+ARM GAS  C:\Users\fiona\AppData\Local\Temp\ccx2tiP4.s 			page 40
 
 
- 1562 0013 0400     		.2byte	0x4
- 1563 0015 F3       		.byte	0xf3
- 1564 0016 01       		.uleb128 0x1
- 1565 0017 50       		.byte	0x50
- 1566 0018 9F       		.byte	0x9f
- 1567 0019 00000000 		.4byte	0
- 1568 001d 00000000 		.4byte	0
- 1569              	.LLST1:
- 1570 0021 08000000 		.4byte	.LVL2
- 1571 0025 AC000000 		.4byte	.LVL19
- 1572 0029 0100     		.2byte	0x1
- 1573 002b 54       		.byte	0x54
- 1574 002c AE000000 		.4byte	.LVL20
- 1575 0030 B0000000 		.4byte	.LVL21
- 1576 0034 0100     		.2byte	0x1
- 1577 0036 54       		.byte	0x54
- 1578 0037 B4000000 		.4byte	.LVL22
- 1579 003b BE000000 		.4byte	.LVL24
- 1580 003f 0100     		.2byte	0x1
- 1581 0041 54       		.byte	0x54
- 1582 0042 00000000 		.4byte	0
- 1583 0046 00000000 		.4byte	0
- 1584              	.LLST2:
- 1585 004a 56000000 		.4byte	.LVL10
- 1586 004e 5A000000 		.4byte	.LVL11
- 1587 0052 0200     		.2byte	0x2
- 1588 0054 30       		.byte	0x30
- 1589 0055 9F       		.byte	0x9f
- 1590 0056 5A000000 		.4byte	.LVL11
- 1591 005a 78000000 		.4byte	.LVL12
- 1592 005e 0100     		.2byte	0x1
- 1593 0060 53       		.byte	0x53
- 1594 0061 7A000000 		.4byte	.LVL13
- 1595 0065 8A000000 		.4byte	.LVL14
- 1596 0069 0100     		.2byte	0x1
- 1597 006b 53       		.byte	0x53
- 1598 006c 00000000 		.4byte	0
- 1599 0070 00000000 		.4byte	0
- 1600              	.LLST3:
- 1601 0074 08000000 		.4byte	.LVL2
- 1602 0078 A6000000 		.4byte	.LVL17
- 1603 007c 0100     		.2byte	0x1
- 1604 007e 56       		.byte	0x56
- 1605 007f A8000000 		.4byte	.LVL18
- 1606 0083 B0000000 		.4byte	.LVL21
- 1607 0087 0100     		.2byte	0x1
- 1608 0089 56       		.byte	0x56
- 1609 008a B4000000 		.4byte	.LVL22
- 1610 008e BE000000 		.4byte	.LVL24
- 1611 0092 0100     		.2byte	0x1
- 1612 0094 56       		.byte	0x56
- 1613 0095 00000000 		.4byte	0
- 1614 0099 00000000 		.4byte	0
- 1615              	.LLST4:
- 1616 009d 02000000 		.4byte	.LVL1
- 1617 00a1 08000000 		.4byte	.LVL2
- 1618 00a5 0200     		.2byte	0x2
-ARM GAS  C:\Users\fiona\AppData\Local\Temp\ccaZv034.s 			page 41
+ 1520 00e9 7478636D 		.ascii	"txcmd\000"
+ 1520      6400
+ 1521              	.LASF7:
+ 1522 00ef 6C6F6E67 		.ascii	"long int\000"
+ 1522      20696E74 
+ 1522      00
+ 1523              	.LASF47:
+ 1524 00f8 73686966 		.ascii	"shift\000"
+ 1524      7400
+ 1525              	.LASF9:
+ 1526 00fe 6C6F6E67 		.ascii	"long unsigned int\000"
+ 1526      20756E73 
+ 1526      69676E65 
+ 1526      6420696E 
+ 1526      7400
+ 1527              	.LASF3:
+ 1528 0110 5F5F7569 		.ascii	"__uint8_t\000"
+ 1528      6E74385F 
+ 1528      7400
+ 1529              	.LASF27:
+ 1530 011a 62797465 		.ascii	"byte\000"
+ 1530      00
+ 1531              	.LASF24:
+ 1532 011f 6C6F6E67 		.ascii	"long double\000"
+ 1532      20646F75 
+ 1532      626C6500 
+ 1533              	.LASF36:
+ 1534 012b 7278616D 		.ascii	"rxamrd\000"
+ 1534      726400
+ 1535              	.LASF1:
+ 1536 0132 756E7369 		.ascii	"unsigned char\000"
+ 1536      676E6564 
+ 1536      20636861 
+ 1536      7200
+ 1537              	.LASF0:
+ 1538 0140 7369676E 		.ascii	"signed char\000"
+ 1538      65642063 
+ 1538      68617200 
+ 1539              	.LASF11:
+ 1540 014c 6C6F6E67 		.ascii	"long long unsigned int\000"
+ 1540      206C6F6E 
+ 1540      6720756E 
+ 1540      7369676E 
+ 1540      65642069 
+ 1541              	.LASF16:
+ 1542 0163 75696E74 		.ascii	"uint32_t\000"
+ 1542      33325F74 
+ 1542      00
+ 1543              	.LASF12:
+ 1544 016c 756E7369 		.ascii	"unsigned int\000"
+ 1544      676E6564 
+ 1544      20696E74 
+ 1544      00
+ 1545              	.LASF14:
+ 1546 0179 75696E74 		.ascii	"uint16_t\000"
+ 1546      31365F74 
+ 1546      00
+ARM GAS  C:\Users\fiona\AppData\Local\Temp\ccx2tiP4.s 			page 41
 
 
- 1619 00a7 30       		.byte	0x30
- 1620 00a8 9F       		.byte	0x9f
- 1621 00a9 08000000 		.4byte	.LVL2
- 1622 00ad BC000000 		.4byte	.LVL23
- 1623 00b1 0100     		.2byte	0x1
- 1624 00b3 57       		.byte	0x57
- 1625 00b4 BE000000 		.4byte	.LVL24
- 1626 00b8 C6000000 		.4byte	.LVL26
- 1627 00bc 0100     		.2byte	0x1
- 1628 00be 57       		.byte	0x57
- 1629 00bf 00000000 		.4byte	0
- 1630 00c3 00000000 		.4byte	0
- 1631              	.LLST5:
- 1632 00c7 02000000 		.4byte	.LVL1
- 1633 00cb 08000000 		.4byte	.LVL2
- 1634 00cf 0200     		.2byte	0x2
- 1635 00d1 31       		.byte	0x31
- 1636 00d2 9F       		.byte	0x9f
- 1637 00d3 08000000 		.4byte	.LVL2
- 1638 00d7 1A000000 		.4byte	.LVL5
- 1639 00db 0100     		.2byte	0x1
- 1640 00dd 52       		.byte	0x52
- 1641 00de A2000000 		.4byte	.LVL15
- 1642 00e2 A4000000 		.4byte	.LVL16
- 1643 00e6 0200     		.2byte	0x2
- 1644 00e8 30       		.byte	0x30
- 1645 00e9 9F       		.byte	0x9f
- 1646 00ea A4000000 		.4byte	.LVL16
- 1647 00ee D8000000 		.4byte	.LFE63
- 1648 00f2 0100     		.2byte	0x1
- 1649 00f4 52       		.byte	0x52
- 1650 00f5 00000000 		.4byte	0
- 1651 00f9 00000000 		.4byte	0
- 1652              	.LLST6:
- 1653 00fd 10000000 		.4byte	.LVL3
- 1654 0101 18000000 		.4byte	.LVL4
- 1655 0105 0200     		.2byte	0x2
- 1656 0107 30       		.byte	0x30
- 1657 0108 9F       		.byte	0x9f
- 1658 0109 18000000 		.4byte	.LVL4
- 1659 010d 48000000 		.4byte	.LVL7
- 1660 0111 0100     		.2byte	0x1
- 1661 0113 53       		.byte	0x53
- 1662 0114 48000000 		.4byte	.LVL7
- 1663 0118 4A000000 		.4byte	.LVL8
- 1664 011c 0100     		.2byte	0x1
- 1665 011e 5E       		.byte	0x5e
- 1666 011f 4A000000 		.4byte	.LVL8
- 1667 0123 4E000000 		.4byte	.LVL9
- 1668 0127 0100     		.2byte	0x1
- 1669 0129 53       		.byte	0x53
- 1670 012a 4E000000 		.4byte	.LVL9
- 1671 012e A4000000 		.4byte	.LVL16
- 1672 0132 0100     		.2byte	0x1
- 1673 0134 5E       		.byte	0x5e
- 1674 0135 00000000 		.4byte	0
- 1675 0139 00000000 		.4byte	0
-ARM GAS  C:\Users\fiona\AppData\Local\Temp\ccaZv034.s 			page 42
+ 1547              	.LASF26:
+ 1548 0182 43414E5F 		.ascii	"CAN_DATA_BYTES_MSG\000"
+ 1548      44415441 
+ 1548      5F425954 
+ 1548      45535F4D 
+ 1548      534700
+ 1549              	.LASF23:
+ 1550 0195 72656733 		.ascii	"reg32\000"
+ 1550      3200
+ 1551              	.LASF5:
+ 1552 019b 73686F72 		.ascii	"short unsigned int\000"
+ 1552      7420756E 
+ 1552      7369676E 
+ 1552      65642069 
+ 1552      6E7400
+ 1553              	.LASF37:
+ 1554 01ae 72786163 		.ascii	"rxacrd\000"
+ 1554      726400
+ 1555              	.LASF21:
+ 1556 01b5 63686172 		.ascii	"char\000"
+ 1556      00
+ 1557              	.LASF38:
+ 1558 01ba 43414E5F 		.ascii	"CAN_RX_STRUCT\000"
+ 1558      52585F53 
+ 1558      54525543 
+ 1558      5400
+ 1559              	.LASF55:
+ 1560 01c8 72784D61 		.ascii	"rxMailbox\000"
+ 1560      696C626F 
+ 1560      7800
+ 1561              	.LASF15:
+ 1562 01d2 696E7433 		.ascii	"int32_t\000"
+ 1562      325F7400 
+ 1563              	.LASF31:
+ 1564 01da 7278636D 		.ascii	"rxcmd\000"
+ 1564      6400
+ 1565              	.LASF63:
+ 1566 01e0 63616E5F 		.ascii	"can_process\000"
+ 1566      70726F63 
+ 1566      65737300 
+ 1567              	.LASF46:
+ 1568 01ec 44617461 		.ascii	"DataPacket\000"
+ 1568      5061636B 
+ 1568      657400
+ 1569              	.LASF57:
+ 1570 01f7 63616E5F 		.ascii	"can_msg_ptr\000"
+ 1570      6D73675F 
+ 1570      70747200 
+ 1571              	.LASF45:
+ 1572 0203 64617461 		.ascii	"data\000"
+ 1572      00
+ 1573              	.LASF42:
+ 1574 0208 43414E5F 		.ascii	"CAN_TX_STRUCT\000"
+ 1574      54585F53 
+ 1574      54525543 
+ 1574      5400
+ 1575              	.LASF18:
+ARM GAS  C:\Users\fiona\AppData\Local\Temp\ccx2tiP4.s 			page 42
 
 
- 1676              	.LLST7:
- 1677 013d 00000000 		.4byte	.LVL27
- 1678 0141 06000000 		.4byte	.LVL28
- 1679 0145 0100     		.2byte	0x1
- 1680 0147 50       		.byte	0x50
- 1681 0148 06000000 		.4byte	.LVL28
- 1682 014c 1C000000 		.4byte	.LFE64
- 1683 0150 0400     		.2byte	0x4
- 1684 0152 F3       		.byte	0xf3
- 1685 0153 01       		.uleb128 0x1
- 1686 0154 50       		.byte	0x50
- 1687 0155 9F       		.byte	0x9f
- 1688 0156 00000000 		.4byte	0
- 1689 015a 00000000 		.4byte	0
- 1690              	.LLST8:
- 1691 015e 00000000 		.4byte	.LVL29
- 1692 0162 2C000000 		.4byte	.LVL30
- 1693 0166 0100     		.2byte	0x1
- 1694 0168 50       		.byte	0x50
- 1695 0169 2C000000 		.4byte	.LVL30
- 1696 016d 64000000 		.4byte	.LFE65
- 1697 0171 0400     		.2byte	0x4
- 1698 0173 F3       		.byte	0xf3
- 1699 0174 01       		.uleb128 0x1
- 1700 0175 50       		.byte	0x50
- 1701 0176 9F       		.byte	0x9f
- 1702 0177 00000000 		.4byte	0
- 1703 017b 00000000 		.4byte	0
- 1704              	.LLST9:
- 1705 017f 34000000 		.4byte	.LVL31
- 1706 0183 38000000 		.4byte	.LVL32
- 1707 0187 0200     		.2byte	0x2
- 1708 0189 30       		.byte	0x30
- 1709 018a 9F       		.byte	0x9f
- 1710 018b 38000000 		.4byte	.LVL32
- 1711 018f 46000000 		.4byte	.LVL33
- 1712 0193 0100     		.2byte	0x1
- 1713 0195 53       		.byte	0x53
- 1714 0196 48000000 		.4byte	.LVL34
- 1715 019a 51000000 		.4byte	.LVL36-1
- 1716 019e 0100     		.2byte	0x1
- 1717 01a0 53       		.byte	0x53
- 1718 01a1 00000000 		.4byte	0
- 1719 01a5 00000000 		.4byte	0
- 1720              	.LLST10:
- 1721 01a9 4C000000 		.4byte	.LVL35
- 1722 01ad 5A000000 		.4byte	.LVL37
- 1723 01b1 0100     		.2byte	0x1
- 1724 01b3 5D       		.byte	0x5d
- 1725 01b4 00000000 		.4byte	0
- 1726 01b8 00000000 		.4byte	0
- 1727              		.section	.debug_aranges,"",%progbits
- 1728 0000 2C000000 		.4byte	0x2c
- 1729 0004 0200     		.2byte	0x2
- 1730 0006 00000000 		.4byte	.Ldebug_info0
- 1731 000a 04       		.byte	0x4
- 1732 000b 00       		.byte	0
-ARM GAS  C:\Users\fiona\AppData\Local\Temp\ccaZv034.s 			page 43
+ 1576 0216 75696E74 		.ascii	"uint32\000"
+ 1576      333200
+ 1577              	.LASF22:
+ 1578 021d 72656738 		.ascii	"reg8\000"
+ 1578      00
+ 1579              	.LASF51:
+ 1580 0222 6D657373 		.ascii	"message\000"
+ 1580      61676500 
+ 1581              	.LASF56:
+ 1582 022a 63616E5F 		.ascii	"can_msg\000"
+ 1582      6D736700 
+ 1583              	.LASF30:
+ 1584 0232 43414E5F 		.ascii	"CAN_TX_MSG\000"
+ 1584      54585F4D 
+ 1584      534700
+ 1585              	.LASF61:
+ 1586 023d 43414E5F 		.ascii	"CAN_SendMsg\000"
+ 1586      53656E64 
+ 1586      4D736700 
+ 1587              	.LASF52:
+ 1588 0249 62756666 		.ascii	"bufferId\000"
+ 1588      65724964 
+ 1588      00
+ 1589              	.LASF40:
+ 1590 0252 74786964 		.ascii	"txid\000"
+ 1590      00
+ 1591              	.LASF6:
+ 1592 0257 5F5F696E 		.ascii	"__int32_t\000"
+ 1592      7433325F 
+ 1592      7400
+ 1593              	.LASF59:
+ 1594 0261 47656E65 		.ascii	"Generated_Source\\PSoC5\\CAN_TX_RX_func.c\000"
+ 1594      72617465 
+ 1594      645F536F 
+ 1594      75726365 
+ 1594      5C50536F 
+ 1595              	.LASF20:
+ 1596 0289 646F7562 		.ascii	"double\000"
+ 1596      6C6500
+ 1597              	.LASF50:
+ 1598 0290 72656754 		.ascii	"regTemp\000"
+ 1598      656D7000 
+ 1599              	.LASF53:
+ 1600 0298 43414E5F 		.ascii	"CAN_TxCancel\000"
+ 1600      54784361 
+ 1600      6E63656C 
+ 1600      00
+ 1601              	.LASF62:
+ 1602 02a5 49544D5F 		.ascii	"ITM_RxBuffer\000"
+ 1602      52784275 
+ 1602      66666572 
+ 1602      00
+ 1603              	.LASF58:
+ 1604 02b2 474E5520 		.ascii	"GNU C11 5.4.1 20160609 (release) [ARM/embedded-5-br"
+ 1604      43313120 
+ 1604      352E342E 
+ 1604      31203230 
+ARM GAS  C:\Users\fiona\AppData\Local\Temp\ccx2tiP4.s 			page 43
 
 
- 1733 000c 0000     		.2byte	0
- 1734 000e 0000     		.2byte	0
- 1735 0010 00000000 		.4byte	.LFB63
- 1736 0014 D8000000 		.4byte	.LFE63-.LFB63
- 1737 0018 00000000 		.4byte	.LFB64
- 1738 001c 1C000000 		.4byte	.LFE64-.LFB64
- 1739 0020 00000000 		.4byte	.LFB65
- 1740 0024 64000000 		.4byte	.LFE65-.LFB65
- 1741 0028 00000000 		.4byte	0
- 1742 002c 00000000 		.4byte	0
- 1743              		.section	.debug_ranges,"",%progbits
- 1744              	.Ldebug_ranges0:
- 1745 0000 00000000 		.4byte	.LFB63
- 1746 0004 D8000000 		.4byte	.LFE63
- 1747 0008 00000000 		.4byte	.LFB64
- 1748 000c 1C000000 		.4byte	.LFE64
- 1749 0010 00000000 		.4byte	.LFB65
- 1750 0014 64000000 		.4byte	.LFE65
- 1751 0018 00000000 		.4byte	0
- 1752 001c 00000000 		.4byte	0
- 1753              		.section	.debug_line,"",%progbits
- 1754              	.Ldebug_line0:
- 1755 0000 44020000 		.section	.debug_str,"MS",%progbits,1
- 1755      02007E01 
- 1755      00000201 
- 1755      FB0E0D00 
- 1755      01010101 
- 1756              	.LASF49:
- 1757 0000 72657375 		.ascii	"result\000"
- 1757      6C7400
- 1758              	.LASF28:
- 1759 0007 43414E5F 		.ascii	"CAN_DATA_BYTES\000"
- 1759      44415441 
- 1759      5F425954 
- 1759      455300
- 1760              	.LASF2:
- 1761 0016 73686F72 		.ascii	"short int\000"
- 1761      7420696E 
- 1761      7400
- 1762              	.LASF54:
- 1763 0020 43414E5F 		.ascii	"CAN_ReceiveMsg\000"
- 1763      52656365 
- 1763      6976654D 
- 1763      736700
- 1764              	.LASF25:
- 1765 002f 73697A65 		.ascii	"sizetype\000"
- 1765      74797065 
- 1765      00
- 1766              	.LASF44:
- 1767 0038 6C656E67 		.ascii	"length\000"
- 1767      746800
- 1768              	.LASF41:
- 1769 003f 74786461 		.ascii	"txdata\000"
- 1769      746100
- 1770              	.LASF8:
- 1771 0046 5F5F7569 		.ascii	"__uint32_t\000"
- 1771      6E743332 
-ARM GAS  C:\Users\fiona\AppData\Local\Temp\ccaZv034.s 			page 44
-
-
- 1771      5F7400
- 1772              	.LASF33:
- 1773 0051 72786461 		.ascii	"rxdata\000"
- 1773      746100
- 1774              	.LASF48:
- 1775 0058 72657472 		.ascii	"retry\000"
- 1775      7900
- 1776              	.LASF4:
- 1777 005e 5F5F7569 		.ascii	"__uint16_t\000"
- 1777      6E743136 
- 1777      5F7400
- 1778              	.LASF43:
- 1779 0069 6D696C6C 		.ascii	"millicounter\000"
- 1779      69636F75 
- 1779      6E746572 
- 1779      00
- 1780              	.LASF13:
- 1781 0076 75696E74 		.ascii	"uint8_t\000"
- 1781      385F7400 
- 1782              	.LASF17:
- 1783 007e 75696E74 		.ascii	"uint8\000"
- 1783      3800
- 1784              	.LASF32:
- 1785 0084 72786964 		.ascii	"rxid\000"
- 1785      00
- 1786              	.LASF62:
- 1787 0089 433A5C55 		.ascii	"C:\\Users\\fiona\\OneDrive\\Documents\\Node-Rhinoce"
- 1787      73657273 
- 1787      5C66696F 
- 1787      6E615C4F 
- 1787      6E654472 
- 1788 00b7 726F735C 		.ascii	"ros\\Node-Rhinoceros\\Node-Rhinoceros.cydsn\000"
- 1788      4E6F6465 
- 1788      2D526869 
- 1788      6E6F6365 
- 1788      726F735C 
- 1789              	.LASF35:
- 1790 00e1 72786163 		.ascii	"rxacr\000"
- 1790      7200
- 1791              	.LASF19:
- 1792 00e7 666C6F61 		.ascii	"float\000"
- 1792      7400
- 1793              	.LASF10:
- 1794 00ed 6C6F6E67 		.ascii	"long long int\000"
- 1794      206C6F6E 
- 1794      6720696E 
- 1794      7400
- 1795              	.LASF29:
- 1796 00fb 43414E5F 		.ascii	"CAN_REG_32\000"
- 1796      5245475F 
- 1796      333200
- 1797              	.LASF59:
- 1798 0106 534F435F 		.ascii	"SOC_LUT\000"
- 1798      4C555400 
- 1799              	.LASF39:
- 1800 010e 7478636D 		.ascii	"txcmd\000"
- 1800      6400
-ARM GAS  C:\Users\fiona\AppData\Local\Temp\ccaZv034.s 			page 45
-
-
- 1801              	.LASF7:
- 1802 0114 6C6F6E67 		.ascii	"long int\000"
- 1802      20696E74 
- 1802      00
- 1803              	.LASF47:
- 1804 011d 73686966 		.ascii	"shift\000"
- 1804      7400
- 1805              	.LASF9:
- 1806 0123 6C6F6E67 		.ascii	"long unsigned int\000"
- 1806      20756E73 
- 1806      69676E65 
- 1806      6420696E 
- 1806      7400
- 1807              	.LASF3:
- 1808 0135 5F5F7569 		.ascii	"__uint8_t\000"
- 1808      6E74385F 
- 1808      7400
- 1809              	.LASF27:
- 1810 013f 62797465 		.ascii	"byte\000"
- 1810      00
- 1811              	.LASF24:
- 1812 0144 6C6F6E67 		.ascii	"long double\000"
- 1812      20646F75 
- 1812      626C6500 
- 1813              	.LASF36:
- 1814 0150 7278616D 		.ascii	"rxamrd\000"
- 1814      726400
- 1815              	.LASF1:
- 1816 0157 756E7369 		.ascii	"unsigned char\000"
- 1816      676E6564 
- 1816      20636861 
- 1816      7200
- 1817              	.LASF0:
- 1818 0165 7369676E 		.ascii	"signed char\000"
- 1818      65642063 
- 1818      68617200 
- 1819              	.LASF11:
- 1820 0171 6C6F6E67 		.ascii	"long long unsigned int\000"
- 1820      206C6F6E 
- 1820      6720756E 
- 1820      7369676E 
- 1820      65642069 
- 1821              	.LASF16:
- 1822 0188 75696E74 		.ascii	"uint32_t\000"
- 1822      33325F74 
- 1822      00
- 1823              	.LASF12:
- 1824 0191 756E7369 		.ascii	"unsigned int\000"
- 1824      676E6564 
- 1824      20696E74 
- 1824      00
- 1825              	.LASF14:
- 1826 019e 75696E74 		.ascii	"uint16_t\000"
- 1826      31365F74 
- 1826      00
- 1827              	.LASF26:
- 1828 01a7 43414E5F 		.ascii	"CAN_DATA_BYTES_MSG\000"
-ARM GAS  C:\Users\fiona\AppData\Local\Temp\ccaZv034.s 			page 46
-
-
- 1828      44415441 
- 1828      5F425954 
- 1828      45535F4D 
- 1828      534700
- 1829              	.LASF23:
- 1830 01ba 72656733 		.ascii	"reg32\000"
- 1830      3200
- 1831              	.LASF5:
- 1832 01c0 73686F72 		.ascii	"short unsigned int\000"
- 1832      7420756E 
- 1832      7369676E 
- 1832      65642069 
- 1832      6E7400
- 1833              	.LASF37:
- 1834 01d3 72786163 		.ascii	"rxacrd\000"
- 1834      726400
- 1835              	.LASF21:
- 1836 01da 63686172 		.ascii	"char\000"
- 1836      00
- 1837              	.LASF38:
- 1838 01df 43414E5F 		.ascii	"CAN_RX_STRUCT\000"
- 1838      52585F53 
- 1838      54525543 
- 1838      5400
- 1839              	.LASF55:
- 1840 01ed 72784D61 		.ascii	"rxMailbox\000"
- 1840      696C626F 
- 1840      7800
- 1841              	.LASF15:
- 1842 01f7 696E7433 		.ascii	"int32_t\000"
- 1842      325F7400 
- 1843              	.LASF31:
- 1844 01ff 7278636D 		.ascii	"rxcmd\000"
- 1844      6400
- 1845              	.LASF64:
- 1846 0205 63616E5F 		.ascii	"can_process\000"
- 1846      70726F63 
- 1846      65737300 
- 1847              	.LASF46:
- 1848 0211 44617461 		.ascii	"DataPacket\000"
- 1848      5061636B 
- 1848      657400
- 1849              	.LASF57:
- 1850 021c 63616E5F 		.ascii	"can_msg_ptr\000"
- 1850      6D73675F 
- 1850      70747200 
- 1851              	.LASF45:
- 1852 0228 64617461 		.ascii	"data\000"
- 1852      00
- 1853              	.LASF42:
- 1854 022d 43414E5F 		.ascii	"CAN_TX_STRUCT\000"
- 1854      54585F53 
- 1854      54525543 
- 1854      5400
- 1855              	.LASF18:
- 1856 023b 75696E74 		.ascii	"uint32\000"
- 1856      333200
-ARM GAS  C:\Users\fiona\AppData\Local\Temp\ccaZv034.s 			page 47
-
-
- 1857              	.LASF22:
- 1858 0242 72656738 		.ascii	"reg8\000"
- 1858      00
- 1859              	.LASF51:
- 1860 0247 6D657373 		.ascii	"message\000"
- 1860      61676500 
- 1861              	.LASF56:
- 1862 024f 63616E5F 		.ascii	"can_msg\000"
- 1862      6D736700 
- 1863              	.LASF30:
- 1864 0257 43414E5F 		.ascii	"CAN_TX_MSG\000"
- 1864      54585F4D 
- 1864      534700
- 1865              	.LASF63:
- 1866 0262 43414E5F 		.ascii	"CAN_SendMsg\000"
- 1866      53656E64 
- 1866      4D736700 
- 1867              	.LASF52:
- 1868 026e 62756666 		.ascii	"bufferId\000"
- 1868      65724964 
- 1868      00
- 1869              	.LASF40:
- 1870 0277 74786964 		.ascii	"txid\000"
- 1870      00
- 1871              	.LASF6:
- 1872 027c 5F5F696E 		.ascii	"__int32_t\000"
- 1872      7433325F 
- 1872      7400
- 1873              	.LASF61:
- 1874 0286 47656E65 		.ascii	"Generated_Source\\PSoC5\\CAN_TX_RX_func.c\000"
- 1874      72617465 
- 1874      645F536F 
- 1874      75726365 
- 1874      5C50536F 
- 1875              	.LASF20:
- 1876 02ae 646F7562 		.ascii	"double\000"
- 1876      6C6500
- 1877              	.LASF50:
- 1878 02b5 72656754 		.ascii	"regTemp\000"
- 1878      656D7000 
- 1879              	.LASF53:
- 1880 02bd 43414E5F 		.ascii	"CAN_TxCancel\000"
- 1880      54784361 
- 1880      6E63656C 
- 1880      00
- 1881              	.LASF58:
- 1882 02ca 49544D5F 		.ascii	"ITM_RxBuffer\000"
- 1882      52784275 
- 1882      66666572 
- 1882      00
- 1883              	.LASF60:
- 1884 02d7 474E5520 		.ascii	"GNU C11 5.4.1 20160609 (release) [ARM/embedded-5-br"
- 1884      43313120 
- 1884      352E342E 
- 1884      31203230 
- 1884      31363036 
- 1885 030a 616E6368 		.ascii	"anch revision 237715] -mcpu=cortex-m3 -mthumb -g -O"
-ARM GAS  C:\Users\fiona\AppData\Local\Temp\ccaZv034.s 			page 48
-
-
- 1885      20726576 
- 1885      6973696F 
- 1885      6E203233 
- 1885      37373135 
- 1886 033d 67202D66 		.ascii	"g -ffunction-sections -ffat-lto-objects\000"
- 1886      66756E63 
- 1886      74696F6E 
- 1886      2D736563 
- 1886      74696F6E 
- 1887              	.LASF34:
- 1888 0365 7278616D 		.ascii	"rxamr\000"
- 1888      7200
- 1889              		.ident	"GCC: (GNU Tools for ARM Embedded Processors) 5.4.1 20160609 (release) [ARM/embedded-5-bran
+ 1604      31363036 
+ 1605 02e5 616E6368 		.ascii	"anch revision 237715] -mcpu=cortex-m3 -mthumb -g -O"
+ 1605      20726576 
+ 1605      6973696F 
+ 1605      6E203233 
+ 1605      37373135 
+ 1606 0318 67202D66 		.ascii	"g -ffunction-sections -ffat-lto-objects\000"
+ 1606      66756E63 
+ 1606      74696F6E 
+ 1606      2D736563 
+ 1606      74696F6E 
+ 1607              	.LASF34:
+ 1608 0340 7278616D 		.ascii	"rxamr\000"
+ 1608      7200
+ 1609              		.ident	"GCC: (GNU Tools for ARM Embedded Processors) 5.4.1 20160609 (release) [ARM/embedded-5-bran

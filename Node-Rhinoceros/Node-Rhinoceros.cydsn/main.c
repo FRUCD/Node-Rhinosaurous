@@ -11,7 +11,7 @@
 // declared external in can_manager.c
 volatile uint32_t voltage = 0;
 volatile uint8_t charge = 0;
-
+volatile uint32_t amps = 0;
 
 int main(void) {
 	CYGlobalIntEnable;      //Uncomment this line to enable global interrupts 

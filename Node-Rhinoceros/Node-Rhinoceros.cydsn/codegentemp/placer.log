@@ -6,7 +6,7 @@
 
 #Build Date:         Dec  5 2017 15:35:27
 
-#File Generated:     Apr 25 2019 07:54:30
+#File Generated:     Jul 27 2019 15:57:21
 
 #Purpose:            
 
@@ -59,7 +59,7 @@ Device Utilization Summary after Packing
     IOs                         :	9/72
 
 
-D2088: Phase 3, elapsed time : 0.1 (sec)
+D2088: Phase 3, elapsed time : 0.0 (sec)
 
 Phase 4
 D2088: Phase 4, elapsed time : 0.0 (sec)
@@ -72,5 +72,5 @@ D2088: Phase 8, elapsed time : 0.0 (sec)
 
 D2054: Placement of the design completed successfully
 
-I2076: Total run-time: 0.9 sec.
+I2076: Total run-time: 0.7 sec.
 

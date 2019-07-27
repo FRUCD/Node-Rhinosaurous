@@ -13,7 +13,7 @@
 <v>Output</v>
 </TreeKeys>
 <TreeStates>
-<CyGuid_2a325b3b-c96a-4e9f-b7a0-2c44ecb5f237 type_name="CyDesigner.Common.Base.Controls.CyTreeViewState" version="1" SelectedNodeId="Node-Rhinoceros\Node-Rhinoceros\Source Files\data.h">
+<CyGuid_2a325b3b-c96a-4e9f-b7a0-2c44ecb5f237 type_name="CyDesigner.Common.Base.Controls.CyTreeViewState" version="1" SelectedNodeId="Node-Rhinoceros\Node-Rhinoceros\Source Files\can_manager.h">
 <ExpandedNodeIds>
 <v>Node-Rhinoceros</v>
 <v>Node-Rhinoceros\Node-Rhinoceros</v>
@@ -137,37 +137,6 @@
 <VisibleNodeIds>
 <v>Node-Rhinoceros</v>
 <v>Node-Rhinoceros\Node-Rhinoceros</v>
-<v>Node-Rhinoceros\Node-Rhinoceros\CortexM3</v>
-<v>Node-Rhinoceros\Node-Rhinoceros\CortexM3\ARM_GCC_541</v>
-<v>Node-Rhinoceros\Node-Rhinoceros\CortexM3\ARM_GCC_541\Debug</v>
-<v>Node-Rhinoceros\Node-Rhinoceros\CortexM3\ARM_GCC_541\Debug\Listing Files</v>
-<v>Node-Rhinoceros\Node-Rhinoceros\CortexM3\ARM_GCC_541\Debug\Listing Files\CAN.lst</v>
-<v>Node-Rhinoceros\Node-Rhinoceros\CortexM3\ARM_GCC_541\Debug\Listing Files\CAN_INT.lst</v>
-<v>Node-Rhinoceros\Node-Rhinoceros\CortexM3\ARM_GCC_541\Debug\Listing Files\can_manager.lst</v>
-<v>Node-Rhinoceros\Node-Rhinoceros\CortexM3\ARM_GCC_541\Debug\Listing Files\CAN_PM.lst</v>
-<v>Node-Rhinoceros\Node-Rhinoceros\CortexM3\ARM_GCC_541\Debug\Listing Files\CAN_TX_RX_func.lst</v>
-<v>Node-Rhinoceros\Node-Rhinoceros\CortexM3\ARM_GCC_541\Debug\Listing Files\Cm3Start.lst</v>
-<v>Node-Rhinoceros\Node-Rhinoceros\CortexM3\ARM_GCC_541\Debug\Listing Files\cy_em_eeprom.lst</v>
-<v>Node-Rhinoceros\Node-Rhinoceros\CortexM3\ARM_GCC_541\Debug\Listing Files\CyBootAsmGnu.lst</v>
-<v>Node-Rhinoceros\Node-Rhinoceros\CortexM3\ARM_GCC_541\Debug\Listing Files\CyDmac.lst</v>
-<v>Node-Rhinoceros\Node-Rhinoceros\CortexM3\ARM_GCC_541\Debug\Listing Files\cyfitter_cfg.lst</v>
-<v>Node-Rhinoceros\Node-Rhinoceros\CortexM3\ARM_GCC_541\Debug\Listing Files\CyFlash.lst</v>
-<v>Node-Rhinoceros\Node-Rhinoceros\CortexM3\ARM_GCC_541\Debug\Listing Files\CyLib.lst</v>
-<v>Node-Rhinoceros\Node-Rhinoceros\CortexM3\ARM_GCC_541\Debug\Listing Files\cymetadata.lst</v>
-<v>Node-Rhinoceros\Node-Rhinoceros\CortexM3\ARM_GCC_541\Debug\Listing Files\cyPm.lst</v>
-<v>Node-Rhinoceros\Node-Rhinoceros\CortexM3\ARM_GCC_541\Debug\Listing Files\CySpc.lst</v>
-<v>Node-Rhinoceros\Node-Rhinoceros\CortexM3\ARM_GCC_541\Debug\Listing Files\cyutils.lst</v>
-<v>Node-Rhinoceros\Node-Rhinoceros\CortexM3\ARM_GCC_541\Debug\Listing Files\LCD.lst</v>
-<v>Node-Rhinoceros\Node-Rhinoceros\CortexM3\ARM_GCC_541\Debug\Listing Files\LCD_LCDPort.lst</v>
-<v>Node-Rhinoceros\Node-Rhinoceros\CortexM3\ARM_GCC_541\Debug\Listing Files\lcd_manager.lst</v>
-<v>Node-Rhinoceros\Node-Rhinoceros\CortexM3\ARM_GCC_541\Debug\Listing Files\LCD_PM.lst</v>
-<v>Node-Rhinoceros\Node-Rhinoceros\CortexM3\ARM_GCC_541\Debug\Listing Files\main.lst</v>
-<v>Node-Rhinoceros\Node-Rhinoceros\CortexM3\ARM_GCC_541\Debug\Listing Files\Rx_1.lst</v>
-<v>Node-Rhinoceros\Node-Rhinoceros\CortexM3\ARM_GCC_541\Debug\Listing Files\Tx_1.lst</v>
-<v>Node-Rhinoceros\Node-Rhinoceros\CortexM3\ARM_GCC_541\Debug\Node-Rhinoceros.elf</v>
-<v>Node-Rhinoceros\Node-Rhinoceros\CortexM3\ARM_GCC_541\Debug\Node-Rhinoceros.hex</v>
-<v>Node-Rhinoceros\Node-Rhinoceros\CortexM3\ARM_GCC_541\Debug\Node-Rhinoceros.map</v>
-<v>Node-Rhinoceros\Node-Rhinoceros\Node-Rhinoceros.gpdsc</v>
 <v>Node-Rhinoceros\Node-Rhinoceros\Node-Rhinoceros.rpt</v>
 <v>Node-Rhinoceros\Node-Rhinoceros\Node-Rhinoceros_timing.html</v>
 </VisibleNodeIds>
@@ -210,14 +179,9 @@
 </CyGuid_fdba8dfd-b15b-4469-9bbb-9e40c3e70997>
 <Unloaded />
 <OpenDocs>
-<name v=".\Node-Rhinoceros.cydsn\Node-Rhinoceros.cydwr" />
-<name v=".\Node-Rhinoceros.cydsn\main.c" />
 <name v=".\Node-Rhinoceros.cydsn\TopDesign\TopDesign.cysch" />
+<name v=".\Node-Rhinoceros.cydsn\main.c" />
 <name v=".\Node-Rhinoceros.cydsn\can_manager.c" />
-<name v=".\Node-Rhinoceros.cydsn\lcd_manager.c" />
-<name v=".\Node-Rhinoceros.cydsn\can_manager.h" />
-<name v=".\Node-Rhinoceros.cydsn\data.h" />
-<name v=".\Node-Rhinoceros.cydsn\Generated_Source\PSoC5\CAN_TX_RX_func.c" />
 </OpenDocs>
 <OpenDocsLayout><![CDATA[<?xml version="1.0"?><!--
 
@@ -225,7 +189,7 @@
   Copyright (c) 2001-2016 Actipro Software LLC.  All rights reserved.
   http://www.actiprosoftware.com
 
---><DocumentLayout Version="1.0"><LayoutData><TabbedMdiRootContainer Orientation="Horizontal"><TabbedMdiContainer Size="945, 457" SelectedTabbedMdiWindow="c1a9bde3-855d-414d-8c9e-b88832a1f217"><ToolWindow Key="Start Page:bd4649ab-da6b-4d04-a663-c722b8bf99db:Start Page" Guid="d2c1862e-40ae-42a5-a58e-4653d383dde3" /><DocumentWindow Key="C:\Users\fiona\OneDrive\Documents\Node-Rhinoceros\Node-Rhinoceros\Node-Rhinoceros.cydsn\Node-Rhinoceros.cydwr" Guid="3889dbe8-12db-46d4-804a-759a339fd1af" /><DocumentWindow Key="C:\Users\fiona\OneDrive\Documents\Node-Rhinoceros\Node-Rhinoceros\Node-Rhinoceros.cydsn\main.c" Guid="c1a9bde3-855d-414d-8c9e-b88832a1f217" /><DocumentWindow Key="C:\Users\fiona\OneDrive\Documents\Node-Rhinoceros\Node-Rhinoceros\Node-Rhinoceros.cydsn\TopDesign\TopDesign.cysch" Guid="f1523e11-4e2e-41fe-b8ca-65ffcb2a99da" /><DocumentWindow Key="C:\Users\fiona\OneDrive\Documents\Node-Rhinoceros\Node-Rhinoceros\Node-Rhinoceros.cydsn\can_manager.c" Guid="95d8e2bb-f47a-4e45-9b94-646aad90f81f" /><DocumentWindow Key="C:\Users\fiona\OneDrive\Documents\Node-Rhinoceros\Node-Rhinoceros\Node-Rhinoceros.cydsn\lcd_manager.c" Guid="39f291f3-a30a-4b7c-8841-a24e18a68849" /><DocumentWindow Key="C:\Users\fiona\OneDrive\Documents\Node-Rhinoceros\Node-Rhinoceros\Node-Rhinoceros.cydsn\can_manager.h" Guid="a3f9cffb-03ce-4c6a-b1ea-db7915d6fd92" /><DocumentWindow Key="C:\Users\fiona\OneDrive\Documents\Node-Rhinoceros\Node-Rhinoceros\Node-Rhinoceros.cydsn\data.h" Guid="3c4d1b09-de0a-43bb-a414-d028d8b8cc69" /><DocumentWindow Key="C:\Users\fiona\OneDrive\Documents\Node-Rhinoceros\Node-Rhinoceros\Node-Rhinoceros.cydsn\Generated_Source\PSoC5\CAN_TX_RX_func.c" Guid="6ce52106-75ef-4651-aead-1c0f7c78d8ec" /></TabbedMdiContainer></TabbedMdiRootContainer><FloatingContainers /></LayoutData></DocumentLayout>]]></OpenDocsLayout>
+--><DocumentLayout Version="1.0"><LayoutData><TabbedMdiRootContainer Orientation="Horizontal"><TabbedMdiContainer Size="968, 457" SelectedTabbedMdiWindow="b114d31a-9b0b-4c8b-806e-eaebc612c13e"><ToolWindow Key="Start Page:bd4649ab-da6b-4d04-a663-c722b8bf99db:Start Page" Guid="d2c1862e-40ae-42a5-a58e-4653d383dde3" /><DocumentWindow Key="C:\Node-Rhinosaurous\Node-Rhinoceros\Node-Rhinoceros.cydsn\TopDesign\TopDesign.cysch" Guid="42552788-1e90-4707-b596-895842d5cef0" /><DocumentWindow Key="C:\Node-Rhinosaurous\Node-Rhinoceros\Node-Rhinoceros.cydsn\main.c" Guid="77d5648e-bc3b-4eee-906c-446903178f88" /><DocumentWindow Key="C:\Node-Rhinosaurous\Node-Rhinoceros\Node-Rhinoceros.cydsn\can_manager.c" Guid="b114d31a-9b0b-4c8b-806e-eaebc612c13e" /></TabbedMdiContainer></TabbedMdiRootContainer><FloatingContainers /></LayoutData></DocumentLayout>]]></OpenDocsLayout>
 <config v="" />
 <AutoUpdate v="true" />
 </CyGuid_843a90a4-0c4b-4e44-991d-05e7fb117a21>
